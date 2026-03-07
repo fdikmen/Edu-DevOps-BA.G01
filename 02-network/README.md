@@ -7,7 +7,7 @@ Ağ modülü. Slayt özetleri aşağıdaki dosyalarda; tıklayarak açabilirsini
 | No | Slayt | Özet dosyası | İçerik |
 |----|-------|----------------|--------|
 | 1 | Network01 | [Network01-ozet.md](Network01-ozet.md) | Kurs tanıtımı, ağ türleri, veri, bandwidth, throughput, gecikme (latency) |
-| 2 | Network02 | [Network02-ozet.md](Network02-ozet.md) | Ağ bileşenleri, istemci-sunucu, P2P, donanım, ISP |
+| 2 | Network02 | [Network02-ozet.md](Network02-ozet.md) | Ağ bileşenleri, Client-Server, P2P, donanım, ISP |
 | 3 | Network03 | [Network03-ozet.md](Network03-ozet.md) | Kablosuz ağlar, Wi-Fi, hücresel, Bluetooth, tethering |
 
 Özet dosyalarının sonunda birbirine geçiş linkleri vardır.

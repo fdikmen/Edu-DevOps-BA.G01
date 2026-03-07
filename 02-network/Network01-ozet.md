@@ -45,10 +45,11 @@ Ağ kesintilerinin operasyonel ve mali etkileri.
 
 ## 7. Ağ Türleri ve Ölçekleri
 
-- **Yerel Ağlar (SOHO)** – Küçük ofis / ev ofisi
-- **Kurumsal Ağlar** – Orta ve büyük ölçek
-- **İnternet'in oluşumu** – Geniş ağlar
-- **Network Scales:** Small Home Networks, SOHO, Medium to Large Networks, World Wide Networks
+- **Küçük ev/ofis ağları (Small Home Networks)** – Ev ve küçük ofis
+- **SOHO (Small Office / Home Office)** – Küçük ofis / ev ofisi
+- **Orta ve büyük ölçekli ağlar (Medium to Large Networks)** – Kampüs, şube, kurumsal ağlar
+- **Dünya çapında ağlar (World Wide Networks)** – İnternet ve geniş ağlar
+- **Ölçeğe göre:** LAN, WAN, MAN; PAN’dan WAN’a kadar ağ türleri
 
 ## 8. İnternet'in Oluşumu ve Evrimi
 
@@ -58,7 +59,7 @@ Ağ kesintilerinin operasyonel ve mali etkileri.
 
 ## 9. Veri ve Bilgi Kavramları
 
-- **Veri türleri:** Gönüllü veri, gözlemlenen veri, çıkarımsal veri
+- **Veri türleri:** Gönüllü veri (voluntary data), gözlemlenen veri (observed data), çıkarımsal veri (inferential data)
 - **Bit, byte ve ASCII standardı**
 - **Veri iletim yöntemleri:** Elektrik sinyalleri, optik sinyaller, kablosuz sinyaller
 - Data Transmission Quiz
@@ -77,7 +78,7 @@ Ağ kesintilerinin operasyonel ve mali etkileri.
 | No | Özet | Açıklama |
 |----|------|----------|
 | 1 | **Network01** (bu dosya) | Kurs tanıtımı, ağ türleri, veri, bandwidth |
-| 2 | [Network02 – Ağ Bileşenleri ve Bağlantılar](Network02-ozet.md) | İstemci-sunucu, P2P, donanım, ISP |
+| 2 | [Network02 – Ağ Bileşenleri ve Bağlantılar](Network02-ozet.md) | Client-Server, P2P, donanım, ISP |
 | 3 | [Network03 – Kablosuz ve Mobil](Network03-ozet.md) | Wi-Fi, hücresel, Bluetooth, tethering |
 
 **[← Modül README](README.md)** · **[Network02 →](Network02-ozet.md)**
