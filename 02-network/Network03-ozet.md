@@ -6,22 +6,22 @@
 
 ## İçindekiler
 
-- [Modül Hedefleri](#modül-hedefleri)
-- [Kablosuz Ağ Türleri](#kablosuz-ağ-türleri)
-- [Mobil Cihaz Kullanım Alanları](#mobil-cihaz-kullanım-alanları)
-- [Wi-Fi Yapılandırması](#wi-fi-yapılandırması)
-- [Hücresel Veri Ayarları](#hücresel-veri-ayarları)
-- [Bluetooth Yapılandırması](#bluetooth-yapılandırması)
-- [Tethering ve Bağlantı Paylaşımı](#tethering-ve-bağlantı-paylaşımı)
-- [Modül Özeti ve Karşılaştırmalar](#modül-özeti-ve-karşılaştırmalar)
+1. [Modül Hedefleri](#1-modül-hedefleri)
+2. [Kablosuz Ağ Türleri](#2-kablosuz-ağ-türleri)
+3. [Mobil Cihaz Kullanım Alanları](#3-mobil-cihaz-kullanım-alanları)
+4. [Wi-Fi Yapılandırması](#4-wi-fi-yapılandırması)
+5. [Hücresel Veri Ayarları](#5-hücresel-veri-ayarları)
+6. [Bluetooth Yapılandırması](#6-bluetooth-yapılandırması)
+7. [Tethering ve Bağlantı Paylaşımı](#7-tethering-ve-bağlantı-paylaşımı)
+8. [Modül Özeti ve Karşılaştırmalar](#8-modül-özeti-ve-karşılaştırmalar)
 
 ---
 
-## Modül Hedefleri
+## 1. Modül Hedefleri
 
 Mobil cihazların kablosuz ağ yapılandırması. Kablosuz ağ türleri ve mobil bağlantı.
 
-## Kablosuz Ağ Türleri
+## 2. Kablosuz Ağ Türleri
 
 - **Hücresel** – Ses ve veri
 - **Wi-Fi** – İnternet erişimi
@@ -29,30 +29,30 @@ Mobil cihazların kablosuz ağ yapılandırması. Kablosuz ağ türleri ve mobil
 - **NFC** – Temassız ödeme
 - **GPS** – Konum belirleme
 
-## Mobil Cihaz Kullanım Alanları
+## 3. Mobil Cihaz Kullanım Alanları
 
 Sesli görüşme, veri, konum servisleri, ödeme.
 
-## Wi-Fi Yapılandırması
+## 4. Wi-Fi Yapılandırması
 
 - Wi-Fi avantajları ve güvenlik (WPA2, VPN)
-- Android ve iOS’ta Wi-Fi ayarları
+- Android ve iOS'ta Wi-Fi ayarları
 
-## Hücresel Veri Ayarları
+## 5. Hücresel Veri Ayarları
 
-- Android ve iOS’ta hücresel veri yönetimi
-- Otomatik ağ geçişi (Wi-Fi’dan hücresel ağa)
+- Android ve iOS'ta hücresel veri yönetimi
+- Otomatik ağ geçişi (Wi-Fi'dan hücresel ağa)
 
-## Bluetooth Yapılandırması
+## 6. Bluetooth Yapılandırması
 
-- Windows, Android, iOS’ta Bluetooth eşleştirme
+- Windows, Android, iOS'ta Bluetooth eşleştirme
 - Kulaklık, fare, hoparlör vb. cihazlar
 
-## Tethering ve Bağlantı Paylaşımı
+## 7. Tethering ve Bağlantı Paylaşımı
 
 Mobil bağlantıyı diğer cihazlarla paylaşma.
 
-## Modül Özeti ve Karşılaştırmalar
+## 8. Modül Özeti ve Karşılaştırmalar
 
 - Kablosuz teknolojilerin karşılaştırması
 - Bluetooth aygıt limiti ve güvenlik önerileri
@@ -61,10 +61,10 @@ Mobil bağlantıyı diğer cihazlarla paylaşma.
 
 ## Özetler arası geçiş
 
-| Özet | Açıklama |
-|------|----------|
-| [Network01 – Kurs Tanıtımı ve Temeller](Network01-ozet.md) | Kurs tanıtımı, ağ türleri, veri, bandwidth |
-| [Network02 – Ağ Bileşenleri ve Bağlantılar](Network02-ozet.md) | İstemci-sunucu, P2P, donanım, ISP |
-| **Network03** (bu dosya) | Wi‑Fi, hücresel, Bluetooth, tethering |
+| No | Özet | Açıklama |
+|----|------|----------|
+| 1 | [Network01 – Kurs Tanıtımı ve Temeller](Network01-ozet.md) | Kurs tanıtımı, ağ türleri, veri, bandwidth |
+| 2 | [Network02 – Ağ Bileşenleri ve Bağlantılar](Network02-ozet.md) | İstemci-sunucu, P2P, donanım, ISP |
+| 3 | **Network03** (bu dosya) | Wi-Fi, hücresel, Bluetooth, tethering |
 
 **[← Network02](Network02-ozet.md)** · **[Modül README](README.md)**

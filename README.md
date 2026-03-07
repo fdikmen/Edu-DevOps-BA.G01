@@ -2,7 +2,7 @@
 
 **BA DevOps Eğitimi – Grup 01**
 
-## Modüller
+## 1. Modüller
 
 | Sıra | Modül | Klasör / Özetler |
 |------|--------|-------------------|
