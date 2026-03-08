@@ -66,5 +66,6 @@ Mobil bağlantıyı diğer cihazlarla paylaşma.
 | 1 | [Network01 – Kurs Tanıtımı ve Temeller](Network01-ozet.md) | Kurs tanıtımı, ağ türleri, veri, bandwidth |
 | 2 | [Network02 – Ağ Bileşenleri ve Bağlantılar](Network02-ozet.md) | Client-Server, P2P, donanım, ISP |
 | 3 | **Network03** (bu dosya) | Wi-Fi, hücresel, Bluetooth, tethering |
+| 4 | [Network04 – Ev Ağı Kurulumu ve Güvenliği](Network04-ozet.md) | Ev ağı bileşenleri, router kurulumu, WLAN güvenliği |
 
-**[← Network02](Network02-ozet.md)** · **[Modül README](README.md)**
+**[← Network02](Network02-ozet.md)** · **[Modül README](README.md)** · **[Network04 →](Network04-ozet.md)**

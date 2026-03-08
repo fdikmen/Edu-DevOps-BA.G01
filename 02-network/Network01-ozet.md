@@ -79,6 +79,7 @@ Ağ kesintilerinin operasyonel ve mali etkileri.
 |----|------|----------|
 | 1 | **Network01** (bu dosya) | Kurs tanıtımı, ağ türleri, veri, bandwidth |
 | 2 | [Network02 – Ağ Bileşenleri ve Bağlantılar](Network02-ozet.md) | Client-Server, P2P, donanım, ISP |
-| 3 | [Network03 – Kablosuz ve Mobil](Network03-ozet.md) | Wi-Fi, hücresel, Bluetooth, tethering |
+| 3 | [Network03 – Kablosuz ve Mobil Ağ Yapılandırması](Network03-ozet.md) | Wi-Fi, hücresel, Bluetooth, tethering |
+| 4 | [Network04 – Ev Ağı Kurulumu ve Güvenliği](Network04-ozet.md) | Ev ağı bileşenleri, router kurulumu, WLAN güvenliği |
 
 **[← Modül README](README.md)** · **[Network02 →](Network02-ozet.md)**
