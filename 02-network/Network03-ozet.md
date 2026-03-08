@@ -1,7 +1,5 @@
 # Network03 – Kablosuz ve Mobil Ağ Yapılandırması
 
----
-
 ## İçindekiler
 
 1. [Modül Hedefleri](#1-modül-hedefleri)

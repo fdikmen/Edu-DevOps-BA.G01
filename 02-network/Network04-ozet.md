@@ -1,7 +1,5 @@
 # Network04 – Ev Ağı Kurulumu ve Güvenliği
 
----
-
 ## İçindekiler
 
 1. [Modül Hedefleri](#1-modül-hedefleri)

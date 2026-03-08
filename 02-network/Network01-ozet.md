@@ -1,7 +1,5 @@
 # Network01 – Kurs Tanıtımı ve Temeller
 
----
-
 ## İçindekiler
 
 1. [Kurs Tanıtımı](#1-kurs-tanıtımı)

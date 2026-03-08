@@ -1,7 +1,5 @@
 # Network02 – Ağ Bileşenleri, Türleri ve Bağlantılar
 
----
-
 ## İçindekiler
 
 1. [Giriş ve Modül Hedefleri](#1-giriş-ve-modül-hedefleri)
