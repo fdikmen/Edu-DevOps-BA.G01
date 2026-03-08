@@ -1,7 +1,5 @@
 # Network03 – Kablosuz ve Mobil Ağ Yapılandırması
 
-**Kaynak:** Network03.pptx
-
 ---
 
 ## İçindekiler

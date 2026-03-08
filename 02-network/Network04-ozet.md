@@ -1,7 +1,5 @@
 # Network04 – Ev Ağı Kurulumu ve Güvenliği
 
-**Kaynak:** Network04.pptx
-
 ---
 
 ## İçindekiler

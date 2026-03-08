@@ -1,7 +1,5 @@
 # Network01 – Kurs Tanıtımı ve Temeller
 
-**Kaynak:** Network01.pptx
-
 ---
 
 ## İçindekiler

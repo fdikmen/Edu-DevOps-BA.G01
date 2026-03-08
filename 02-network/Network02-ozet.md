@@ -1,7 +1,5 @@
 # Network02 – Ağ Bileşenleri, Türleri ve Bağlantılar
 
-**Kaynak:** Network02.pptx
-
 ---
 
 ## İçindekiler
