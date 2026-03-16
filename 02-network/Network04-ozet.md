@@ -85,5 +85,6 @@ Bu modülün amacı, bir ev ağını etkili bir şekilde kurmak ve güvenliğini
 | 2 | [Network02 – Ağ Bileşenleri ve Bağlantılar](Network02-ozet.md) | Client-Server, P2P, donanım, ISP |
 | 3 | [Network03 – Kablosuz ve Mobil Ağ Yapılandırması](Network03-ozet.md) | Wi-Fi, hücresel, Bluetooth, tethering |
 | 4 | **Network04** (bu dosya) | Ev Ağı Kurulumu ve Güvenliği |
+| 5 | [Network05 – İletişim İlkeleri: Protokoller, Standartlar ve Modeller](Network05-ozet.md) | Protokoller, standartlar, TCP/IP, OSI modelleri |
 
-**[← Network03](Network03-ozet.md)** · **[Modül README](README.md)**
+**[← Network03](Network03-ozet.md)** · **[Modül README](README.md)** · **[Network05 →](Network05-ozet.md)**
