@@ -64,5 +64,6 @@ Mobil bağlantıyı diğer cihazlarla paylaşma.
 | 3 | **Network03** (bu dosya) | Wi-Fi, hücresel, Bluetooth, tethering |
 | 4 | [Network04 – Ev Ağı Kurulumu ve Güvenliği](Network04-ozet.md) | Ev ağı bileşenleri, router kurulumu, WLAN güvenliği |
 | 5 | [Network05 – İletişim İlkeleri: Protokoller, Standartlar ve Modeller](Network05-ozet.md) | Protokoller, standartlar, TCP/IP, OSI modelleri |
+| 6 | [Network06 – Ağ Ortamları (Network Media)](Network06-ozet.md) | Ağ ortamları: iletim kanalı, yaygın üç ortam türü |
 
 **[← Network02](Network02-ozet.md)** · **[Modül README](README.md)** · **[Network04 →](Network04-ozet.md)**

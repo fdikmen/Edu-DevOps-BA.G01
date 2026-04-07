@@ -11,3 +11,4 @@ Ağ modülü. Slayt özetleri aşağıdadır; özetler arası geçiş linkleri h
 | 3 | Network03 | [Network03-ozet.md](Network03-ozet.md) | Kablosuz ağlar, Wi-Fi, hücresel, Bluetooth, tethering |
 | 4 | Network04 | [Network04-ozet.md](Network04-ozet.md) | Ev ağı kurulumu ve güvenliği, router, WLAN, SSID, WPA2 |
 | 5 | Network05 | [Network05-ozet.md](Network05-ozet.md) | İletişim ilkeleri: protokoller, standartlar, TCP/IP, OSI modelleri |
+| 6 | Network06 | [Network06-ozet.md](Network06-ozet.md) | Ağ ortamları (Network Media): iletim kanalı, yaygın üç ortam türü |

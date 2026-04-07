@@ -186,6 +186,6 @@ TCP/IP Modeli, internetin temel referans modelidir. 4 katmandan oluşur:
 | 3 | [Network03 – Kablosuz ve Mobil Ağ Yapılandırması](Network03-ozet.md) | Wi-Fi, hücresel, Bluetooth, tethering |
 | 4 | [Network04 – Ev Ağı Kurulumu ve Güvenliği](Network04-ozet.md) | Ev ağı bileşenleri, router kurulumu, kablosuz standartlar |
 | 5 | **Network05** (bu dosya) | İletişim İlkeleri: Protokoller, Standartlar ve Modeller |
-| 6 | [Network06 – Ağ Ortamları (Network Media)](Network06-ozet.md) | Ortam = iletim kanalı; yaygın üç ortam türü |
+| 6 | [Network06 – Ağ Ortamları (Network Media)](Network06-ozet.md) | Ağ ortamları: iletim kanalı, yaygın üç ortam türü |
 
 **[← Network04](Network04-ozet.md)** · **[Modül README](README.md)** · **[Network06 →](Network06-ozet.md)**
