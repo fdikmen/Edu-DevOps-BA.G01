@@ -7,6 +7,7 @@
 3. [İletişim Standartları (Communication Standards)](#3-iletişim-standartları-communication-standards)
 4. [Ağ İletişim Modelleri (Network Communication Models)](#4-ağ-iletişim-modelleri-network-communication-models)
 5. [Modül Özeti](#5-modül-özeti)
+6. [Modül 6 – Ağ Ortamları (Network Media), kısa giriş](#6-modül-6--ağ-ortamları-network-media-kısa-giriş)
 
 ---
 
@@ -170,6 +171,12 @@ TCP/IP Modeli, internetin temel referans modelidir. 4 katmandan oluşur:
 
 ---
 
+## 6. Modül 6 – Ağ Ortamları (Network Media), kısa giriş
+
+**Network Media** modülünde, iletişimin ağ üzerinden **hangi ortamdan** geçtiği ele alınır. Ortam, mesajların kaynaktan hedefe iletildiği **kanaldır**. Bir cihazda kablosuz kapalı olsa bile (ör. hastanedeki masaüstü) ağ erişimi genellikle **kablolu ortam** ile mümkün olur; bu da “ortam” kavramının pratikteki karşılığıdır. Güncel ağlarda başlıca **üç ortam türü** kullanılır; ayrıntılı özet için bkz. [Network06 – Ağ Ortamları](Network06-ozet.md).
+
+---
+
 ## Özetler arası geçiş
 
 | No | Özet | Açıklama |
@@ -179,5 +186,6 @@ TCP/IP Modeli, internetin temel referans modelidir. 4 katmandan oluşur:
 | 3 | [Network03 – Kablosuz ve Mobil Ağ Yapılandırması](Network03-ozet.md) | Wi-Fi, hücresel, Bluetooth, tethering |
 | 4 | [Network04 – Ev Ağı Kurulumu ve Güvenliği](Network04-ozet.md) | Ev ağı bileşenleri, router kurulumu, kablosuz standartlar |
 | 5 | **Network05** (bu dosya) | İletişim İlkeleri: Protokoller, Standartlar ve Modeller |
+| 6 | [Network06 – Ağ Ortamları (Network Media)](Network06-ozet.md) | Ortam = iletim kanalı; yaygın üç ortam türü |
 
-**[← Network04](Network04-ozet.md)** · **[Modül README](README.md)**
+**[← Network04](Network04-ozet.md)** · **[Modül README](README.md)** · **[Network06 →](Network06-ozet.md)**
