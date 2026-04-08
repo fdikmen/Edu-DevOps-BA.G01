@@ -29,6 +29,10 @@ Hastane gibi ortamlarda birçok cihaz kablosuz bağlanır; ancak bir masaüstü 
 
 Modern ağlarda esas olarak **üç ortam türü** kullanılır; bu modül bu türleri işler.
 
+- **Bakır (Copper) kablo** – Veriyi elektrik sinyali ile taşır. En yaygın örnekler bükümlü çift Ethernet kablolarıdır (**UTP/STP; Cat5e, Cat6**). Kısa-orta mesafede yaygın ve ekonomiktir.
+- **Fiber-optik kablo** – Veriyi ışık sinyali ile taşır; yüksek hız ve uzun mesafe için uygundur.
+- **Kablosuz ortam** – Veriyi radyo dalgaları ile taşır (ör. Wi-Fi, hücresel).
+
 ---
 
 ## 4. Modül Özeti
