@@ -108,7 +108,7 @@ Bir cihaz yalnızca üç temel bilgiyi bilir: **IP adresi**, **ağ geçidi (Gate
 
 Başarılı bir ağ iletişimi tek bir protokolle değil, bir **protokol yığınıyla (protocol stack)** gerçekleşir. Farklı görevleri üstlenen protokollerin bir araya gelerek veri iletimini birlikte gerçekleştirdiği yapıdır.
 
-> **Sıralama:** PROTOCOL STACK → MODEL → LAYER (Katman)
+> **En alttan yukarı:** PROTOCOL STACK → LAYER (Katman) → MODEL
 
 ### TCP/IP Modeli
 
