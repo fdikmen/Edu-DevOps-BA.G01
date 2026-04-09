@@ -87,5 +87,6 @@ Bu modülün amacı, bir ev ağını etkili bir şekilde kurmak ve güvenliğini
 | 4 | **Network04** (bu dosya) | Ev Ağı Kurulumu ve Güvenliği |
 | 5 | [Network05 – İletişim İlkeleri: Protokoller, Standartlar ve Modeller](Network05-ozet.md) | Protokoller, standartlar, TCP/IP, OSI modelleri |
 | 6 | [Network06 – Ağ Ortamları (Network Media)](Network06-ozet.md) | Ağ ortamları: iletim kanalı, yaygın üç ortam türü |
+| 7 | [Network07 – Erişim Katmanı (The Access Layer)](Network07-ozet.md) | Ethernet, NIC, MAC, çerçeve alanları, kapsülleme |
 
 **[← Network03](Network03-ozet.md)** · **[Modül README](README.md)** · **[Network05 →](Network05-ozet.md)**

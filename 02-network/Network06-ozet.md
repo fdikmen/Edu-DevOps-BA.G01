@@ -53,5 +53,6 @@ Modern ağlarda esas olarak **üç ortam türü** kullanılır; bu modül bu tü
 | 4 | [Network04 – Ev Ağı Kurulumu ve Güvenliği](Network04-ozet.md) | Ev ağı bileşenleri, router kurulumu, kablosuz standartlar |
 | 5 | [Network05 – İletişim İlkeleri: Protokoller, Standartlar ve Modeller](Network05-ozet.md) | Protokoller, standartlar, TCP/IP, OSI modelleri |
 | 6 | **Network06** (bu dosya) | Ağ ortamları: iletim kanalı, yaygın üç ortam türü |
+| 7 | [Network07 – Erişim Katmanı (The Access Layer)](Network07-ozet.md) | Ethernet, NIC, MAC, çerçeve alanları, kapsülleme |
 
-**[← Network05](Network05-ozet.md)** · **[Modül README](README.md)**
+**[← Network05](Network05-ozet.md)** · **[Modül README](README.md)** · **[Network07 →](Network07-ozet.md)**

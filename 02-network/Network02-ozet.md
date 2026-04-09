@@ -63,5 +63,6 @@ Ağda "host" tanımı ve kullanımı.
 | 4 | [Network04 – Ev Ağı Kurulumu ve Güvenliği](Network04-ozet.md) | Ev ağı bileşenleri, router kurulumu, WLAN güvenliği |
 | 5 | [Network05 – İletişim İlkeleri: Protokoller, Standartlar ve Modeller](Network05-ozet.md) | Protokoller, standartlar, TCP/IP, OSI modelleri |
 | 6 | [Network06 – Ağ Ortamları (Network Media)](Network06-ozet.md) | Ağ ortamları: iletim kanalı, yaygın üç ortam türü |
+| 7 | [Network07 – Erişim Katmanı (The Access Layer)](Network07-ozet.md) | Ethernet, NIC, MAC, çerçeve alanları, kapsülleme |
 
 **[← Network01](Network01-ozet.md)** · **[Modül README](README.md)** · **[Network03 →](Network03-ozet.md)**
