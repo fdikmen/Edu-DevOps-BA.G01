@@ -6,7 +6,7 @@
 2. [Ev Ağı Bileşenleri (Home Network Fundamentals)](#2-ev-ağı-bileşenleri-home-network-fundamentals)
 3. [Ev Ağı Teknolojileri (Home Network Technologies)](#3-ev-ağı-teknolojileri-home-network-technologies)
 4. [Kablosuz Standartlar (Wireless Standards)](#4-kablosuz-standartlar-wireless-standards)
-5. [Evde Yönlendirici (Home Router) Kurulumu ve Tasarımı](#5-evde-yönlendirici-home-router-kurulumu-ve-tasarımı)
+5. [Evde router kurulumu ve tasarımı](#5-evde-router-kurulumu-ve-tasarımı)
 6. [Modül Özeti](#6-modül-özeti)
 
 ---
@@ -28,7 +28,7 @@ Bu modülün amacı, bir ev ağını etkili bir şekilde kurmak ve güvenliğini
 
 ## 3. Ev Ağı Teknolojileri (Home Network Technologies)
 
-- **Router (Yönlendirici) Portları ve Bağlantıları**
+- **Router portları ve bağlantıları**
   - **Ethernet/LAN Portları** – Kablolu cihazları (bilgisayar, yazıcı vb.) aynı yerel ağa bağlamak için kullanılan portlardır.
   - **İnternet/WAN Portu** – Modeme bağlanarak ev ağının internete çıkışını sağlayan porttur.
   - **Kablosuz Erişim Noktası** – Router'a entegre olan bu birim, kablosuz cihazların yerel ağa bağlanmasını sağlar.
@@ -49,10 +49,10 @@ Bu modülün amacı, bir ev ağını etkili bir şekilde kurmak ve güvenliğini
   - **Wi-Fi** – IEEE 802.11 standartlarına uygun kablosuz yerel alan ağı (WLAN) teknolojileri için kullanılan yaygın bir terimdir.
   - **Güncel Kalmanın Önemi** – Daha iyi hız, güvenlik ve özelliklerden yararlanmak için yeni kablosuz standartlarını takip etmek ve uygulamak gerekir.
 
-## 5. Evde Yönlendirici (Home Router) Kurulumu ve Tasarımı
+## 5. Evde router kurulumu ve tasarımı
 
 - **Temel Kablosuz Ayarları**
-  - **Ağ Modu (Network Mode)** – Yönlendiricinin hangi Wi-Fi standardını (örneğin sadece 802.11ac veya karma mod) kullanacağını belirleyen ayardır.
+  - **Ağ Modu (Network Mode)** – Router’ın hangi Wi-Fi standardını (örneğin sadece 802.11ac veya karma mod) kullanacağını belirleyen ayardır.
   - **Ağ Adı (SSID)** – Kablosuz ağınızı tanımlayan ve diğer ağlardan ayıran benzersiz isimdir.
   - **Kanal (Channel)** – Genellikle optimum performans için 'Otomatik' bırakılan, veri iletiminin yapıldığı frekans aralığıdır.
   - **SSID Yayını** – Ağ adının görünür olup olmadığını belirleyen, genelde varsayılan olarak etkin olan ayardır.
