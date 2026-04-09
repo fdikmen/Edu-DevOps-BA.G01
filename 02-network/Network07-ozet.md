@@ -30,6 +30,8 @@ Bu modülün amacı **access layer** bağlamında **Ethernet** teknolojisini, **
 
 Üst katman verisi, iletim için **Ethernet frame**’e sarılır (**encapsulation**). **Frame** içindeki **fields** ölçü ve yapı olarak incelenir.
 
+**Özet video —** *Data Encapsulation and De-encapsulation (TCP/IP model) Animation:* [YouTube](https://youtu.be/FJIFfkpUO7o)
+
 ### MAC ve frame içindeki adres alanları
 
 - Her Ethernet **NIC**, üzerinde kalıcı olarak tanımlanmış benzersiz bir adrese sahiptir: **MAC (Media Access Control)**.
