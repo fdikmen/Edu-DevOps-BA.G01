@@ -80,5 +80,6 @@ Ağ kesintilerinin operasyonel ve mali etkileri.
 | 5 | [Network05 – İletişim İlkeleri: Protokoller, Standartlar ve Modeller](Network05-ozet.md) | Protokoller, standartlar, TCP/IP, OSI modelleri |
 | 6 | [Network06 – Ağ Ortamları (Network Media)](Network06-ozet.md) | Ağ ortamları: iletim kanalı, yaygın üç ortam türü |
 | 7 | [Network07 – Erişim Katmanı (The Access Layer)](Network07-ozet.md) | Ethernet, NIC, MAC, çerçeve alanları, kapsülleme |
+| 8 | [Network08 – İnternet Protokolü (IPv4)](Network08-ozet.md) | IPv4: mantıksal kimlik, oktet, ağ/host, alt ağ maskesi, subnetting |
 
 **[← Modül README](README.md)** · **[Network02 →](Network02-ozet.md)**
