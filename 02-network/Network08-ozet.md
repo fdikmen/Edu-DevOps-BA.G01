@@ -29,7 +29,7 @@ Dijital iletişimde paketlerin bir **adrese**, cihazların ağ üzerinde bir **k
 
 **Mantıksal kimlik:** IP adresi, **fiziksel konumdan bağımsız** olarak ağdaki benzersiz **dijital kimlik** gibi düşünülür.
 
-- **Benzersizlik:** Yerel ağda ve genel internette **çakışmayan** adresleme esastır.
+- **Benzersizlik:** Aynı **alt ağ (broadcast domain)** içinde her cihazın adresi **farklı** olmalıdır. İnternete açık yönlendirmede genelde **küresel olarak atanmış** genel adresler kullanılır; **özel IPv4 blokları** (ör. ev/ofis LAN’ları) ise farklı yerlerde **aynı aralıklarla** tekrar kullanılabilir—dışarı çıkışta çoğu zaman **NAT** devreye girer.
 - **Atama:** Adresler genellikle cihazların **NIC (ağ kartı)** birimlerine veya **router arayüzlerine** atanır.
 
 ---
@@ -77,14 +77,14 @@ Slaytlarda **192.168.1.0 / 255.255.255.0** örneği üzerinden tipik adres rolle
 | **Son kullanılabilir host** | 192.168.1.254 |
 | **Yayın (broadcast) adresi** | 192.168.1.255 |
 
-**Subnet mask ne işe yarar?** Aynı blok içinde **network adresi**, **broadcast**, **ilk/son kullanılabilir IP** gibi değerleri **mask ile AND** mantığıyla türetmeye temel oluşturur (detaylı hesap sonraki modüllerde derinleştirilebilir).
+**Subnet mask ne işe yarar?** Önce **ağ adresi** tipik olarak **IPv4 adresi AND subnet mask** ile bulunur; **yayın adresi** ve **kullanılabilir host aralığı** ise bu ağ adresine ve maskenin **host bitleri** üzerinden türetilir (tek bir AND ile hepsi çıkmaz; AND ağ önekini verir).
 
 ---
 
 ## 7. Anlama Kontrolü (Slayt Soruları)
 
 > [!TIP]
-> **Network adresi:** IPv4 adresi ile subnet maskesini **bit düzeyinde AND** ile birleştirerek (veya maskenin ağ uzunluğuna göre host bitlerini sıfırlayarak) bulunur. **Aynı ağda** olmak, **aynı network adresine** sahip olmak anlamına gelir.
+> **Network adresi:** IPv4 adresi ile subnet maskesini **bit düzeyinde AND** uygulayarak (veya önek uzunluğuna göre host bitlerini sıfırlayarak) bulunur. **Aynı alt ağda** olmak, **aynı network adresi ve aynı mask** (veya aynı önek) ile uyumlu olmak anlamına gelir.
 
 **Soru 1:** Host-A: **10.5.4.100**, mask **255.255.255.0** → network **10.5.4.0** (**B**).
 
@@ -100,7 +100,7 @@ Slaytlarda **192.168.1.0 / 255.255.255.0** örneği üzerinden tipik adres rolle
 
 ## 8. Modül Özeti
 
-- **Dijital kimlik:** **IP**, ağdaki cihaz için benzersiz kimlik; veri iletimi için gereklidir.
+- **Dijital kimlik:** **IP**, katman 3’te cihazı tanımlar; **aynı alt ağda** adresler birbirinden farklı olmalıdır (özel adresler + NAT ile küresel benzersizlik her cihaz için şart değildir).
 - **Hiyerarşi:** 32 bitlik adres **network** ve **host** parçalarından oluşur; ayrımı **alt ağ maskesi** belirler (ör. **192.168.5.11** ile **255.255.255.0**).
 - **Oktet sistemi:** İkili diziler dört **oktet**e bölünüp **noktalı ondalık** gösterime çevrilir.
 - **Yönlendirme:** Router’lar hiyerarşi sayesinde öncelikle **ağ yollarını** izleyerek trafiği yönetir.
