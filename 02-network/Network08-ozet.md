@@ -120,5 +120,6 @@ Slaytlarda **192.168.1.0 / 255.255.255.0** örneği üzerinden tipik adres rolle
 | 6 | [Network06 – Ağ Ortamları (Network Media)](Network06-ozet.md) | Ağ ortamları: bakır, fiber, kablosuz |
 | 7 | [Network07 – Erişim Katmanı (The Access Layer)](Network07-ozet.md) | Ethernet, NIC, MAC, çerçeve, kapsülleme |
 | 8 | **Network08** (bu dosya) | IPv4: mantıksal kimlik, oktet, ağ/host, alt ağ maskesi, subnetting |
+| 9 | [Network09 – IPv4 ve Ağ Segmentasyonu](Network09-ozet.md) | IPv4 ve segmentasyona giriş: kapsam, motivasyon, teorik + pratik |
 
-**[← Network07](Network07-ozet.md)** · **[Modül README](README.md)**
+**[← Network07](Network07-ozet.md)** · **[Modül README](README.md)** · **[Network09 →](Network09-ozet.md)**

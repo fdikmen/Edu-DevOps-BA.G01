@@ -14,3 +14,4 @@ Ağ modülü. Slayt özetleri aşağıdadır; özetler arası geçiş linkleri h
 | 6 | Network06 | [Network06-ozet.md](Network06-ozet.md) | Ağ ortamları (Network Media): iletim kanalı, yaygın üç ortam türü |
 | 7 | Network07 | [Network07-ozet.md](Network07-ozet.md) | Erişim katmanı: Ethernet, NIC, MAC adresi, çerçeve, kapsülleme (Access Layer)<br>**Özet video:** [Data Encapsulation and De-encapsulation (TCP/IP model) Animation](https://youtu.be/FJIFfkpUO7o) |
 | 8 | Network08 | [Network08-ozet.md](Network08-ozet.md) | İnternet Protokolü (IPv4): mantıksal kimlik, oktet, network/host, alt ağ maskesi, subnetting |
+| 9 | Network09 | [Network09-ozet.md](Network09-ozet.md) | IPv4 ve ağ segmentasyonu: modül kapsamı, giriş ve motivasyon (teorik + pratik) |
