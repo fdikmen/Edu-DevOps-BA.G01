@@ -65,5 +65,6 @@ Ağda "host" tanımı ve kullanımı.
 | 6 | [Network06 – Ağ Ortamları (Network Media)](Network06-ozet.md) | Ağ ortamları: iletim kanalı, yaygın üç ortam türü |
 | 7 | [Network07 – Erişim Katmanı (The Access Layer)](Network07-ozet.md) | Ethernet, NIC, MAC, çerçeve alanları, kapsülleme |
 | 8 | [Network08 – İnternet Protokolü (IPv4)](Network08-ozet.md) | IPv4: mantıksal kimlik, oktet, ağ/host, alt ağ maskesi, subnetting |
+| 9 | [Network09 – IPv4 ve Ağ Segmentasyonu](Network09-ozet.md) | IPv4 ve segmentasyona giriş: kapsam, motivasyon, teorik + pratik |
 
 **[← Network01](Network01-ozet.md)** · **[Modül README](README.md)** · **[Network03 →](Network03-ozet.md)**

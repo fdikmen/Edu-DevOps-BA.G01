@@ -55,5 +55,6 @@ Modern ağlarda esas olarak **üç ortam türü** kullanılır; bu modül bu tü
 | 6 | **Network06** (bu dosya) | Ağ ortamları: iletim kanalı, yaygın üç ortam türü |
 | 7 | [Network07 – Erişim Katmanı (The Access Layer)](Network07-ozet.md) | Ethernet, NIC, MAC, çerçeve alanları, kapsülleme |
 | 8 | [Network08 – İnternet Protokolü (IPv4)](Network08-ozet.md) | IPv4: mantıksal kimlik, oktet, ağ/host, alt ağ maskesi, subnetting |
+| 9 | [Network09 – IPv4 ve Ağ Segmentasyonu](Network09-ozet.md) | IPv4 ve segmentasyona giriş: kapsam, motivasyon, teorik + pratik |
 
 **[← Network05](Network05-ozet.md)** · **[Modül README](README.md)** · **[Network07 →](Network07-ozet.md)**
