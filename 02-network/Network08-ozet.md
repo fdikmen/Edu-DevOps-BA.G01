@@ -105,6 +105,7 @@ IPv4 adresinin temel amacı, ağ üzerindeki hostları mantıksal olarak tanıml
 
 ## Özetler arası geçiş
 
+
 | No | Özet | Açıklama |
 | ---- | ------ | ---------- |
 | 1 | [Network01 – Kurs Tanıtımı ve Temeller](Network01-ozet.md) | Kurs tanıtımı, ağ türleri, veri, bandwidth |
@@ -114,7 +115,8 @@ IPv4 adresinin temel amacı, ağ üzerindeki hostları mantıksal olarak tanıml
 | 5 | [Network05 – İletişim İlkeleri: Protokoller, Standartlar ve Modeller](Network05-ozet.md) | Protokoller, standartlar, TCP/IP, OSI modelleri |
 | 6 | [Network06 – Ağ Ortamları (Network Media)](Network06-ozet.md) | Ağ ortamları: bakır, fiber, kablosuz |
 | 7 | [Network07 – Erişim Katmanı (The Access Layer)](Network07-ozet.md) | Ethernet, NIC, MAC, çerçeve, kapsülleme |
-| 8 | **Network08** (bu dosya) | IPv4: mantıksal kimlik, oktet, ağ/host, alt ağ maskesi, subnetting |
-| 9 | [Network09 – IPv4 ve Ağ Segmentasyonu](Network09-ozet.md) | IPv4 ve segmentasyona giriş: kapsam, motivasyon, teorik + pratik |
+| 8 | **Network08** (bu dosya) | IPv4 adres yapısı, network/host, subnet mask, public/private |
+| 9 | [Network09 – IPv4 Unicast/Broadcast/Multicast ve Segmentasyon](Network09-ozet.md) | Unicast, broadcast, multicast, segmentation, subnetting |
+| 10 | [Network10 – IPv6 Addressing Formats and Rules](Network10-ozet.md) | IPv6 gereksinimi, adres gösterimi, kısaltma kuralları, prefix |
 
 **[← Network07](Network07-ozet.md)** · **[Modül README](README.md)** · **[Network09 →](Network09-ozet.md)**

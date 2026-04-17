@@ -95,6 +95,7 @@
 
 ## Özetler arası geçiş
 
+
 | No | Özet | Açıklama |
 | ---- | ------ | ---------- |
 | 1 | [Network01 – Kurs Tanıtımı ve Temeller](Network01-ozet.md) | Kurs tanıtımı, ağ türleri, veri, bandwidth |
@@ -104,8 +105,8 @@
 | 5 | [Network05 – İletişim İlkeleri: Protokoller, Standartlar ve Modeller](Network05-ozet.md) | Protokoller, standartlar, TCP/IP, OSI modelleri |
 | 6 | [Network06 – Ağ Ortamları (Network Media)](Network06-ozet.md) | Ağ ortamları: bakır, fiber, kablosuz |
 | 7 | [Network07 – Erişim Katmanı (The Access Layer)](Network07-ozet.md) | Ethernet, NIC, MAC, çerçeve, kapsülleme |
-| 8 | [Network08 – İnternet Protokolü (IPv4)](Network08-ozet.md) | IPv4 adresleme temelleri |
-| 9 | [Network09 – IPv4 Unicast/Broadcast/Multicast ve Segmentasyon](Network09-ozet.md) | IPv4 iletişim tipleri ve segmentasyon |
-| 10 | **Network10** (bu dosya) | IPv6 gereksinimi, adresleme formatı ve kurallar |
+| 8 | [Network08 – The Internet Protocol (IPv4)](Network08-ozet.md) | IPv4 adres yapısı, network/host, subnet mask, public/private |
+| 9 | [Network09 – IPv4 Unicast/Broadcast/Multicast ve Segmentasyon](Network09-ozet.md) | Unicast, broadcast, multicast, segmentation, subnetting |
+| 10 | **Network10** (bu dosya) | IPv6 gereksinimi, adres gösterimi, kısaltma kuralları, prefix |
 
 **[← Network09](Network09-ozet.md)** · **[Modül README](README.md)**
