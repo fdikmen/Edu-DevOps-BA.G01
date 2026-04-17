@@ -13,7 +13,7 @@
 
 ## 1. Modül Hedefleri
 
-Bu modülün amacı, ağ iletişiminin temel ilkelerini anlamaktır. Protokollerin ne olduğunu, standartların neden gerekli olduğunu ve ağ iletişim modellerinin (TCP/IP ve OSI) nasıl çalıştığını kavramak hedeflenmektedir.
+Ağ iletişiminin temel ilkeleri: protokoller, standartlar ve ağ iletişim modelleri (TCP/IP, OSI).
 
 ---
 
@@ -21,7 +21,7 @@ Bu modülün amacı, ağ iletişiminin temel ilkelerini anlamaktır. Protokoller
 
 ### Protokol Nedir?
 
-**Protokol**, başarılı iletişim için uyulması gereken kurallar bütünüdür. Günlük hayatta da farkında olmadan protokoller kullanırız:
+**Protokol**, başarılı iletişim için uyulması gereken kurallar bütünüdür.
 
 | Günlük Hayat | Açıklama |
 |---|---|
@@ -29,7 +29,7 @@ Bu modülün amacı, ağ iletişiminin temel ilkelerini anlamaktır. Protokoller
 | **Dil (Language)** | Hangi ortak dilin kullanılacağı belirlenmelidir. |
 | **Onay (Confirmation)** | Mesajın doğru alındığı teyit edilmelidir. |
 
-> **Kural:** İletişim başarılı sayılır; ancak amaçlanan mesaj alındığında ve onaylandığında.
+> **Temel ilke:** İletişim, mesaj doğru alınıp onaylandığında tamamlanır.
 
 ### Protokollerin 6 Temel Özelliği
 

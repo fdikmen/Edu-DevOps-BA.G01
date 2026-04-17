@@ -11,17 +11,18 @@
 
 ## 9.0 Introduction
 
-Bu bölüm IPv4 adresleme türlerine giriş yapar.
+IPv4 adresleme türlerinin temel çerçevesi:
 
-- Aynı ağda her cihaza tek tek mesaj gönderme örneğiyle **unicast** mantığı anlatılır.
-- “Aynı dili konuşanlara tek seferde mesaj” örneğiyle **multicast** fikri verilir.
-- Konunun devamında unicast, broadcast ve multicast adreslerin farkı; ayrıca private/public/reserved IPv4 adresleri ele alınır.
+- **Unicast:** Tek kaynaktan tek hedefe iletim.
+- **Multicast:** Tek kaynaktan belirli alıcı grubuna iletim.
+- **Broadcast:** Tek kaynaktan aynı ağdaki tüm cihazlara iletim.
+- Adres türleri: **private**, **public** ve **reserved** IPv4.
 
 ---
 
 ## 9.0.2 What Will I Learn in this Module?
 
-Bu modülde iki ana öğrenme hedefi vardır:
+Ana öğrenme hedefleri:
 
 - **IPv4 Unicast, Broadcast, and Multicast:** Bu üç IPv4 iletişim tipinin özelliklerini ve hangi durumda kullanıldıklarını karşılaştırma.
 - **Network Segmentation:** Subnetting ile ağı parçalara ayırıp iletişimi daha verimli ve yönetilebilir hale getirme.
@@ -30,13 +31,13 @@ Bu modülde iki ana öğrenme hedefi vardır:
 
 ## 9.1 IPv4 Unicast, Broadcast, and Multicast
 
-Bu başlık altında IPv4 iletişim türleri detaylandırılır:
+IPv4 iletişim türleri:
 
 - **Unicast:** Tek kaynaktan tek hedefe iletişim.
 - **Broadcast:** Tek kaynaktan aynı ağdaki tüm cihazlara iletişim.
 - **Multicast:** Tek kaynaktan belirli bir alıcı grubuna iletişim.
 
-Kısaca: Hedef kitlenin kapsamı, hangi adresleme tipinin seçileceğini belirler.
+Adresleme tipi, hedef kitlenin kapsamına göre seçilir.
 
 ---
 

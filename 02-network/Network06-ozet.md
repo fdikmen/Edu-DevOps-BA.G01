@@ -11,15 +11,15 @@
 
 ## 1. Modül Hedefleri
 
-Bu modülün amacı, verinin cihazlar arasında **fiziksel olarak** hangi yollar üzerinden iletildiğini anlamak ve günümüz ağlarında yaygın kullanılan **ağ ortamlarını (network media)** tanımlayabilmektir.
+Verinin cihazlar arasında **fiziksel olarak** hangi yollar üzerinden iletildiği ve güncel ağlarda kullanılan **ağ ortamları (network media)**:
 
-**Öğrenme hedefi:** Yaygın ağ ortamlarını kısaca açıklamak.
+**Öğrenme hedefi:** Yaygın ağ ortamlarını tanımlamak.
 
 ---
 
 ## 2. Senaryo: Kablosuz Kapalı, Ağ Hâlâ Var
 
-Hastane gibi ortamlarda birçok cihaz kablosuz bağlanır; ancak bir masaüstü bilgisayarda kablosuz **kapalı** olsa bile makine ağa erişebilir. Bu durumda iletişim genellikle **kablolu ortam** (ör. Ethernet kablosu) üzerinden gerçekleşir. Yani “ağa nasıl bağlı?” sorusunun yanıtı, kullanılan **ortam türü**nden gelir.
+Kablosuz bağlantı kapalı olsa da ağ erişimi **kablolu ortam** (ör. Ethernet) üzerinden sürdürülebilir. Bağlantı türü, kullanılan ağ ortamına bağlıdır.
 
 ---
 
@@ -27,7 +27,7 @@ Hastane gibi ortamlarda birçok cihaz kablosuz bağlanır; ancak bir masaüstü 
 
 **Ağ ortamı (network media)**, iletilen mesajların kaynaktan hedefe aktığı **kanaldır**; mesajların üzerinde yol aldığı fiziksel veya kablosuz yolu ifade eder.
 
-Modern ağlarda esas olarak **üç ortam türü** kullanılır; bu modül bu türleri işler.
+Modern ağlarda temel olarak **üç ortam türü** kullanılır:
 
 - **Bakır (Copper) kablo** – Veriyi elektrik sinyali ile taşır. En yaygın örnekler bükümlü çift Ethernet kablolarıdır (**UTP/STP; Cat5e, Cat6**). Kısa-orta mesafede yaygın ve ekonomiktir.
 - **Fiber-optik kablo** – Veriyi ışık sinyali ile taşır; yüksek hız ve uzun mesafe için uygundur.

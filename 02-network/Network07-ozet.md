@@ -12,7 +12,7 @@
 
 ## 1. Modül Hedefleri
 
-Bu modülün amacı **access layer** bağlamında **Ethernet** teknolojisini, **NIC (Network Interface Card)** rolünü, **MAC** ile frame alanlarını ve **encapsulation** ile **Ethernet frame** yapısını özetlemektir.
+**Access layer** bağlamında **Ethernet** teknolojisi, **NIC (Network Interface Card)** rolü, **MAC** alanları ve **encapsulation** ile **Ethernet frame** yapısı.
 
 ---
 
@@ -20,7 +20,7 @@ Bu modülün amacı **access layer** bağlamında **Ethernet** teknolojisini, **
 
 **Ethernet**, yerel alan ağlarında (**LAN**) yaygın şekilde kullanılan bir teknolojidir. Cihazlar Ethernet LAN’a genellikle bir **NIC** üzerinden bağlanır.
 
-**Ethernet kapsamı:** Bu bölümde iletişim, **aynı ağ üzerinde** bir **NIC’ten diğer bir NIC’e** kadar ele alınır (yerel **frame** iletimi).
+**Ethernet kapsamı:** İletişim, **aynı ağ üzerinde** bir **NIC’ten diğer bir NIC’e** kadar ele alınır (yerel **frame** iletimi).
 
 ---
 
@@ -55,7 +55,7 @@ Frame alanları genellikle **byte** cinsinden verilir. Aynı uzunluğu **bit** c
 
 ## 5. Ek notlar: unicast, host ve L2 switch
 
-Aşağıdaki kutular GitHub / VS Code önizlemesinde **farklı renklerde** görünür (`[!NOTE]`, `[!TIP]`, `[!IMPORTANT]`).
+Notlar:
 
 > [!NOTE]
 > **Unicast frame**  

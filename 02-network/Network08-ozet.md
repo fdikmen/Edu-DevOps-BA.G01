@@ -11,7 +11,7 @@
 
 ## 8.0.1 Why Should I Take this Module?
 
-Bu bölüm, internet iletişiminde IPv4 adresinin neden kritik olduğunu açıklar.
+IPv4 adreslemenin ağ iletişimindeki yeri:
 
 - Ağda gönderilen her paketin bir kaynak ve hedef IPv4 adresi vardır.
 - Doğru adresleme, verinin doğru cihaza/rota üzerinde ulaşmasını sağlar.
@@ -21,7 +21,7 @@ Bu bölüm, internet iletişiminde IPv4 adresinin neden kritik olduğunu açıkl
 
 ## 8.0.2 What Will I Learn in this Module?
 
-Görseldeki öğrenme hedefi:
+Öğrenme hedefi:
 
 - **Module Title:** The Internet Protocol
 - **Module Objective:** Bir IP adresinin özelliklerini ve amacını açıklamak

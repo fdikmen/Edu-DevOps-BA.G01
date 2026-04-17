@@ -13,7 +13,7 @@
 
 ## 1. Modül Hedefleri
 
-Bu modülün amacı, bir ev ağını etkili bir şekilde kurmak ve güvenliğini sağlamak için gerekli temel bilgileri kazandırmaktır.
+Ev ağını kurma ve güvenliğini sağlama için temel bileşenler, ayarlar ve tasarım ilkeleri.
 
 ## 2. Ev Ağı Bileşenleri (Home Network Fundamentals)
 
