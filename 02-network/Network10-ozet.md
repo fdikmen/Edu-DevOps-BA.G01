@@ -13,7 +13,9 @@
 
 ---
 
-## 10.0.2 What Will I Learn in this Module? *(TR: Bu modülde ne öğrenilecek?)*
+## 10.0.2 What Will I Learn in this Module?
+
+> Bu modülde ne öğrenilecek?
 
 - **Module Title:** IPv6 Addressing Formats and Rules
 - **Module Objective:** IPv6 adreslemenin temel özelliklerini açıklamak
@@ -21,7 +23,9 @@
 
 ---
 
-## 10.1.1 The Need for IPv6 *(TR: IPv6'ya neden ihtiyaç var?)*
+## 10.1.1 The Need for IPv6
+
+> IPv6'ya neden ihtiyaç var?
 
 - IPv4 adres havuzu tükenme noktasına ulaştığı için IPv6'ya geçiş gereklidir.
 - IPv6, IPv4'ün devamı olacak şekilde daha geniş adres alanı sunar.
@@ -31,7 +35,9 @@
 
 ---
 
-## RIR IPv4 Exhaustion Dates *(TR: RIR IPv4 tükenme tarihleri)*
+## RIR IPv4 Exhaustion Dates
+
+> RIR IPv4 tükenme tarihleri
 
 - Bölgesel İnternet Kayıt Kuruluşları (RIR), IPv4 tahsis havuzlarının tükenme tarihlerini yayımlar.
 - Bu tarihler, küresel ölçekte IPv6 geçiş ihtiyacını teknik olarak doğrular.
@@ -39,7 +45,9 @@
 
 ---
 
-## 10.2 IPv6 Address Representation *(TR: IPv6 adres gösterimi)*
+## 10.2 IPv6 Address Representation
+
+> IPv6 adres gösterimi
 
 - IPv6 adresi **128 bit** uzunluğundadır.
 - Adres, **16 bitlik 8 bloktan** oluşur.
@@ -49,7 +57,9 @@
 
 ---
 
-## 10.3 IPv6 Address Shortening Rules *(TR: IPv6 adres kısaltma kuralları)*
+## 10.3 IPv6 Address Shortening Rules
+
+> IPv6 adres kısaltma kuralları
 
 - **Leading zero omission:** Her bloktaki soldaki gereksiz sıfırlar silinir.  
   `0db8 -> db8`, `02aa -> 2aa`, `0000 -> 0`
@@ -62,7 +72,9 @@
 
 ---
 
-## 10.4 Prefix Length and Network Portion *(TR: Prefix uzunluğu ve ağ kısmı)*
+## 10.4 Prefix Length and Network Portion
+
+> Prefix uzunluğu ve ağ kısmı
 
 - IPv6'da subnet mask yerine çoğunlukla **prefix length** kullanılır (`/64` gibi).
 - `/64`, ilk 64 bitin ağ öneki olduğunu; kalan 64 bitin arayüz/host kısmı olduğunu gösterir.
