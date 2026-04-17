@@ -2,14 +2,20 @@
 
 ## İçindekiler
 
-1. [9.0 Introduction](#90-introduction)
-2. [9.0.2 What Will I Learn in this Module?](#902-what-will-i-learn-in-this-module)
-3. [9.1 IPv4 Unicast, Broadcast, and Multicast](#91-ipv4-unicast-broadcast-and-multicast)
-4. [Özetler arası geçiş](#özetler-arası-geçiş)
+1. 9.0 Introduction
+2. 9.0.2 What Will I Learn in this Module?
+3. 9.1 IPv4 Unicast, Broadcast, and Multicast
+4. 9.2 Broadcast Scope and Limits
+5. 9.3 Network Segmentation Basics
+6. 9.4 Segmentation with Subnetting
+7. Kısa modül özeti
+8. Özetler arası geçiş
 
 ---
 
 ## 9.0 Introduction
+
+> Giriş
 
 IPv4 adresleme türlerinin temel çerçevesi:
 
@@ -22,6 +28,8 @@ IPv4 adresleme türlerinin temel çerçevesi:
 
 ## 9.0.2 What Will I Learn in this Module?
 
+> Bu modülde ne öğrenilecek?
+
 Ana öğrenme hedefleri:
 
 - **IPv4 Unicast, Broadcast, and Multicast:** Bu üç IPv4 iletişim tipinin özelliklerini ve hangi durumda kullanıldıklarını karşılaştırma.
@@ -30,6 +38,8 @@ Ana öğrenme hedefleri:
 ---
 
 ## 9.1 IPv4 Unicast, Broadcast, and Multicast
+
+> IPv4 unicast, broadcast ve multicast
 
 IPv4 iletişim türleri:
 
@@ -40,6 +50,45 @@ IPv4 iletişim türleri:
 Adresleme tipi, hedef kitlenin kapsamına göre seçilir.
 
 ---
+
+## 9.2 Broadcast Scope and Limits
+
+> Broadcast kapsamı ve sınırları
+
+- Broadcast trafik aynı broadcast domain içinde yayılır.
+- Router'lar broadcast trafiği varsayılan olarak diğer ağlara taşımaz.
+- Büyük ağlarda yoğun broadcast trafiği performansı düşürebilir.
+- Ağ tasarımında broadcast alanını sınırlamak önemlidir.
+
+---
+
+## 9.3 Network Segmentation Basics
+
+> Ağ segmentasyonu temelleri
+
+- Network segmentation, büyük ağı daha küçük mantıksal parçalara ayırır.
+- Amaç: performans, güvenlik ve yönetilebilirlik artışı.
+- Segmentler arası trafik genellikle Layer 3 cihazlarla yönlendirilir.
+- Problem izolasyonu segmentasyon ile daha kolay yapılır.
+
+---
+
+## 9.4 Segmentation with Subnetting
+
+> Subnetting ile segmentasyon
+
+- Subnetting, IP adres bloğunu daha küçük alt ağlara böler.
+- Her alt ağın ayrı network adresi ve broadcast adresi vardır.
+- Doğru subnet planı adres israfını azaltır.
+- Segmentasyon, erişim kontrolü ve politika uygulamasını kolaylaştırır.
+
+---
+
+## Kısa modül özeti
+
+- Unicast, broadcast ve multicast farklı hedefleme modelleridir.
+- Broadcast alanının büyüklüğü doğrudan ağ verimliliğini etkiler.
+- Subnetting tabanlı segmentasyon performans, güvenlik ve ölçeklenebilirlik sağlar.
 
 ## Özetler arası geçiş
 

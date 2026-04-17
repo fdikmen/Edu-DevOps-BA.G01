@@ -2,14 +2,20 @@
 
 ## İçindekiler
 
-1. [8.0.1 Why Should I Take this Module?](#801-why-should-i-take-this-module)
-2. [8.0.2 What Will I Learn in this Module?](#802-what-will-i-learn-in-this-module)
-3. [8.1 Purpose of an IPv4 Address](#81-purpose-of-an-ipv4-address)
-4. [Kısa modül özeti](#kısa-modül-özeti)
+1. 8.0.1 Why Should I Take this Module?
+2. 8.0.2 What Will I Learn in this Module?
+3. 8.1 Purpose of an IPv4 Address
+4. 8.2 IPv4 Address Structure
+5. 8.3 Network and Host Portion
+6. 8.4 Subnet Mask and Basic Calculation
+7. 8.5 Public and Private IPv4 Use
+8. Kısa modül özeti
 
 ---
 
 ## 8.0.1 Why Should I Take this Module?
+
+> Bu modül neden gerekli?
 
 IPv4 adreslemenin ağ iletişimindeki yeri:
 
@@ -21,6 +27,8 @@ IPv4 adreslemenin ağ iletişimindeki yeri:
 
 ## 8.0.2 What Will I Learn in this Module?
 
+> Bu modülde ne öğrenilecek?
+
 Öğrenme hedefi:
 
 - **Module Title:** The Internet Protocol
@@ -31,6 +39,8 @@ IPv4 adreslemenin ağ iletişimindeki yeri:
 
 ## 8.1 Purpose of an IPv4 Address
 
+> IPv4 adresinin amacı
+
 IPv4 adresinin temel amacı, ağ üzerindeki hostları mantıksal olarak tanımlamaktır.
 
 - İnternet ve çoğu LAN iletişimi için hostun geçerli bir IPv4 adresine ihtiyacı vardır.
@@ -40,11 +50,56 @@ IPv4 adresinin temel amacı, ağ üzerindeki hostları mantıksal olarak tanıml
 
 ---
 
+## 8.2 IPv4 Address Structure
+
+> IPv4 adres yapısı
+
+- IPv4 adres uzunluğu **32 bit**tir.
+- Adres, **8 bitlik 4 oktet** halinde yazılır.
+- Dotted decimal gösterimde her oktet **0-255** aralığındadır.
+- Örnek: `192.168.10.25`
+
+---
+
+## 8.3 Network and Host Portion
+
+> Ağ ve host kısmı
+
+- Her IPv4 adresi iki bölüm içerir: **network** ve **host**.
+- **Network** kısmı cihazın hangi alt ağa ait olduğunu gösterir.
+- **Host** kısmı o alt ağ içindeki cihazı tanımlar.
+- Aynı alt ağdaki cihazlar aynı network kısmını paylaşır.
+
+---
+
+## 8.4 Subnet Mask and Basic Calculation
+
+> Alt ağ maskesi ve temel hesaplama
+
+- Subnet mask, IP adresinin hangi bitlerinin network/host olduğunu belirler.
+- Örnek maske: `255.255.255.0` (`/24`)
+- Network adresi, IP ile maskenin bit düzeyinde AND işlemiyle bulunur.
+- `/24` örneğinde son oktet host kısmıdır.
+
+---
+
+## 8.5 Public and Private IPv4 Use
+
+> Public ve private IPv4 kullanımı
+
+- **Public IPv4** internet üzerinde yönlendirilebilir adreslerdir.
+- **Private IPv4** yerel ağlarda kullanılır, internete doğrudan çıkmaz.
+- Yaygın private aralıklar: `10.0.0.0/8`, `172.16.0.0/12`, `192.168.0.0/16`
+- Private adresli cihazlar internete çıkarken çoğunlukla **NAT** kullanır.
+
+---
+
 ## Kısa modül özeti
 
 - IPv4, paketlerin doğru kaynaktan doğru hedefe ulaşmasını sağlayan temel adresleme sistemidir.
-- Modül odağı, adresin amacı ve temel özelliklerini anlamaktır.
-- Bu temel, bir sonraki konularda (network/host ayrımı, subnetting, yönlendirme) doğrudan kullanılır.
+- IPv4 adresleri 32 bitlik yapıdadır ve 4 oktet ile gösterilir.
+- Network/host ayrımı ve subnet mask, adresin ağ içindeki rolünü belirler.
+- Public/private kullanım farkı, yerel ağ ve internet iletişiminin temelini oluşturur.
 
 ---
 
