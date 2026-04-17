@@ -1,53 +1,46 @@
-# Network09 – IPv4 ve Ağ Segmentasyonu
+# Network09 – IPv4 Unicast/Broadcast/Multicast ve Segmentasyon
 
 ## İçindekiler
 
-1. [Modül Başlığı ve Kapsam](#1-modül-başlığı-ve-kapsam)
-2. [Giriş: Bu Modülü Neden Almalıyım?](#2-giriş-bu-modülü-neden-almalıyım)
-3. [Motivasyon (Why Should I Take this Module?)](#3-motivasyon-why-should-i-take-this-module)
-4. [Modül Özeti](#4-modül-özeti)
-5. [Özetler arası geçiş](#5-özetler-arası-geçiş)
+1. [9.0 Introduction](#90-introduction)
+2. [9.0.2 What Will I Learn in this Module?](#902-what-will-i-learn-in-this-module)
+3. [9.1 IPv4 Unicast, Broadcast, and Multicast](#91-ipv4-unicast-broadcast-and-multicast)
+4. [Özetler arası geçiş](#özetler-arası-geçiş)
 
 ---
 
-## 1. Modül Başlığı ve Kapsam
+## 9.0 Introduction
 
-Bu modülün başlığı **IPv4 ve Ağ Segmentasyonu**dur.
+Bu bölüm IPv4 adresleme türlerine giriş yapar.
 
-Slayt görselindeki ifadeye göre içerik, **konuşmacı notları** formatında ve **teorik + pratik** odaklı ilerler.
-
----
-
-## 2. Giriş: Bu Modülü Neden Almalıyım?
-
-İlk slaytın giriş bölümü, modülün neden önemli olduğunu çerçeveler:
-
-- IPv4 bilgisi, ağlarda cihazların adreslenmesi ve iletişim kurulmasının temelidir.
-- Ağ segmentasyonu, ağları daha yönetilebilir ve daha düzenli parçalara ayırmayı hedefler.
-- Teorik bilgiyi pratik bakışla birleştirmek, gerçek ağ senaryolarını anlamayı kolaylaştırır.
+- Aynı ağda her cihaza tek tek mesaj gönderme örneğiyle **unicast** mantığı anlatılır.
+- “Aynı dili konuşanlara tek seferde mesaj” örneğiyle **multicast** fikri verilir.
+- Konunun devamında unicast, broadcast ve multicast adreslerin farkı; ayrıca private/public/reserved IPv4 adresleri ele alınır.
 
 ---
 
-## 3. Motivasyon (Why Should I Take this Module?)
+## 9.0.2 What Will I Learn in this Module?
 
-Slaytta yer alan motivasyon sorusu, bu modülün kazanımlarını vurgular:
+Bu modülde iki ana öğrenme hedefi vardır:
 
-- IPv4 ve segmentasyon kavramlarını birlikte öğrenerek ağ tasarımını daha bilinçli yapabilme
-- Ağda düzen, ölçeklenebilirlik ve yönetim kolaylığı için temel zihinsel modeli kurma
-- Sonraki ağ konuları (alt ağlama, yönlendirme, erişim kontrolü gibi) için altyapı oluşturma
-
----
-
-## 4. Modül Özeti
-
-- **Konu odağı:** IPv4 adresleme + ağ segmentasyonu
-- **Yaklaşım:** Konuşmacı notları ile **teorik + pratik** anlatım
-- **Başlangıç mesajı:** “Bu modülü neden almalıyım?” sorusuna motivasyon odaklı giriş
-- **Kazanım yönü:** Ağları daha doğru tasarlama ve yönetme için temel bilgi zemini
+- **IPv4 Unicast, Broadcast, and Multicast:** Bu üç IPv4 iletişim tipinin özelliklerini ve hangi durumda kullanıldıklarını karşılaştırma.
+- **Network Segmentation:** Subnetting ile ağı parçalara ayırıp iletişimi daha verimli ve yönetilebilir hale getirme.
 
 ---
 
-## 5. Özetler arası geçiş
+## 9.1 IPv4 Unicast, Broadcast, and Multicast
+
+Bu başlık altında IPv4 iletişim türleri detaylandırılır:
+
+- **Unicast:** Tek kaynaktan tek hedefe iletişim.
+- **Broadcast:** Tek kaynaktan aynı ağdaki tüm cihazlara iletişim.
+- **Multicast:** Tek kaynaktan belirli bir alıcı grubuna iletişim.
+
+Kısaca: Hedef kitlenin kapsamı, hangi adresleme tipinin seçileceğini belirler.
+
+---
+
+## Özetler arası geçiş
 
 | No | Özet | Açıklama |
 |----|------|----------|
@@ -59,6 +52,6 @@ Slaytta yer alan motivasyon sorusu, bu modülün kazanımlarını vurgular:
 | 6 | [Network06 – Ağ Ortamları (Network Media)](Network06-ozet.md) | Ağ ortamları: bakır, fiber, kablosuz |
 | 7 | [Network07 – Erişim Katmanı (The Access Layer)](Network07-ozet.md) | Ethernet, NIC, MAC, çerçeve, kapsülleme |
 | 8 | [Network08 – İnternet Protokolü (IPv4)](Network08-ozet.md) | IPv4: mantıksal kimlik, oktet, ağ/host, alt ağ maskesi, subnetting |
-| 9 | **Network09** (bu dosya) | IPv4 ve ağ segmentasyonuna giriş, motivasyon ve kapsam |
+| 9 | **Network09** (bu dosya) | IPv4 unicast/broadcast/multicast ve network segmentation öğrenme hedefleri |
 
 **[← Network08](Network08-ozet.md)** · **[Modül README](README.md)**
