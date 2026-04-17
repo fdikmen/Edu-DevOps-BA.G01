@@ -44,7 +44,7 @@ Adresleme tipi, hedef kitlenin kapsamına göre seçilir.
 ## Özetler arası geçiş
 
 | No | Özet | Açıklama |
-|----|------|----------|
+| ---- | ------ | ---------- |
 | 1 | [Network01 – Kurs Tanıtımı ve Temeller](Network01-ozet.md) | Kurs tanıtımı, ağ türleri, veri, bandwidth |
 | 2 | [Network02 – Ağ Bileşenleri ve Bağlantılar](Network02-ozet.md) | Client-Server, P2P, donanım, ISP |
 | 3 | [Network03 – Kablosuz ve Mobil Ağ Yapılandırması](Network03-ozet.md) | Wi-Fi, hücresel, Bluetooth, tethering |
@@ -54,5 +54,6 @@ Adresleme tipi, hedef kitlenin kapsamına göre seçilir.
 | 7 | [Network07 – Erişim Katmanı (The Access Layer)](Network07-ozet.md) | Ethernet, NIC, MAC, çerçeve, kapsülleme |
 | 8 | [Network08 – İnternet Protokolü (IPv4)](Network08-ozet.md) | IPv4: mantıksal kimlik, oktet, ağ/host, alt ağ maskesi, subnetting |
 | 9 | **Network09** (bu dosya) | IPv4 unicast/broadcast/multicast ve network segmentation öğrenme hedefleri |
+| 10 | [Network10 – IPv6 Addressing Formats and Rules](Network10-ozet.md) | IPv6 gereksinimi, adresleme formatı ve kurallar |
 
-**[← Network08](Network08-ozet.md)** · **[Modül README](README.md)**
+**[← Network08](Network08-ozet.md)** · **[Modül README](README.md)** · **[Network10 →](Network10-ozet.md)**
