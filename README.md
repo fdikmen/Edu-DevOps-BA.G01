@@ -4,22 +4,9 @@ BA DevOps Egitimi - Grup 01
 
 ---
 
-## Hızlı Erişim
+## Modül Haritası ve Akış
 
-[`Computer Architecture`](01-computer-architecture/) ·
-[`Network`](02-network/) ·
-[`Linux`](03-linux/) ·
-[`DevOps`](04-devops/)
-
----
-
-## Program Akışı
-
-`01 Computer Architecture -> 02 Network -> 03 Linux -> 04 DevOps`
-
----
-
-## Modül Haritası
+[`01 Computer Architecture`](01-computer-architecture/) -> [`02 Network`](02-network/) -> [`03 Linux`](03-linux/) -> [`04 DevOps`](04-devops/)
 
 | Kod | Modül | Klasör |
 | --- | --- | --- |
