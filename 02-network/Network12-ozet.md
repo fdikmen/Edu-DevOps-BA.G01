@@ -4,11 +4,10 @@
 
 1. 12.0.1 Webster - Why Should I Take this Module?
 2. 12.0.2 What Will I Learn in this module?
-3. 12.1.1 Video – Gateways to Other Networks
-4. 12.2 Network Boundaries (Ağ Sınırları)
-5. 12.3 Network Address Translation (NAT)
-6. Kısa modül özeti
-7. Özetler arası geçiş
+3. 12.2 Network Boundaries (Ağ Sınırları)
+4. 12.3 Network Address Translation (NAT)
+5. Kısa modül özeti
+6. Özetler arası geçiş
 
 ---
 
@@ -34,15 +33,6 @@
   - **Topic Objective:** Ağ sınırlarını tanımlamak
 - **Topic: Network Address Translation**
   - **Topic Objective:** Küçük ağlarda NAT’ın amacını açıklamak
-
----
-
-## 12.1.1 Video – Gateways to Other Networks
-
-> Video: Diğer Ağlara Geçitler
-
-- Kurs materyalinde videoyu izlemek için **Play** düğmesine basılması istenir.
-- Video, modül konusunu (gateway’ler ve diğer ağlara bağlantı) görsel ve anlatımla pekiştirir.
 
 ---
 
