@@ -133,5 +133,6 @@
 | 8 | [Network08 – The Internet Protocol (IPv4)](Network08-ozet.md) | IPv4 adres yapısı, network/host, subnet mask, public/private |
 | 9 | [Network09 – IPv4 Unicast/Broadcast/Multicast ve Segmentasyon](Network09-ozet.md) | Unicast, broadcast, multicast, segmentation, subnetting |
 | 10 | **Network10** (bu dosya) | IPv6 gereksinimi, adres gösterimi, kısaltma kuralları, prefix, geçiş yöntemleri |
+| 11 | [Network11 – Static and Dynamic Addressing](Network11-ozet.md) | Static ve dynamic IPv4 addressing, DHCP temelleri, kullanım karşılaştırması |
 
-**[← Network09](Network09-ozet.md)** · **[Modül README](README.md)**
+**[← Network09](Network09-ozet.md)** · **[Modül README](README.md)** · **[Network11 →](Network11-ozet.md)**
