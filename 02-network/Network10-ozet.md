@@ -3,13 +3,15 @@
 ## İçindekiler
 
 1. 10.0.2 What Will I Learn in this Module?
-2. 10.1.1 The Need for IPv6
-3. RIR IPv4 Exhaustion Dates
-4. 10.2 IPv6 Address Representation
-5. 10.3 IPv6 Address Shortening Rules
-6. 10.4 Prefix Length and Network Portion
-7. Kısa modül özeti
-8. Özetler arası geçiş
+2. 10.1 IPv4 Issues
+3. 10.1.1 The Need for IPv6
+4. RIR IPv4 Exhaustion Dates
+5. 10.2 IPv6 Address Representation
+6. 10.3 IPv6 Address Shortening Rules
+7. 10.4 Prefix Length and Network Portion
+8. 10.5 IPv6 Transition Methods
+9. Kısa modül özeti
+10. Özetler arası geçiş
 
 ---
 
@@ -20,6 +22,17 @@
 - **Module Title:** IPv6 Addressing Formats and Rules
 - **Module Objective:** IPv6 adreslemenin temel özelliklerini açıklamak
 - **Odak:** IPv6 adres formatı, yazım kuralları ve kullanım mantığı
+
+---
+
+## 10.1 IPv4 Issues
+
+> IPv4 sorunları
+
+- IPv4 adres alanı sınırlıdır ve küresel ölçekte tükenme baskısı oluşturur.
+- Artan cihaz sayısı (mobil, IoT, bulut) IPv4 talebini hızla artırır.
+- NAT kullanımı adres ihtiyacını geçici olarak azaltır; ancak uçtan uca iletişim modelini karmaşıklaştırır.
+- Uzun vadeli ölçeklenebilirlik için IPv6'ya geçiş zorunludur.
 
 ---
 
@@ -83,6 +96,18 @@
 
 ---
 
+## 10.5 IPv6 Transition Methods
+
+> IPv6'ya geçiş yöntemleri
+
+- **Dual Stack:** Cihaz ve ağ ekipmanı aynı anda IPv4 ve IPv6 çalıştırır.
+- **Tunneling:** IPv6 paketleri, IPv4 altyapısı içinden tünellenerek taşınır.
+- **Translation (NAT64/DNS64):** IPv6 istemcilerin IPv4 servislerle haberleşmesi için adres/protokol çevirisi yapılır.
+- Geçiş dönemi genellikle hibrit ilerler; kurumlar tek adımda değil, aşamalı migrasyon uygular.
+- Uygulama uyumluluğu, güvenlik politikaları ve izleme araçları geçiş planının temel parçalarıdır.
+
+---
+
 ## Kısa modül özeti
 
 - IPv6'nın temel gerekçesi, IPv4 adres tükenmesidir.
@@ -90,11 +115,11 @@
 - Hexadecimal yazım ve blok yapısı, IPv6 adres gösteriminin temelidir.
 - Kısaltma kuralları: soldaki sıfırların silinmesi ve `::` ile sıfır bloklarının sıkıştırılması.
 - Prefix gösterimi (`/64`), ağ ve arayüz bölümlerini tanımlar.
+- Geçiş yöntemleri: dual stack, tunneling ve translation yaklaşımlarıdır.
 
 ---
 
 ## Özetler arası geçiş
-
 
 | No | Özet | Açıklama |
 | ---- | ------ | ---------- |
@@ -107,6 +132,6 @@
 | 7 | [Network07 – Erişim Katmanı (The Access Layer)](Network07-ozet.md) | Ethernet, NIC, MAC, çerçeve, kapsülleme |
 | 8 | [Network08 – The Internet Protocol (IPv4)](Network08-ozet.md) | IPv4 adres yapısı, network/host, subnet mask, public/private |
 | 9 | [Network09 – IPv4 Unicast/Broadcast/Multicast ve Segmentasyon](Network09-ozet.md) | Unicast, broadcast, multicast, segmentation, subnetting |
-| 10 | **Network10** (bu dosya) | IPv6 gereksinimi, adres gösterimi, kısaltma kuralları, prefix |
+| 10 | **Network10** (bu dosya) | IPv6 gereksinimi, adres gösterimi, kısaltma kuralları, prefix, geçiş yöntemleri |
 
 **[← Network09](Network09-ozet.md)** · **[Modül README](README.md)**
