@@ -103,5 +103,6 @@
 | 9 | [Network09 – IPv4 Unicast/Broadcast/Multicast ve Segmentasyon](Network09-ozet.md) | Unicast, broadcast, multicast, segmentation, subnetting |
 | 10 | [Network10 – IPv6 Addressing Formats and Rules](Network10-ozet.md) | IPv6 gereksinimi, adres gösterimi, kısaltma kuralları, prefix, geçiş yöntemleri |
 | 11 | **Network11** (bu dosya) | Static ve dynamic IPv4 addressing, DHCP temelleri, kullanım karşılaştırması |
+| 12 | [Network12 – Gateways to Other Networks](Network12-ozet.md) | Gateway, NAT, ağ sınırları, router ile ağların birleştirilmesi |
 
-**[← Network10](Network10-ozet.md)** · **[Modül README](README.md)**
+**[← Network10](Network10-ozet.md)** · **[Modül README](README.md)** · **[Network12 →](Network12-ozet.md)**

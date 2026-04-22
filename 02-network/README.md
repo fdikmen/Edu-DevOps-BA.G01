@@ -17,3 +17,4 @@ Ağ modülü. Slayt özetleri aşağıdadır; özetler arası geçiş linkleri h
 | 9 | Network09 | [Network09-ozet.md](Network09-ozet.md) | IPv4 iletişim tipleri (unicast, broadcast, multicast), broadcast kapsamı, network segmentation ve subnetting |
 | 10 | Network10 | [Network10-ozet.md](Network10-ozet.md) | IPv6 Addressing Formats and Rules: IPv6 gereksinimi, adres gösterimi, kısaltma kuralları ve prefix yapısı |
 | 11 | Network11 | [Network11-ozet.md](Network11-ozet.md) | Static and Dynamic Addressing: statik/dinamik IPv4 adresleme, DHCP temelleri ve karşılaştırma |
+| 12 | Network12 | [Network12-ozet.md](Network12-ozet.md) | Gateways to Other Networks: gateway, NAT, ağ sınırları, router ile ağların birleştirilmesi |
