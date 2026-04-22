@@ -32,16 +32,14 @@ BA DevOps Egitimi - Grup 01
 
 ## Network Özetleri
 
-| Ders | Özet |
-| --- | --- |
-| 01 | [`Network01`](02-network/Network01-ozet.md) |
-| 02 | [`Network02`](02-network/Network02-ozet.md) |
-| 03 | [`Network03`](02-network/Network03-ozet.md) |
-| 04 | [`Network04`](02-network/Network04-ozet.md) |
-| 05 | [`Network05`](02-network/Network05-ozet.md) |
-| 06 | [`Network06`](02-network/Network06-ozet.md) |
-| 07 | [`Network07`](02-network/Network07-ozet.md) |
-| 08 | [`Network08`](02-network/Network08-ozet.md) |
-| 09 | [`Network09`](02-network/Network09-ozet.md) |
-| 10 | [`Network10`](02-network/Network10-ozet.md) |
-| 11 | [`Network11`](02-network/Network11-ozet.md) |
+[`Network01`](02-network/Network01-ozet.md) ·
+[`Network02`](02-network/Network02-ozet.md) ·
+[`Network03`](02-network/Network03-ozet.md) ·
+[`Network04`](02-network/Network04-ozet.md) ·
+[`Network05`](02-network/Network05-ozet.md) ·
+[`Network06`](02-network/Network06-ozet.md) ·
+[`Network07`](02-network/Network07-ozet.md) ·
+[`Network08`](02-network/Network08-ozet.md) ·
+[`Network09`](02-network/Network09-ozet.md) ·
+[`Network10`](02-network/Network10-ozet.md) ·
+[`Network11`](02-network/Network11-ozet.md)
