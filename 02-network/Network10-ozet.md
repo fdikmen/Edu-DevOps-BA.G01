@@ -102,7 +102,7 @@
 
 - **Dual Stack:** Cihaz ve ağ ekipmanı aynı anda IPv4 ve IPv6 çalıştırır.
 - **Tunneling:** IPv6 paketleri, IPv4 altyapısı içinden tünellenerek taşınır.
-- **Translation (NAT64/DNS64):** IPv6 istemcilerin IPv4 servislerle haberleşmesi için adres/protokol çevirisi yapılır.
+- **Translation (NAT64/DNS64):** IPv6 client'ların IPv4 servislerle haberleşmesi için adres/protokol çevirisi yapılır.
 - Geçiş dönemi genellikle hibrit ilerler; kurumlar tek adımda değil, aşamalı migrasyon uygular.
 - Uygulama uyumluluğu, güvenlik politikaları ve izleme araçları geçiş planının temel parçalarıdır.
 

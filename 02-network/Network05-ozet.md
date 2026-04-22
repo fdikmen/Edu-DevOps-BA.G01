@@ -56,12 +56,12 @@ Ağ iletişiminin temel ilkeleri: protokoller, standartlar ve ağ iletişim mode
 
 ### Cihazların Ağ Üzerindeki Etkileşimi (Devices in a Bubble)
 
-Bir cihaz yalnızca üç temel bilgiyi bilir: **IP adresi**, **ağ geçidi (Gateway)** ve **DNS sunucusu**. Bir web sayfasına erişim sürecinde arka planda 6 protokol birlikte çalışır:
+Bir cihaz yalnızca üç temel bilgiyi bilir: **IP adresi**, **gateway** ve **DNS server**. Bir web sayfasına erişim sürecinde arka planda 6 protokol birlikte çalışır:
 
 | Adım | Protokol | Görev |
 |------|----------|-------|
 | 1 | **Ethernet** | Fiziksel ağa bağlanır |
-| 2 | **DHCP** | IP adresi, gateway, DNS sunucu bilgisi otomatik atanır |
+| 2 | **DHCP** | IP adresi, gateway, DNS server bilgisi otomatik atanır |
 | 3 | **DNS** | Alan adını IP adresine çevirir |
 | 4 | **IP** | Paketi kaynaktan hedefe taşır |
 | 5 | **TCP** | Kayıp paketleri yeniden gönderir; güvenilir teslimat sağlar |
@@ -71,16 +71,16 @@ Bir cihaz yalnızca üç temel bilgiyi bilir: **IP adresi**, **ağ geçidi (Gate
 
 ### DHCP Nedir?
 
-**DHCP (Dynamic Host Configuration Protocol)**, ağdaki cihazlara otomatik olarak IP adresi, ağ geçidi ve DNS bilgisi atayan protokoldür. DHCP sunucusu farklı yerlerde bulunabilir:
+**DHCP (Dynamic Host Configuration Protocol)**, ağdaki cihazlara otomatik olarak IP adresi, gateway ve DNS bilgisi atayan protokoldür. DHCP server farklı yerlerde bulunabilir:
 
 - **Ev ağlarında:** Modem/Router içinde çalışır.
-- **Kurumsal ağlarda:** Ayrı bir sunucu (örn. Windows Server) üzerinde çalışır.
+- **Kurumsal ağlarda:** Ayrı bir server (örn. Windows Server) üzerinde çalışır.
 - **ISP tarafında:** Kullanıcı modemlerine public IP atamak için kullanılır.
 
 **DHCP Süreci (3 Adım):**
 
 1. **DHCP'den önce** – Cihaz ağa bağlandığında hiçbir ağ bilgisini bilmez.
-2. **DHCP süreci** – Cihaz ağa bir yayın (broadcast) gönderir; DHCP sunucusu IP, gateway ve DNS bilgilerini atar.
+2. **DHCP süreci** – Cihaz ağa bir yayın (broadcast) gönderir; DHCP server IP, gateway ve DNS bilgilerini atar.
 3. **DHCP'den sonra** – Cihaz bu üç bilgiyle ağda iletişim kurmaya başlar.
 
 ### Küresel Standart Kuruluşları
@@ -178,7 +178,6 @@ TCP/IP Modeli, internetin temel referans modelidir. 4 katmandan oluşur:
 ---
 
 ## Özetler arası geçiş
-
 
 | No | Özet | Açıklama |
 | ---- | ------ | ---------- |

@@ -50,7 +50,7 @@
 > Statik IPv4 adresleme
 
 - IP adresi, subnet mask, gateway ve DNS bilgileri cihaza manuel girilir.
-- Sunucu, yazıcı, ağ cihazı gibi sabit erişim gerektiren sistemlerde yaygın kullanılır.
+- Server, yazıcı, ağ cihazı gibi sabit erişim gerektiren sistemlerde yaygın kullanılır.
 - Adres çakışmasını önlemek için planlı IP yönetimi gerekir.
 - Küçük ağlarda kontrol kolaylığı sağlar; büyük ağlarda operasyonel yük oluşturabilir.
 
@@ -60,10 +60,10 @@
 
 > DHCP ile dinamik IPv4 adresleme
 
-- DHCP, istemcilere IP yapılandırmasını otomatik olarak atar.
+- DHCP, client'lara IP yapılandırmasını otomatik olarak atar.
 - Temel bilgiler: IP adresi, subnet mask, default gateway, DNS.
 - Merkezi yönetim sayesinde cihaz ekleme/taşıma işlemleri hızlanır.
-- Büyük ve değişken istemci sayısına sahip ağlarda tercih edilir.
+- Büyük ve değişken client sayısına sahip ağlarda tercih edilir.
 - Lease süresi ve havuz planı, adres kullanım verimliliğini etkiler.
 
 ---
@@ -75,8 +75,8 @@
 - **Yönetim:** Statik = manuel; Dinamik = merkezi ve otomatik.
 - **Ölçeklenebilirlik:** Statik düşük; Dinamik yüksek.
 - **Hata riski:** Statikte insan hatası daha yüksek, DHCP'de daha düşüktür.
-- **Sabitlik ihtiyacı:** Sunucu altyapısında statik, istemci tarafında dinamik yaygındır.
-- **En iyi pratik:** Karma model (kritik cihazlara statik, uç istemcilere DHCP).
+- **Sabitlik ihtiyacı:** Server altyapısında statik, client tarafında dinamik yaygındır.
+- **En iyi pratik:** Karma model (kritik cihazlara statik, uç client'lara DHCP).
 
 ---
 

@@ -70,7 +70,7 @@ Ev ağını kurma ve güvenliğini sağlama için temel bileşenler, ayarlar ve 
 
 ## 6. Modül Özeti
 
-- **Ev Ağı Bileşenlerini Tanımlama** – Modem, router ve istemci cihazlar gibi temel donanımları tanıyabilirsiniz.
+- **Ev Ağı Bileşenlerini Tanımlama** – Modem, router ve client cihazlar gibi temel donanımları tanıyabilirsiniz.
 - **Kablosuz ve Kablo Teknolojilerini Anlama** – 2.4GHz ve 5GHz bantlarını, Cat5e, Koaksiyel ve Fiber kablo türlerini ayırt edebilirsiniz.
 - **Sektör Kuruluşlarını Tanıma** – IEEE ve Wi-Fi Alliance'ın ağ standartlarındaki rollerini anlayabilirsiniz.
 - **Ağı Planlama, Yapılandırma ve Güvenliğini Sağlama** – Ev ağınızı SSID, WPA2 güvenliği ve yönetici şifresi ile etkili bir şekilde kurabilirsiniz.
@@ -78,7 +78,6 @@ Ev ağını kurma ve güvenliğini sağlama için temel bileşenler, ayarlar ve 
 ---
 
 ## Özetler arası geçiş
-
 
 | No | Özet | Açıklama |
 | ---- | ------ | ---------- |
