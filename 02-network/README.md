@@ -18,3 +18,4 @@ Ağ modülü. Slayt özetleri aşağıdadır; özetler arası geçiş linkleri h
 | 10 | Network10 | [Network10-ozet.md](Network10-ozet.md) | IPv6 Addressing Formats and Rules: IPv6 gereksinimi, adres gösterimi, kısaltma kuralları ve prefix yapısı |
 | 11 | Network11 | [Network11-ozet.md](Network11-ozet.md) | Static and Dynamic Addressing: statik/dinamik IPv4 adresleme, DHCP temelleri ve karşılaştırma |
 | 12 | Network12 | [Network12-ozet.md](Network12-ozet.md) | Gateways to Other Networks: gateway, NAT, ağ sınırları, router ile ağların birleştirilmesi |
+| 13 | Network13 | [Network13-ozet.md](Network13-ozet.md) | The ARP Process: MAC/IP rolleri, ARP ile yerel adres çözümlemesi, broadcast containment |
