@@ -14,10 +14,10 @@
 
 > Bu modül neden gerekli?
 
-- **Kishori** işten eve dönerken ağ trafiği (congestion) nedeniyle yolunu GPS ile değiştirir; bu benzetme, ağlarda da benzer bir **tıkanıklık** problemi olabileceğini gösterir.
-- Ağlarda yoğunluk arttığında performans düşer; **router’lar** (yönlendiriciler) en iyi yolu belirlemeye çalışır.
-- Temel soru şudur: Bir ağ nasıl tıkanır ve bu tıkanıklık nasıl azaltılır?
-- Modül, yerel ağı bölme yaklaşımıyla bu soruların cevabına giriş yapar.
+- Tek bir büyük ağda çok cihaz olursa trafik sıkışır (congestion).
+- Sıkışıklık olduğunda internet yavaşlar, gecikme artar, kopmalar yaşanabilir.
+- Bu sorunu azaltmanın en temel yolu ağı parçalara ayırmaktır.
+- Bu modül "yerel ağ neden bölünür?" sorusuna net cevap verir.
 
 ---
 
@@ -25,8 +25,10 @@
 
 > Bu modülde ne öğrenilecek?
 
-- **Modül odağı:** Yerel ağın bölünmesiyle (dividing the local network) ağ yoğunluğunu daha yönetilebilir hale getirmek.
-- **Ana öğrenme hedefi:** Ağ tıkanıklığının neden oluştuğunu ve performansı korumak için ağın nasıl düzenlenebileceğini kavramak.
+- Congestion'ın ne olduğunu ve neden oluştuğunu anlayacaksın.
+- Büyük tek ağ ile bölünmüş ağ arasındaki farkı göreceksin.
+- Ağ bölmenin hız, güvenlik ve yönetim açısından faydasını öğreneceksin.
+- Router ve subnet mantığının neden gerekli olduğunu kavrayacaksın.
 
 ---
 
@@ -34,16 +36,26 @@
 
 > Konu videosu: Yerel ağı bölme
 
-- Bu bölüm, yerel ağın neden ve nasıl bölündüğünü görsel anlatımla açıklar.
-- Ağın daha küçük ve kontrol edilebilir parçalara ayrılması, yoğunluğun etkisini sınırlamaya yardımcı olur.
+- Video, "tek büyük ağ" yerine "birkaç küçük ağ" yaklaşımını anlatır.
+- Her alt ağ (subnet), broadcast trafiğini kendi içinde tutar.
+- Böylece gereksiz trafik tüm şirkete yayılmaz.
+- Sonuç: daha stabil, daha ölçeklenebilir bir ağ yapısı.
+
+### Basit örnek
+
+- Senaryo: 90 cihazın olduğu bir ofis.
+- **Bölünmemiş ağ:** Tüm cihazlar aynı broadcast alanında, gereksiz trafik yüksek.
+- **Bölünmüş ağ:** 3 adet 30 cihazlık subnet (Muhasebe, Operasyon, Misafir).
+- Etki: broadcast yükü düşer, sorun takibi kolaylaşır, güvenlik kuralları netleşir.
 
 ---
 
 ## Kısa modül özeti
 
-- Ağlarda da trafik sıkışıklığına benzer şekilde **congestion** oluşabilir.
-- Yoğunluk arttığında performans düşer; yönlendirme kararları kritik hale gelir.
-- Yerel ağı bölme yaklaşımı, ağı daha verimli ve yönetilebilir tutmak için temel bir yöntemdir.
+- Congestion, ağda aynı anda fazla trafik olduğunda oluşan sıkışıklıktır.
+- Tek ve büyük bir ağ, broadcast yükünü gereksiz yere büyütür.
+- Ağı subnet'lere bölmek performansı ve yönetilebilirliği artırır.
+- Router'lar subnet'ler arası geçişi kontrollü hale getirir.
 
 ---
 
