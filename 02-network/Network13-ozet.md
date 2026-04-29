@@ -15,11 +15,10 @@
 
 > Bu modül neden gerekli?
 
-- **Kishori** örneği: Telefonunun **IP adresi**, bulunduğu yere ve bağlı olduğu ağa göre değişir (ör. hastane ağından eve geçince farklı adres); **DHCP**, adresi o ağın kurallarına uygun şekilde atar.
-- **MAC adresi** ise cihaza özgüdür ve genelde hangi kablosuz/kablolu ağa bağlı olursa olsun **aynı kalır** (cihazın donanımsal kimliği).
-- **IP adresi**, göndericiye hedefin **o ağ üzerinde nerede** olduğunu (mantıksal konum / katman 3) söyler.
-- **MAC adresi**, çerçevelerin **hangi fiziksel cihaza** iletileceğini belirler; verinin yalnızca ilgili NIC’e ulaşmasını sağlar.
-- DHCP doğru IP’yi verir; ancak aynı yayın alanında çerçeve göndermek için **hedef MAC** bilgisinin nasıl öğrenildiği ayrı bir sorudur — modül bu köprüyü **ARP (Address Resolution Protocol)** ile ele alır.
+- Bir cihazla aynı ağdaki başka bir cihaza veri gönderirken sadece IP bilmek yetmez.
+- Çünkü yerel ağda paketi son adımda teslim eden şey MAC adresidir.
+- Cihazlar "Bu IP hangi MAC'e ait?" sorusunu çözmek için ARP kullanır.
+- Bu mantığı anlamazsak "aynı Wi-Fi'de ama neden birbirine erişemiyor?" gibi sorunları çözmek zorlaşır.
 
 ---
 
@@ -27,45 +26,51 @@
 
 > Bu modülde ne öğrenilecek?
 
-- **Module Title:** The ARP Process
-- **Module Objective:** ARP’nin bir ağ üzerinde iletişimi nasıl mümkün kıldığını açıklamak
-- **Topic: MAC and IP**
-  - **Topic Objective:** MAC adresi ile IP adresinin rollerini karşılaştırmak
-- **Topic: Broadcast Containment**
-  - **Topic Objective:** Yayımları (broadcast) bir ağ içinde sınırlamanın neden önemli olduğunu açıklamak
+- IP ve MAC adresinin farkını net anlayacaksın.
+- ARP'nin ne zaman devreye girdiğini göreceksin.
+- ARP'nin temel akışını adım adım öğreneceksin.
+- Broadcast trafiğinin neden sınırlanması gerektiğini kavrayacaksın.
 
 ---
 
 ## 13.1 MAC and IP (MAC ve IP)
 
-> MAC ve IP rollerinin karşılaştırılması
+> IP ve MAC farkı (en sade haliyle)
 
 | | **IP adresi** | **MAC adresi** |
 | --- | --- | --- |
-| **Katman / rol** | Mantıksal adresleme (ör. IPv4/IPv6); uçtan uca yönlendirme ve alt ağ seçimi | Erişim katmanı (Ethernet vb.); yerel bağlantı üzerinde teslimat |
-| **Kapsam** | Yönlendiriciler arası değişebilir; farklı ağlara göre farklı adres atanabilir (DHCP ile konuma bağlı değişim tipik) | Genelde NIC başına sabit; yerel segmentte cihazı tanımlar |
-| **İletişimde işlevi** | “Paket bu ağda kime mantıksal olarak gidiyor?” | “Bu çerçeve fiziksel olarak hangi arayüze gidecek?” |
-| **ARP ile ilişki** | ARP sorgusu “Bu IP’ye sahip olanın MAC’i nedir?” diye sorar | ARP yanıtı bu eşlemeyi verir; ana bilgisayarlar ARP önbelleğinde tutar |
+| **Ne işe yarar?** | Hedefin ağdaki "mantıksal konumunu" gösterir | Hedef cihazın ağ kartı kimliğini gösterir |
+| **Nerede kullanılır?** | Ağlar arası yönlendirmede | Aynı yerel ağ içinde teslimatta |
+| **Değişir mi?** | Evet, farklı ağa geçince değişebilir (DHCP) | Genelde sabittir (cihaz kartına bağlıdır) |
+| **Benzetme** | Ev adresi gibi | Kapı zili/daire no gibi |
+
+### Mini örnek
+
+- Laptopun, yazıcının IP'sini biliyor: `192.168.1.50`
+- Ama veriyi gönderebilmek için yazıcının MAC adresi de gerekiyor.
+- Laptop ARP ile "192.168.1.50 kimde?" diye soruyor.
+- Yazıcı kendi MAC'i ile cevap veriyor.
+- Laptop bu bilgiyi kısa süreli ARP tablosunda saklıyor.
 
 ---
 
 ## 13.2 Broadcast Containment (Yayımların sınırlandırılması)
 
-> Broadcast’leri bir ağ (broadcast domain) içinde tutmanın önemi
+> Broadcast neden önemli?
 
-- **Broadcast**, aynı yayın alanındaki tüm düğümlerin işlemesi gereken trafiktir; her yayın tüm ilgili arayüzlerde iş yükü oluşturur.
-- **Yayımları sınırlamak**, broadcast domain’i küçük ve yönetilebilir tutmak demektir; böylece gereksiz işlemci ve bant genişliği tüketimi azalır (bkz. ayrıca [Network09 – broadcast kapsamı](Network09-ozet.md)).
-- **Yönlendiriciler** varsayılan olarak yayınları başka IP alt ağına iletmez; bu da doğal bir **broadcast containment** sağlar ve ARP gibi “yerel segment” protokollerinin etkisini o segment ile sınırlar.
-- ARP isteği yerel çözüm içindir; aşırı büyük tek bir yayın alanında çok sayıda ARP/broadcast, gecikmeyi ve çarpışma riskini artırabilir; bu nedenle tasarımda segmentasyon ve sınırlandırma önemlidir.
+- ARP isteği çoğu durumda broadcast olarak gider: ağdaki herkes duyar.
+- Ağ çok büyükse bu tür mesajlar gereksiz yük oluşturur.
+- Bu yüzden ağlar alt parçalara bölünür; broadcast alanı küçülür.
+- Router'lar broadcast'i diğer ağa taşımaz, bu da doğal bir sınır oluşturur.
 
 ---
 
 ## Kısa modül özeti
 
-- **IP** mantıksal konum ve yönlendirme; **MAC** yerel teslimat ve cihaz kimliği — birlikte çalışırlar.
-- DHCP ile IP değişebilir; aynı cihazın MAC’i yerel iletişimde sabit referanstır.
-- **ARP**, bilinen bir IP için yerel segmentte **MAC adresini çözümler** (istek genelde broadcast, yanıt unicast; sonuç ARP tablosunda önbelleğe alınır).
-- **Broadcast containment**, performans ve ölçeklenebilirlik için yayın trafiğini mantıksal sınırlar içinde tutmayı hedefler; router sınırları bu açıdan kritiktir.
+- IP, hedefin ağdaki adresini söyler; MAC, verinin hangi cihaza teslim edileceğini söyler.
+- ARP, IP'den MAC'e çeviri yaparak yerel iletişimi mümkün kılar.
+- ARP isteği broadcast olduğu için ağ büyüdükçe yük artar.
+- Bu nedenle broadcast alanını küçük tutmak performans için önemlidir.
 
 ---
 
