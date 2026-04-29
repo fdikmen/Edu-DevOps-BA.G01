@@ -86,5 +86,6 @@
 | 11 | [Network11 – Static and Dynamic Addressing](Network11-ozet.md) | Statik/dinamik IPv4, DHCP temelleri, karşılaştırma |
 | 12 | [Network12 – Gateways to Other Networks](Network12-ozet.md) | Gateway, NAT, ağ sınırları, router |
 | 13 | **Network13** (bu dosya) | ARP süreci, MAC/IP rolleri, broadcast containment |
+| 14 | [Network14 – Dividing the Local Network](Network14-ozet.md) | Yerel ağı bölme, congestion farkındalığı |
 
-**[← Network12](Network12-ozet.md)** · **[Modül README](README.md)**
+**[← Network12](Network12-ozet.md)** · **[Modül README](README.md)** · **[Network14 →](Network14-ozet.md)**
