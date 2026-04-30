@@ -20,3 +20,4 @@ Ağ modülü. Slayt özetleri aşağıdadır; özetler arası geçiş linkleri h
 | 12 | Network12 | [Network12-ozet.md](Network12-ozet.md) | Gateways to Other Networks: gateway, NAT, ağ sınırları, router ile ağların birleştirilmesi |
 | 13 | Network13 | [Network13-ozet.md](Network13-ozet.md) | The ARP Process: MAC/IP rolleri, ARP ile yerel adres çözümlemesi, broadcast containment |
 | 14 | Network14 | [Network14-ozet.md](Network14-ozet.md) | Dividing the Local Network: yerel ağı bölme, congestion farkındalığı, segmentasyon ihtiyacı |
+| 15 | Network15 | [Network15-ozet.md](Network15-ozet.md) | Comparing TCP and UDP: güvenilirlik-gecikme dengesi ve kullanım senaryosuna göre protokol seçimi |
