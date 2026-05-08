@@ -31,8 +31,7 @@
 27. 16.7.4 Internet Phone Calls
 28. 16.8 Application Layer Services Summary
 29. 16.8.1 What Did I Learn in this Module?
-30. Kısa modül özeti
-31. Özetler arası geçiş
+30. Özetler arası geçiş
 
 ---
 
@@ -332,12 +331,6 @@
 - Virtual terminal: Telnet (güvensiz) ve SSH (güvenli).
 - E-posta: SMTP gönderim, POP3/IMAP4 alma yaklaşımları.
 - Mesajlaşma/VoIP: Gerçek zamanlı iletişim ve internet tabanlı aramalar.
-
----
-
-## Kısa modül özeti
-
-- Module 16, uygulama katmanındaki temel servislerin (DNS, HTTP/HTTPS, FTP, SSH, SMTP/POP3/IMAP) birlikte çalışarak kullanıcıya web erişimi, dosya transferi, uzak yönetim, e-posta ve mesajlaşma deneyimi sunduğunu açıklar.
 
 ---
 
