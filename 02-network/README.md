@@ -21,5 +21,5 @@ Ağ modülü. Slayt özetleri aşağıdadır; özetler arası geçiş linkleri h
 | 13 | Network13 | [Network13-ozet.md](Network13-ozet.md) | The ARP Process: MAC/IP rolleri, ARP ile yerel adres çözümlemesi, broadcast containment |
 | 14 | Network14 | [Network14-ozet.md](Network14-ozet.md) | Dividing the Local Network: yerel ağı bölme, congestion farkındalığı, segmentasyon ihtiyacı |
 | 15 | Network15 | [Network15-ozet.md](Network15-ozet.md) | Comparing TCP and UDP: güvenilirlik-gecikme dengesi ve kullanım senaryosuna göre protokol seçimi |
-| 16 | Network16 | [Network16-ozet.md](Network16-ozet.md) | Application Layer Services: istemci-sunucu ilişkisi, uygulama katmanı servisleri, etkileşim akışı |
+| 16 | Network16 | [Network16-ozet.md](Network16-ozet.md) | Application Layer Services: client-server, DNS, HTTP/HTML, FTP, Telnet/SSH, e-posta (SMTP/POP3/IMAP4), mesajlaşma, VoIP |
 | 17 | Network17 | [Network17-ozet.md](Network17-ozet.md) | Network Testing Utilities: `ipconfig`, `ping`, `netstat`, `tracert`, `nslookup` ve sorun giderme |

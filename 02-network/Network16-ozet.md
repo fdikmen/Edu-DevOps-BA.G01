@@ -1,336 +1,296 @@
-# Network16 – Application Layer Services (Uygulama Katmanı Servisleri)
+# Modül 16: Application Layer Services — Uygulama Katmanı Servisleri
 
-## İçindekiler
+## 📌 Modül Genel Bakış
 
-1. 16.0 Introduction
-2. 16.0.1 Webster - Why Should I Take this Module?
-3. 16.0.2 What Will I Learn in this Module?
-4. 16.1 The Client Server Relationship
-5. 16.1.1 Client and Server Interaction
-6. 16.1.2 Video - Web Server and Client IP Interactions
-7. 16.1.3 URI, URN, and URL
-8. 16.2 Network Application Services
-9. 16.2.1 Common Network Application Services
-10. 16.3 Domain Name System
-11. 16.3.1 Video - DNS Servers
-12. 16.3.3 Syntax Checker - The nslookup Command
-13. 16.4 Web Clients and Servers
-14. 16.4.1 Video - HTTP and HTML
-15. 16.4.2 HTTP and HTML
-16. 16.5 FTP Clients and Servers
-17. 16.5.1 File Transfer Protocol
-18. 16.5.2 Video - FTP Client Software
-19. 16.6 Virtual Terminals
-20. 16.6.1 Video - Remote Access with Telnet or SSH
-21. 16.6.2 Telnet
-22. 16.6.3 Security Issues with Telnet
-23. 16.7 Email and Messaging
-24. 16.7.1 Email Clients and Servers
-25. 16.7.2 Email Protocols
-26. 16.7.3 Text Messaging
-27. 16.7.4 Internet Phone Calls
-28. 16.8 Application Layer Services Summary
-29. 16.8.1 What Did I Learn in this Module?
-30. Özetler arası geçiş
+Bu modülde internet üzerindeki temel iletişimi mümkün kılan **uygulama katmanı servislerini** ve protokollerini ele alıyoruz. Temel mantık: bilgisayarınızda olmayan bir şeyi almak istediğinizde siz **client**, karşı taraf **server** olur ve protokoller devreye girer.
+
+**Modül Hedefi:** Yaygın uygulama katmanı servislerinin işlevini açıklayabilmek.
 
 ---
 
-## 16.0 Introduction
+## 🏥 Giriş Senaryosu — Neden Önemli?
 
-> Bu modül neye giriş yapıyor?
+Bir hastanede çalışan Kishori, hasta dosyasına erişmek istiyor. Bunu defalarca yaptı ama hiç düşünmedi:
 
-- Modül, uygulama katmanındaki servislerin günlük ağ kullanımını nasıl mümkün kıldığını açıklar.
-- Kullanıcının bir kaynağa erişiminde istemci, sunucu ve protokollerin birlikte nasıl çalıştığına odaklanır.
+- Bu elektronik belge **nereden geliyor?**
+- Hastane intranet'ine **nasıl bağlanıyor?**
+- İnternete **nasıl erişiyor?**
 
----
-
-## 16.0.1 Webster - Why Should I Take this Module?
-
-> Bu modül neden gerekli?
-
-- Kishori örneği üzerinden, bir dosyaya erişirken arka planda hangi ağ süreçlerinin çalıştığı sorgulanır.
-- Uzak bir kaynağa erişimde her zaman bir istemci-sunucu ilişkisi ve ilgili protokoller devrededir.
-- FTP, DHCP, DNS gibi servisler uygulama katmanında kritik rol oynar.
+Tüm bunları mümkün kılan şey **uygulama katmanı servisleridir**.
 
 ---
 
-## 16.0.2 What Will I Learn in this Module?
+## 📚 Modülde Öğrenilen Konular
 
-> Bu modülde ne öğrenilecek?
-
-- İstemci-sunucu etkileşimini açıklama
-- Yaygın ağ uygulama servislerini tanıma
-- DNS'in çalışma mantığını kavrama
-- HTTP ve HTML ilişkisini anlama
-- FTP'nin dosya aktarımındaki rolünü öğrenme
-- Telnet ve SSH ile uzak erişimi karşılaştırma
-- E-posta ve mesajlaşma protokollerini ayırt etme
+1. Client ve server'ın nasıl etkileşime girdiği
+2. Yaygın network uygulamalarının nasıl çalıştığı
+3. DNS'in ne işe yaradığı
+4. HTTP ve HTML'in web'i nasıl çalıştırdığı
+5. FTP ile dosya transferi
+6. Telnet ve SSH ile sanal terminal bağlantıları
+7. E-posta protokolleri: SMTP, POP ve IMAP
 
 ---
 
-## 16.1 The Client Server Relationship
+## 1️⃣ Client–Server Etkileşimi
 
-> İstemci-sunucu modeli neden temel?
+**Server:** Ağa bağlı diğer cihazlara bilgi veya servis sağlayan yazılımı çalıştıran host'tur. Milyonlarca server internete bağlı: web siteleri, e-posta, finansal işlemler, müzik indirme...
 
-- İnternetteki çoğu uygulama, istemcinin istek gönderip sunucunun yanıt verdiği modele dayanır.
-- Sunucu, hizmet veya veri sunan yazılımı çalıştıran hosttur.
-- İstemci tarafında tarayıcı, e-posta istemcisi veya dosya istemcisi gibi yazılımlar bulunur.
+**Client:** Chrome, Firefox gibi web tarayıcıları. Tek bir bilgisayar aynı anda birden fazla client yazılımı çalıştırabilir — e-postanızı açarken web'e bakabilir, mesajlaşabilir, müzik dinleyebilirsiniz.
 
----
+> Tüm bunların çalışabilmesi için ortak bir dil konuşmaları gerekir: **üzerinde anlaşılmış standartlar ve protokoller.**
 
-## 16.1.1 Client and Server Interaction
+### Temel Server Türleri
 
-> Etkileşim nasıl gerçekleşir?
-
-- Aynı cihazda birden fazla istemci uygulaması aynı anda çalışabilir.
-- E-posta, web ve dosya servisleri farklı sunucu yazılımlarıyla sunulur.
-- Bu karmaşık iletişimin sorunsuz işlemesi, ortak standart ve protokoller sayesinde mümkündür.
+| Server Türü | Açıklama |
+|-------------|----------|
+| **Email Server** | Outlook gibi mail client'lar bu sunucular üzerinden e-postaya erişir |
+| **Web Server** | Chrome veya Firefox gibi tarayıcılar web sayfalarına bu sunuculardan erişir |
+| **File Server** | Şirket dosyaları merkezi tutulur; Windows File Explorer gibi araçlarla erişilir |
 
 ---
 
-## 16.1.2 Video - Web Server and Client IP Interactions
+## 2️⃣ Web Client–Server IP Etkileşimi
 
-> Web istemcisi web sunucusuna nasıl erişir?
+Bir web sayfası açıldığında arka planda şu adımlar gerçekleşir:
 
-- Kullanıcı URL girer; önce DNS sorgusu ile alan adı IP adresine çevrilir.
-- Ardından istemci ile sunucu arasında TCP bağlantısı kurulur.
-- İletişim, kaynak/hedef IP ve port bilgilerinin birleştiği socket yapısı ile takip edilir.
-- Aynı oturuma ait paketler router ve firewall gibi cihazlarca bu bilgilerle tanınır.
+```
+URL → DNS Lookup → IP Adresi Öğren → TCP Bağlantısı Kur → HTTP İsteği → Sayfa Gelir
+```
 
----
+### Adım Adım Senaryo (`www.learnip.com` örneği)
 
-## 16.1.3 URI, URN, and URL
-
-> URI, URN, URL farkı
-
-- URI bir kaynağı tanımlayan genel ifadedir.
-- URN, kaynağın ad alanını belirtir; konum/protokol bilgisi vermez.
-- URL, kaynağın ağ üzerindeki yerini ve erişim yöntemini belirtir.
-- URI bileşenleri: protocol/scheme, hostname, path/file name, fragment.
+1. **DNS Lookup:** Sistem DNS sunucusuna `www.learnip.com`'un IP adresini sorar → `172.16.10.50` döner
+2. **TCP Bağlantısı:** Client (`192.168.10.15:5507`) ile Server (`172.16.10.50:80`) arasında bağlantı kurulur
+3. **Socket Oluşur:** Kaynak IP:port + Hedef IP:port kombinasyonu o konuşmayı benzersiz tanımlar; router'lar ve firewall'lar bu bilgiyi okur
+4. **İstek & Yanıt:** Server gelen paketi port 80'den alır, web sayfasını hazırlar ve geri gönderir
 
 ---
 
-## 16.2 Network Application Services
+## 3️⃣ URI, URN ve URL
 
-> Ağ uygulama servisleri neden önemli?
+**URI (Uniform Resource Identifier):** Bir ağ kaynağını tanımlayan karakter dizisi. İki alt türü vardır:
 
-- Arama, sosyal medya, yayın, alışveriş, e-posta ve mesajlaşma gibi servisler uygulama katmanı protokolleriyle çalışır.
-- Güvenilir iletişim için TCP/IP protokol takımı kullanılır.
+| Kavram | Açıklama | Soru |
+|--------|----------|------|
+| **URN** (Uniform Resource Name) | Kaynağın adını tanımlar, protokol referansı içermez | "Bu kaynak nedir?" |
+| **URL** (Uniform Resource Locator) | Kaynağın ağdaki konumunu tanımlar | "Bu kaynağa nasıl ulaşırım?" |
 
----
+### URL Anatomisi
 
-## 16.2.1 Common Network Application Services
-
-> Yaygın servisler ve görevleri
-
-- DNS: İsimleri IP adreslerine çözer.
-- SSH: Sunucu ve ağ cihazlarına güvenli uzak erişim sağlar.
-- SMTP: E-posta gönderimini sunucular arasında da taşır.
-- POP/IMAP: E-postayı istemciye getirir (farklı çalışma mantıklarıyla).
-- DHCP: Cihazlara otomatik IP ve ağ ayarları verir.
-- HTTP: Web sayfalarının istenmesi ve iletilmesini sağlar.
-- FTP: Sistemler arası dosya aktarımı yapar.
-
----
-
-## 16.3 Domain Name System
-
-> DNS ne yapar?
-
-- DNS, alan adını IP adresine çevirerek istemcinin doğru sunucuya erişmesini sağlar.
-- Kullanıcı adı hatırlarken, ağ altyapısı IP ile çalışır; DNS bu iki dünyayı bağlar.
+```
+https://www.example.com/author/book.html#page155
+│       │               │                │
+│       │               │                └── Fragment: sayfa içi konum
+│       │               └─────────────────── Path & File: dosya yolu
+│       └─────────────────────────────────── Hostname: sunucu adresi
+└─────────────────────────────────────────── Protocol/Scheme: kullanılan protokol
+```
 
 ---
 
-## 16.3.1 Video - DNS Servers
+## 4️⃣ Yaygın Network Uygulama Servisleri
 
-> DNS süreci adım adım
-
-- İstemci `www.cisco.com` gibi bir ad ister.
-- DNS sunucusu ilgili IP'yi bulup istemciye döner.
-- İstemci bu IP ile hedef web sunucusuna bağlanır ve içeriği alır.
-
----
-
-## 16.3.3 Syntax Checker - The nslookup Command
-
-> `nslookup` ne işe yarar?
-
-- `nslookup`, alan adının hangi IP'ye çözüldüğünü test etmek için kullanılır.
-- Ev ağlarında DNS adresi çoğunlukla DHCP ile otomatik dağıtılır.
-- Manuel yapılandırmada DNS adresinin doğru verilmesi kritik önemdedir.
+| Protokol | Port | İşlev |
+|----------|------|-------|
+| **DNS** | 53 | Alan adlarını IP adreslerine çevirir |
+| **DHCP** | 67/68 | Cihazlara otomatik IP adresi ve ağ yapılandırması atar |
+| **HTTP** | 80 | Web sayfalarını istemek ve iletmek için kullanılır |
+| **HTTPS** | 443 | Şifrelenmiş güvenli web iletişimi |
+| **FTP** | 20/21 | Sistemler arasında dosya transferi |
+| **SSH** | 22 | Sunuculara güvenli uzaktan erişim |
+| **SMTP** | 25 | E-posta gönderme |
+| **POP3** | 110 | E-posta indirme (sunucudan siler) |
+| **IMAP4** | 143 | E-postaya sunucu üzerinden erişim (sunucuda kalır) |
 
 ---
 
-## 16.4 Web Clients and Servers
+## 5️⃣ DNS (Domain Name System)
 
-> Web erişimi hangi iki temel üzerine kurulu?
+DNS'in görevi çok basit ama kritik: **bir domain adını IP adresiyle eşleştirmek.**
 
-- HTTP ile istemci-sunucu arasında istek/yanıt taşınır.
-- HTML ile web sayfası içeriği ve biçimi tarayıcıda oluşturulur.
+> DNS olmadan her web sitesini sadece IP adresiyle hatırlamak zorunda kalırdık.
 
----
+### DNS Çalışma Süreci
 
-## 16.4.1 Video - HTTP and HTML
+```
+1. Kullanıcı → browser'a "www.cisco.com" yazar
+2. Sistem    → DNS sunucusuna IP adresini sorar
+3. DNS       → "www.cisco.com = 104.x.x.x" döner
+4. Host      → bu IP adresini kullanarak web sunucusuna bağlanır
+5. Web sayfası indirilir
+```
 
-> Tarayıcıdan web sayfasına giden yol
+### Test Komutu
 
-- Önce DNS çözümlemesi yapılır.
-- Sonra istemci HTTP isteğini web sunucusuna gönderir.
-- Sunucu HTML içeriği döner; tarayıcı bu kodu render eder.
-
----
-
-## 16.4.2 HTTP and HTML
-
-> Güvenlik ve portlar
-
-- HTTP istekleri tipik olarak port 80 üzerinden gider.
-- HTTP tek başına güvenli değildir; veriler yakalanabilir.
-- Güvenli web için HTTPS kullanılır ve istekler port 443'e gider.
-- Ortak HTTP/HTML standartları, farklı üreticilerin sistemlerinin birlikte çalışmasını sağlar.
+```bash
+nslookup www.cisco.com   # Windows ve Linux'ta çalışır
+```
 
 ---
 
-## 16.5 FTP Clients and Servers
+## 6️⃣ HTTP ve HTML
 
-> FTP neden kullanılır?
+- **HTTP (Hypertext Transfer Protocol):** Bilginin client ile web server arasında nasıl iletileceğini yöneten kurallar bütünü
+- **HTML (Hypertext Markup Language):** Web sayfasının içeriğini oluşturan kod
 
-- Dosya yükleme/indirme ve uzaktan dosya yönetimi için kullanılır.
-- Web sitesi dosyalarını sunucuya aktarma gibi senaryolarda yaygındır.
+### Web Sayfası Yükleme Süreci
 
----
+```
+1. DNS lookup → domain adı IP'ye çevrilir
+2. HTTP isteği → web server'a gönderilir
+3. Server → HTML kodunu HTTP ile geri gönderir
+4. Browser → HTML'i yorumlar ve sayfayı ekranda gösterir
+```
 
-## 16.5.1 File Transfer Protocol
-
-> FTP iletişim yapısı
-
-- FTP iki ayrı TCP portu kullanır:
-  - Kontrol bağlantısı: TCP 21
-  - Veri aktarımı: TCP 20
-- İstemci; upload, download, silme, yeniden adlandırma gibi işlemler yapabilir.
+> ⚠️ **Güvenlik Uyarısı:** HTTP şifreleme yapmaz — veri düz metin olarak iletilir, kolayca ele geçirilebilir. Günümüzde **HTTPS (port 443)** kullanılmalıdır.
 
 ---
 
-## 16.5.2 Video - FTP Client Software
+## 7️⃣ FTP (File Transfer Protocol)
 
-> FTP istemci yazılımı kullanımı
+FTP, bir bilgisayardan diğerine dosya aktarmanın kolay yolunu sunar.
 
-- FileZilla gibi araçlarla sunucuya bağlanıp dosya transferi yapılabilir.
-- Arayüzde yerel dosyalar ve uzak sunucu dosyaları birlikte görülür.
-- Sürükle-bırak ile dosya aktarımı pratik biçimde tamamlanır.
+### İki Port, Bir Protokol
 
----
+| Port | Kullanım |
+|------|----------|
+| **Port 21** | Kontrol bağlantısı — FTP oturumu başlatılır |
+| **Port 20** | Veri transferi — asıl dosyalar bu port üzerinden taşınır |
 
-## 16.6 Virtual Terminals
+### FTP Client Araçları
 
-> Sanal terminal kavramı
+- **Komut satırı:** Windows, macOS ve Linux'ta yerleşik `ftp` komutu
+- **GUI aracı:** [FileZilla](https://filezilla-project.org) — sürükle-bırak ile kolay dosya transferi
 
-- Uzak bir sisteme sanki başındaymış gibi komut satırı erişimi sağlamayı hedefler.
-- Telnet ve SSH bu alandaki temel protokollerdir.
+**FileZilla Arayüzü:**
 
----
-
-## 16.6.1 Video - Remote Access with Telnet or SSH
-
-> Uzak erişim örneği
-
-- Tera Term benzeri istemci ile host adına bağlanılır.
-- Kullanıcı adı/şifre doğrulaması sonrası uzaktaki sistemin CLI'ı kullanılabilir.
-- SSH, Telnet'e göre daha güvenli olduğu için öncelikli tercihtir.
+- **Toolbar:** Araç çubuğu
+- **Quick connect bar:** Hızlı bağlantı
+- **Message log:** İşlem geçmişi
+- **Local pane:** Kendi bilgisayarınızdaki dosyalar
+- **Remote pane:** Uzak sunucudaki dosyalar
+- **Transfer queue:** Transfer kuyruğu
 
 ---
 
-## 16.6.2 Telnet
+## 8️⃣ Virtual Terminals: Telnet ve SSH
 
-> Telnet'in rolü
+Her iki protokol de uzak bir bilgisayara bağlanıp onu **sanki yerel bir terminalmiş gibi** kullanmayı sağlar. Bu yapıya **"virtual terminal"** denir.
 
-- Eski ama temel bir uzak terminal protokolüdür.
-- Telnet sunucuları TCP port 23 dinler.
-- Telnet oturumu, vty (virtual terminal) bağlantısı olarak adlandırılır.
+### Telnet (Port 23)
 
----
+- TCP/IP'nin en eski uygulama katmanı protokollerinden biri (1970'ler)
+- Fiziksel terminal cihazlarının ağ üzerinden yazılımla simülasyonu
+- Bağlantı türü: **vty (virtual terminal) session**
+- **Kritik Güvenlik Sorunu:** Şifreleme yapmaz — parolalar dahil her şey ağda düz metin olarak iletilir, kolayca ele geçirilebilir
+- Modern sistemlerde varsayılan olarak kapalı; çoğu yerde kullanımı yasaklanmıştır
 
-## 16.6.3 Security Issues with Telnet
+### SSH (Secure Shell)
 
-> Telnet neden riskli?
+Telnet'in güvenli halefi olarak geliştirilmiştir:
 
-- Telnet trafiği şifrelenmez; veriler plaintext taşınır.
-- Bu nedenle kimlik bilgileri ve komutlar kolayca ele geçirilebilir.
-- SSH, şifreleme ve daha güçlü kimlik doğrulama sunduğu için güvenli alternatiftir.
+- **Güçlü kimlik doğrulama**
+- **Şifrelenmiş veri iletimi**
+- **Güvenli uzak erişim**
 
----
+Tera Term (Windows), PuTTY veya macOS Terminal gibi araçlarla SSH bağlantısı kurulabilir.
 
-## 16.7 Email and Messaging
+> 🔑 **Altın Kural:** Mümkün olan her ortamda **Telnet yerine SSH kullanın.**
 
-> E-posta ve anlık mesajlaşma
+### Telnet vs SSH Karşılaştırması
 
-- E-posta klasik istemci-sunucu modelinde çalışır.
-- Mesajlaşma uygulamaları gerçek zamanlı iletişim sağlar ve çoğu çoklu platform destekler.
-
----
-
-## 16.7.1 Email Clients and Servers
-
-> E-posta mimarisi
-
-- Mail sunucuları kullanıcı posta kutularını tutar ve yönetir.
-- Kullanıcılar istemci uygulamalarla (web veya masaustu) posta kutusuna erişir.
-- Adres formatı: `user@company.domain`
+| Özellik | Telnet | SSH |
+|---------|--------|-----|
+| Port | 23 | 22 |
+| Şifreleme | ❌ Yok | ✅ Tam şifreleme |
+| Kimlik Doğrulama | Zayıf | Güçlü |
+| Güvenlik | Güvensiz | Güvenli |
+| Kullanım Durumu | Eski sistemler / test | Üretim ortamları |
 
 ---
 
-## 16.7.2 Email Protocols
+## 9️⃣ E-posta: Client, Server ve Protokoller
 
-> SMTP, POP3, IMAP4 farkı
+E-posta, internetin en popüler client/server uygulamalarından biridir. Her mail server, kullanıcıların posta kutularını depolar; Outlook, Gmail gibi client'lar bu mesajlara erişim sağlar.
 
-- SMTP (port 25): E-posta gönderimi için kullanılır.
-- POP3 (port 110): Mesajları istemciye indirir; varsayılan olarak sunucuda bırakmaz.
-- IMAP4 (port 143): Mesajları sunucuda tutar; çoklu cihaz senaryoları için daha uygundur.
+**Posta kutusu formatı:** `kullanici@sirket.domain`
 
----
+### Üç Temel E-posta Protokolü
 
-## 16.7.3 Text Messaging
+#### SMTP — Simple Mail Transfer Protocol (Port 25)
 
-> Anlık mesajlaşma özellikleri
+E-posta **göndermek** için kullanılır. Client, e-postayı yerel mail server'a SMTP ile teslim eder; server da gerekirse başka bir server'a yine SMTP ile iletir.
 
-- Instant/direct/private/chat mesajları aynı kategoridedir.
-- Web tabanlı ya da bağımsız istemciler üzerinden gerçek zamanlı iletişim yapılır.
-- Modern araçlar metne ek olarak belge, ses ve video dosyalarını da taşır.
+#### POP3 — Post Office Protocol (Port 110)
 
----
+E-postaları server'dan **indirmek** için kullanılır. Mesajlar bilgisayara indirilir ve varsayılan olarak server'dan silinir. Tek cihazdan erişim senaryolarına uygundur.
 
-## 16.7.4 Internet Phone Calls
+#### IMAP4 — Internet Message Access Protocol (Port 143)
 
-> İnternet telefon görüşmeleri
+E-postalara server üzerinden **erişmek** için kullanılır. Mesajlar kullanıcı silene kadar server'da kalır. Birden fazla cihazdan (telefon, laptop, tablet) e-postaya erişmek için idealdir.
 
-- IP telefonide VoIP kullanılır; analog ses dijitale çevrilip IP paketlerine kapsullenir.
-- Aynı servis kullanıcıları arasında doğrudan internet araması yapılabilir.
-- Klasik telefon ağına (PSTN) çıkış için gateway gerekir; hizmete göre ücret olabilir.
+### Protokol Karşılaştırması
 
----
-
-## 16.8 Application Layer Services Summary
-
-> Modülün genel mesajı
-
-- Uygulama katmanı servisleri, internet deneyiminin görünen kısmını taşıyan temel yapı taşlarıdır.
-- İstemci-sunucu modeli, standartlar ve doğru protokol seçimi güvenilir hizmet için zorunludur.
+| Protokol | Port | Amaç | Mesaj Sunucuda Kalır mı? |
+|----------|------|-------|--------------------------|
+| **SMTP** | 25 | Göndermek | — |
+| **POP3** | 110 | İndirmek | ❌ Varsayılan olarak silinir |
+| **IMAP4** | 143 | Erişmek | ✅ Kullanıcı silene kadar kalır |
 
 ---
 
-## 16.8.1 What Did I Learn in this Module?
+## 🔟 Text Messaging (Anlık Mesajlaşma)
 
-> Öğrenilenlerin toplu özeti
+Instant message, direct message, private message, chat — farklı isimler, aynı fikir: **gerçek zamanlı internet üzerinden yazışma.**
 
-- Client-server modeli: İstemci ister, sunucu yanıtlar.
-- URI/URN/URL: Kaynağı tanımlama ve konumlama yapıları.
-- DNS: İsimden IP'ye çözümleme.
-- Web: HTTP/HTTPS ile içerik taşıma, HTML ile gösterim.
-- FTP: Port 21 kontrol, port 20 veri aktarımı.
-- Virtual terminal: Telnet (güvensiz) ve SSH (güvenli).
-- E-posta: SMTP gönderim, POP3/IMAP4 alma yaklaşımları.
-- Mesajlaşma/VoIP: Gerçek zamanlı iletişim ve internet tabanlı aramalar.
+- **Platform entegreli:** Sosyal medya platformlarının web client'ları üzerinden erişilebilir
+- **Bağımsız uygulamalar:** Cisco Webex Teams, Microsoft Teams, WhatsApp, Facebook Messenger
+- **Zengin medya desteği:** Metin dışında belge, video, müzik ve ses dosyası gönderilebilir
+- **Çoklu cihaz:** Sadece akıllı telefona özgü değil — bilgisayar, tablet, akıllı saat ve daha fazlasında kullanılabilir
+
+---
+
+## 1️⃣1️⃣ VoIP — İnternet Üzerinden Telefon
+
+**VoIP (Voice over IP):** Analog ses sinyallerini dijital veriye dönüştürür, IP paketlerine kapsüller ve ağ üzerinden iletir — tıpkı diğer veriler gibi.
+
+### VoIP Çalışma Süreci
+
+```
+Mikrofon → Ses kaydedilir (analog)
+         → Dijital veriye dönüştürülür
+         → IP paketlerine kapsüllenir
+         → Ağ üzerinden alıcıya iletilir
+```
+
+### Kullanıma Başlamak
+
+1. IP telefon yazılımını yükle
+2. Benzersiz bir kullanıcı adı seç
+3. Mikrofon ve hoparlörü bağla (genellikle kulaklık kullanılır)
+4. Aynı servisteki kullanıcılarla **ücretsiz** görüşme yapılır
+5. Normal telefon hatlarına bağlanmak için **PSTN gateway** gerekir (ücretli olabilir)
+
+---
+
+## 📋 Modül Özeti
+
+| Konu | Özet |
+|------|------|
+| **Client–Server** | Server hizmet sunar, client ister. Kaynaklar URI/URL/URN ile tanımlanır |
+| **DNS** | Domain adlarını IP'ye çevirir. Test: `nslookup` |
+| **HTTP/HTTPS** | HTTP web içeriği iletir (şifresiz). HTTPS port 443 ile güvenli iletim sağlar |
+| **FTP** | Dosya transferi. Port 21 (kontrol) + Port 20 (veri) |
+| **Telnet** | Uzak terminal erişimi — şifresiz, güvensiz (Port 23) |
+| **SSH** | Uzak terminal erişimi — şifreli, güvenli. **Her zaman tercih edilmeli** |
+| **SMTP** | E-posta gönderme (Port 25) |
+| **POP3** | E-posta indirme, sunucudan siler (Port 110) |
+| **IMAP4** | E-postaya erişim, sunucuda tutar (Port 143) |
+| **Mesajlaşma** | Gerçek zamanlı iletişim; çoklu platform ve medya desteği |
+| **VoIP** | Ses → IP paketi → ağ üzerinden iletim |
+
+> 📝 *Bu özet, Network-16 modülü sunumu ve konuşmacı notları esas alınarak hazırlanmıştır.*
 
 ---
 
@@ -353,7 +313,7 @@
 | 13 | [Network13 – The ARP Process](Network13-ozet.md) | ARP süreci, MAC/IP rolleri, broadcast containment |
 | 14 | [Network14 – Dividing the Local Network](Network14-ozet.md) | Yerel ağı bölme, congestion farkındalığı |
 | 15 | [Network15 – Comparing TCP and UDP](Network15-ozet.md) | TCP ve UDP karşılaştırması, kullanım senaryosu odaklı protokol seçimi |
-| 16 | **Network16** (bu dosya) | Application Layer Services, DNS-HTTP-FTP-SSH ve e-posta/mesajlaşma servisleri |
+| 16 | **Network16** (bu dosya) | Client-server, DNS, HTTP/HTML, FTP, Telnet/SSH, e-posta, mesajlaşma, VoIP |
 | 17 | [Network17 – Network Testing Utilities](Network17-ozet.md) | `ipconfig`, `ping` ve temel ağ test CLI araçları; sorun giderme mantığı |
 
 **[← Network15](Network15-ozet.md)** · **[Modül README](README.md)** · **[Network17 →](Network17-ozet.md)**
