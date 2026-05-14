@@ -17,6 +17,12 @@ BA DevOps Egitimi - Grup 01
 
 ---
 
+## Kahoot (Network)
+
+[Network Kahoot arşivi](02-network/network-kahoot-arsiv.md) — ders içi soru oyunları, tekrarsız link listesi.
+
+---
+
 ## Network Özetleri
 
 [`Network01`](02-network/Network01-ozet.md) ·

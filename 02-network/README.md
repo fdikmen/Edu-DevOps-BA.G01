@@ -2,6 +2,8 @@
 
 Ağ modülü. Slayt özetleri aşağıdadır; özetler arası geçiş linkleri her dosyanın sonunda bulunur.
 
+**Kahoot (Network):** [network-kahoot-arsiv.md](network-kahoot-arsiv.md)
+
 ## Özetler
 
 | Sıra | Slayt | Özet | İçerik |
