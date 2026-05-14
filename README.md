@@ -32,4 +32,7 @@ BA DevOps Egitimi - Grup 01
 [`Network11`](02-network/Network11-ozet.md) ·
 [`Network12`](02-network/Network12-ozet.md) ·
 [`Network13`](02-network/Network13-ozet.md) ·
-[`Network14`](02-network/Network14-ozet.md)
+[`Network14`](02-network/Network14-ozet.md) ·
+[`Network15`](02-network/Network15-ozet.md) ·
+[`Network16`](02-network/Network16-ozet.md) ·
+[`Network17`](02-network/Network17-ozet.md)
