@@ -51,5 +51,6 @@
 | 14 | [Network14 – Dividing the Local Network](Network14-ozet.md) | Yerel ağı bölme, congestion farkındalığı |
 | 15 | **Network15** (bu dosya) | TCP ve UDP karşılaştırması, kullanım senaryosu odaklı protokol seçimi |
 | 16 | [Network16 – Application Layer Services](Network16-ozet.md) | Application Layer Services, istemci-sunucu etkileşimi, servislerin rolü |
+| 17 | [Network17 – Network Testing Utilities](Network17-ozet.md) | `ipconfig`, `ping` ve temel ağ test CLI araçları; sorun giderme mantığı |
 
 **[← Network14](Network14-ozet.md)** · **[Modül README](README.md)** · **[Network16 →](Network16-ozet.md)**
