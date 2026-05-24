@@ -17,21 +17,10 @@ BA DevOps Eğitimi — Grup 01
 
 ---
 
-## İçerik özeti
+## Network
 
-| Modül | Durum | Not |
-| --- | --- | --- |
-| **02 – Network** | Özetler (Network01–17), Kahoot arşivi | Ana materyal burada |
-| **03 – Linux** | LPIC-1 101.1, 101.2 notları | Donanım ayarları, sistem önyükleme |
-| **01 – Computer Architecture** | — | İçerik eklenecek |
-| **04 – DevOps** | — | İçerik eklenecek |
+Tam liste ve açıklamalar: [02-network/README.md](02-network/README.md)
 
----
+Kahoot: [network-kahoot-arsiv.md](02-network/network-kahoot-arsiv.md)
 
-## Network — hızlı erişim
-
-Tam liste ve açıklamalar: **[02-network/README.md](02-network/README.md)**
-
-**Kahoot:** [network-kahoot-arsiv.md](02-network/network-kahoot-arsiv.md)
-
-**Özetler:** [Network01](02-network/Network01-ozet.md) · [Network02](02-network/Network02-ozet.md) · [Network03](02-network/Network03-ozet.md) · [Network04](02-network/Network04-ozet.md) · [Network05](02-network/Network05-ozet.md) · [Network06](02-network/Network06-ozet.md) · [Network07](02-network/Network07-ozet.md) · [Network08](02-network/Network08-ozet.md) · [Network09](02-network/Network09-ozet.md) · [Network10](02-network/Network10-ozet.md) · [Network11](02-network/Network11-ozet.md) · [Network12](02-network/Network12-ozet.md) · [Network13](02-network/Network13-ozet.md) · [Network14](02-network/Network14-ozet.md) · [Network15](02-network/Network15-ozet.md) · [Network16](02-network/Network16-ozet.md) · [Network17](02-network/Network17-ozet.md)
+Özetler: [Network01](02-network/Network01-ozet.md) · [Network02](02-network/Network02-ozet.md) · [Network03](02-network/Network03-ozet.md) · [Network04](02-network/Network04-ozet.md) · [Network05](02-network/Network05-ozet.md) · [Network06](02-network/Network06-ozet.md) · [Network07](02-network/Network07-ozet.md) · [Network08](02-network/Network08-ozet.md) · [Network09](02-network/Network09-ozet.md) · [Network10](02-network/Network10-ozet.md) · [Network11](02-network/Network11-ozet.md) · [Network12](02-network/Network12-ozet.md) · [Network13](02-network/Network13-ozet.md) · [Network14](02-network/Network14-ozet.md) · [Network15](02-network/Network15-ozet.md) · [Network16](02-network/Network16-ozet.md) · [Network17](02-network/Network17-ozet.md)
