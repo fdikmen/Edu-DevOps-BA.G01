@@ -2,7 +2,15 @@
 
 Ağ modülü. Slayt özetleri aşağıdadır; özetler arası geçiş linkleri her dosyanın sonunda bulunur.
 
-**Kahoot (Network):** [network-kahoot-arsiv.md](network-kahoot-arsiv.md)
+**[← Depo README](../README.md)**
+
+---
+
+## Kahoot
+
+Ders içi soru oyunları (tekrarsız link listesi): **[network-kahoot-arsiv.md](network-kahoot-arsiv.md)**
+
+---
 
 ## Özetler
 
