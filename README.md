@@ -22,7 +22,7 @@ BA DevOps Eğitimi — Grup 01
 | Modül | Durum | Not |
 | --- | --- | --- |
 | **02 – Network** | Özetler (Network01–17), Kahoot arşivi | Ana materyal burada |
-| **03 – Linux** | LPIC-1 101.1 notları | Donanım ayarları |
+| **03 – Linux** | LPIC-1 101.1, 101.2 notları | Donanım ayarları, sistem önyükleme |
 | **01 – Computer Architecture** | — | İçerik eklenecek |
 | **04 – DevOps** | — | İçerik eklenecek |
 
