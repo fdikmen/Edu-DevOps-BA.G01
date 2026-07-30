@@ -25,4 +25,6 @@ LPIC-1 odaklı Linux sistem yönetimi notları.
 | 6 | 103.1 | [Bash Environment Variables](18.103.1_Bash-Environment-Variables-PS1-export-PATH-and-Command-History.md) | `PS1`, `export`, `PATH`, komut geçmişi |
 | — | 103.1 | [Commands Used in This Lesson](18.103.1_Linux-Commands-Used-in-This-Lesson.md) | 103.1 ders komutları |
 | 7 | 103.2 | [Streams, Pipe & Viewing Text](19.103.2.LinuxStreams-Pipe-ViewingText-CatZcat-Less-More-Od-SelectingParts-Split-Head-Tail-Cut.md) | `cat`/`zcat`, `less`/`more`, `od`, `split`, `head`/`tail`, `cut` |
-| — | 103.2 | [Commands Used in This Lesson](19.103.2_Linux-Commands-Used-in-This-Lesson.md) | 103.2 ders komutları |
+| — | 103.2 | [Commands Used in This Lesson](19.103.2_Linux-Commands-Used-in-This-Lesson.md) | 103.2 görüntüleme / seçme komutları |
+| 8 | 103.2 | [wc, Hash & Meta Bilgi](20.103.2.wc-Hash-Statistics-Meta-md5sum-sha256sum-sha512sum.md) | `wc`, hash, `md5sum`, `sha256sum`, `sha512sum` |
+| — | 103.2 | [Commands Used in This Lesson](20.103.2_Linux-Commands-Used-in-This-Lesson.md) | 103.2 istatistik / hash komutları |
