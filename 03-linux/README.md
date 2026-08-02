@@ -28,3 +28,5 @@ LPIC-1 odaklı Linux sistem yönetimi notları.
 | — | 103.2 | [Commands Used in This Lesson](19.103.2_Linux-Commands-Used-in-This-Lesson.md) | 103.2 görüntüleme / seçme komutları |
 | 8 | 103.2 | [wc, Hash & Meta Bilgi](20.103.2.wc-Hash-Statistics-Meta-md5sum-sha256sum-sha512sum.md) | `wc`, hash, `md5sum`, `sha256sum`, `sha512sum` |
 | — | 103.2 | [Commands Used in This Lesson](20.103.2_Linux-Commands-Used-in-This-Lesson.md) | 103.2 istatistik / hash komutları |
+| 9 | 103.3 | [Basic File Management](21.103.3.Basic-File-Management-Wildcard-ls-cp-mv-rm-find-tar-dd.md) | wildcard, `ls`/`cp`/`mv`/`rm`, `find`, `tar`, `dd` |
+| — | 103.3 | [Commands Used in This Lesson](21.103.3_Linux-Commands-Used-in-This-Lesson.md) | 103.3 dosya yönetimi komutları |
