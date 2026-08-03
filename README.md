@@ -56,3 +56,9 @@ Bilgisayar mimarisi → ağ → Linux → DevOps yolculuğu için ders notları 
 | [18 · Commands](03-linux/18.103.1_Linux-Commands-Used-in-This-Lesson.md) | Derste geçen komutlar |
 | [19 · Streams / Pipe / Text](03-linux/19.103.2.LinuxStreams-Pipe-ViewingText-CatZcat-Less-More-Od-SelectingParts-Split-Head-Tail-Cut.md) | `cat`, `less`, `head`/`tail`, `cut` |
 | [19 · Commands](03-linux/19.103.2_Linux-Commands-Used-in-This-Lesson.md) | Derste geçen komutlar |
+| [20 · wc & Hash](03-linux/20.103.2.wc-Hash-Statistics-Meta-md5sum-sha256sum-sha512sum.md) | `wc`, `md5sum`, `sha256sum`, `sha512sum` |
+| [20 · Commands](03-linux/20.103.2_Linux-Commands-Used-in-This-Lesson.md) | Derste geçen komutlar |
+| [21 · File Management](03-linux/21.103.3.Basic-File-Management-Wildcard-ls-cp-mv-rm-find-tar-dd.md) | wildcard, `cp`/`mv`/`rm`, `find`, `tar`, `dd` |
+| [21 · Commands](03-linux/21.103.3_Linux-Commands-Used-in-This-Lesson.md) | Derste geçen komutlar |
+| [22 · Streams / Redirects / Jobs](03-linux/22.103.4.Streams-Redirects-Pipes-tee-xargs-Jobs-fg-bg-nohup-kill.md) | yönlendirme, pipe, `tee`/`xargs`, `fg`/`bg`/`kill` |
+| [22 · Commands](03-linux/22.103.4_Linux-Commands-Used-in-This-Lesson.md) | Derste geçen komutlar |
