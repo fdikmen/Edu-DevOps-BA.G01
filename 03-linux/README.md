@@ -30,3 +30,5 @@ LPIC-1 odaklı Linux sistem yönetimi notları.
 | — | 103.2 | [Commands Used in This Lesson](20.103.2_Linux-Commands-Used-in-This-Lesson.md) | 103.2 istatistik / hash komutları |
 | 9 | 103.3 | [Basic File Management](21.103.3.Basic-File-Management-Wildcard-ls-cp-mv-rm-find-tar-dd.md) | wildcard, `ls`/`cp`/`mv`/`rm`, `find`, `tar`, `dd` |
 | — | 103.3 | [Commands Used in This Lesson](21.103.3_Linux-Commands-Used-in-This-Lesson.md) | 103.3 dosya yönetimi komutları |
+| 10 | 103.4 | [Streams, Redirects, Pipes & Jobs](22.103.4.Streams-Redirects-Pipes-tee-xargs-Jobs-fg-bg-nohup-kill.md) | yönlendirme, pipe, `tee`/`xargs`, `fg`/`bg`/`nohup`/`kill` |
+| — | 103.4 | [Commands Used in This Lesson](22.103.4_Linux-Commands-Used-in-This-Lesson.md) | 103.4 / süreç yönetimi temel komutları |
