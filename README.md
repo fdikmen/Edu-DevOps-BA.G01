@@ -62,3 +62,5 @@ Bilgisayar mimarisi → ağ → Linux → DevOps yolculuğu için ders notları 
 | [21 · Commands](03-linux/21.103.3_Linux-Commands-Used-in-This-Lesson.md) | Derste geçen komutlar |
 | [22 · Streams / Redirects / Jobs](03-linux/22.103.4.Streams-Redirects-Pipes-tee-xargs-Jobs-fg-bg-nohup-kill.md) | yönlendirme, pipe, `tee`/`xargs`, `fg`/`bg`/`kill` |
 | [22 · Commands](03-linux/22.103.4_Linux-Commands-Used-in-This-Lesson.md) | Derste geçen komutlar |
+| [23 · Process Monitoring](03-linux/23.103.5.Process-Monitoring-ps-pgrep-top-free-uptime-watch-screen-tmux.md) | `ps`/`top`/`pgrep`, `free`/`watch`, `screen`/`tmux` |
+| [23 · Commands](03-linux/23.103.5_Linux-Commands-Used-in-This-Lesson.md) | Derste geçen komutlar |
