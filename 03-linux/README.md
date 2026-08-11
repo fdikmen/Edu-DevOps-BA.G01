@@ -31,7 +31,7 @@ LPIC-1 odaklı Linux sistem yönetimi notları.
 | 9 | 103.3 | [Basic File Management](21.103.3.Basic-File-Management-Wildcard-ls-cp-mv-rm-find-tar-dd.md) | wildcard, `ls`/`cp`/`mv`/`rm`, `find`, `tar`, `dd` |
 | — | 103.3 | [Commands Used in This Lesson](21.103.3_Linux-Commands-Used-in-This-Lesson.md) | 103.3 dosya yönetimi komutları |
 | 10 | 103.4 | [Streams, Redirects, Pipes & Jobs](22.103.4.Streams-Redirects-Pipes-tee-xargs-Jobs-fg-bg-nohup-kill.md) | yönlendirme, pipe, `tee`/`xargs`, `fg`/`bg`/`nohup`/`kill` |
-| — | 103.4 | [Commands Used in This Lesson](22.103.4_Linux-Commands-Used-in-This-Lesson.md) | 103.4 / süreç yönetimi temel komutları |
+| — | 103.4 | [Commands Used in This Lesson](22.103.4_Linux-Commands-Used-in-This-Lesson.md) | 103.4 / process yönetimi temel komutları |
 | 11 | 103.5 | [Process Monitoring & Multiplexers](23.103.5.Process-Monitoring-ps-pgrep-top-free-uptime-watch-screen-tmux.md) | `ps`/`top`/`pgrep`, `free`/`uptime`/`watch`, `screen`/`tmux` |
 | — | 103.5 | [Commands Used in This Lesson](23.103.5_Linux-Commands-Used-in-This-Lesson.md) | 103.5 izleme ve multiplexer komutları |
 | 12 | 103.6 | [Process Priorities](24.103.6.Process-Priorities-nice-renice-niceness.md) | `nice`, `renice`, niceness, process statuses, zombie |
