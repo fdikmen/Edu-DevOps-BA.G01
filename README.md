@@ -48,6 +48,13 @@ Bilgisayar mimarisi → ağ → Linux → DevOps yolculuğu için ders notları 
 | [04 · Boot Part 2](03-linux/04.101.2_Part2_Linux_Boot_Process.md) | Loglar, `dmesg`, `journalctl` |
 | [05 · Runlevels](03-linux/05.101.3_Part1_Runlevels_ve_Boot_Targets.md) | Runlevels & boot targets |
 
+### 102 — Virtualization & guest
+
+| Ders | Konu |
+| --- | --- |
+| [06 · Virtualization Guest](03-linux/06.102.6.Linux-as-Virtualization-Guest-VM-Hypervisor-Containers-IaaS.md) | VM, hipervizör, konteyner, IaaS |
+| [06 · Commands](03-linux/06.102.6_Linux-Commands-Used-in-This-Lesson.md) | Derste geçen komutlar |
+
 ### 103 — Shell & metin
 
 | Ders | Konu |
