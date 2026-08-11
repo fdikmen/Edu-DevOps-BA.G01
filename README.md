@@ -64,3 +64,5 @@ Bilgisayar mimarisi → ağ → Linux → DevOps yolculuğu için ders notları 
 | [22 · Commands](03-linux/22.103.4_Linux-Commands-Used-in-This-Lesson.md) | Derste geçen komutlar |
 | [23 · Process Monitoring](03-linux/23.103.5.Process-Monitoring-ps-pgrep-top-free-uptime-watch-screen-tmux.md) | `ps`/`top`/`pgrep`, `free`/`watch`, `screen`/`tmux` |
 | [23 · Commands](03-linux/23.103.5_Linux-Commands-Used-in-This-Lesson.md) | Derste geçen komutlar |
+| [24 · Process Priorities](03-linux/24.103.6.Process-Priorities-nice-renice-niceness.md) | `nice`, `renice`, niceness, zombie |
+| [24 · Commands](03-linux/24.103.6_Linux-Commands-Used-in-This-Lesson.md) | Derste geçen komutlar |
