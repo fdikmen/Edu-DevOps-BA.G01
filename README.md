@@ -36,40 +36,14 @@ Bilgisayar mimarisi → ağ → Linux → DevOps yolculuğu için ders notları 
 
 ## Linux
 
-> Tam liste: [03-linux/README.md](03-linux/README.md) · [LPIC-1 Objectives V5.0](https://wiki.lpi.org/wiki/LPIC-1_Objectives_V5.0)
+LPIC-1 odaklı sistem yönetimi. Ders listesi: [03-linux/README.md](03-linux/README.md) · [LPIC-1 Objectives V5.0](https://wiki.lpi.org/wiki/LPIC-1_Objectives_V5.0)
 
-### 101 — System Architecture
+| Topic | Kapsam | Dersler |
+| --- | --- | :---: |
+| **101** · System Architecture | Donanım, boot süreci, runlevels / boot targets | 01–05 |
+| **102** · Installation & Virtualization | VM, hipervizör, konteyner, IaaS | 06 |
+| **103** · GNU & Unix Commands | Shell, streams, dosya yönetimi, process’ler | 07–13 |
 
-| Ders | Konu |
-| --- | --- |
-| [01 · Giriş](03-linux/01.101.Giris.md) | Sistemi önyükleme — Boot the system |
-| [02 · Hardware](03-linux/02.101.1_Determine-and-Configure-Hardware-Settings.md) | `/sys`, `/proc`, `/dev`, `modprobe`, `lspci`, `lsusb` |
-| [03 · Boot Part 1](03-linux/03.101.2_Part1_Linux_Boot_Process.md) | Firmware, POST, GRUB, initramfs, init/systemd |
-| [04 · Boot Part 2](03-linux/04.101.2_Part2_Linux_Boot_Process.md) | `dmesg`, `journalctl`, kernel ring buffer, boot logları |
-| [05 · Runlevels](03-linux/05.101.3_Part1_Runlevels_ve_Boot_Targets.md) | `systemctl isolate`, rescue/emergency, SysVinit |
-
-### 102 — Linux Installation & Virtualization
-
-| Ders | Konu |
-| --- | --- |
-| [06 · Virtualization Guest](03-linux/06.102.6.Linux-as-Virtualization-Guest-VM-Hypervisor-Containers-IaaS.md) | VM, hipervizör, konteyner, IaaS, klon / machine ID |
-| [06 · Commands](03-linux/06.102.6_Linux-Commands-Used-in-This-Lesson.md) | 102.6 doğrulama ve machine ID komutları |
-
-### 103 — GNU & Unix Commands
-
-| Ders | Konu |
-| --- | --- |
-| [07 · Bash Env Vars](03-linux/18.103.1_Bash-Environment-Variables-PS1-export-PATH-and-Command-History.md) | `PS1`, `export`, `PATH`, komut geçmişi |
-| [07 · Commands](03-linux/18.103.1_Linux-Commands-Used-in-This-Lesson.md) | 103.1 ders komutları |
-| [08 · Streams / Pipe / Text](03-linux/19.103.2.LinuxStreams-Pipe-ViewingText-CatZcat-Less-More-Od-SelectingParts-Split-Head-Tail-Cut.md) | `cat`/`zcat`, `less`/`more`, `od`, `split`, `head`/`tail`, `cut` |
-| [08 · Commands](03-linux/19.103.2_Linux-Commands-Used-in-This-Lesson.md) | 103.2 görüntüleme / seçme komutları |
-| [09 · wc & Hash](03-linux/20.103.2.wc-Hash-Statistics-Meta-md5sum-sha256sum-sha512sum.md) | `wc`, hash, `md5sum`, `sha256sum`, `sha512sum` |
-| [09 · Commands](03-linux/20.103.2_Linux-Commands-Used-in-This-Lesson.md) | 103.2 istatistik / hash komutları |
-| [10 · File Management](03-linux/21.103.3.Basic-File-Management-Wildcard-ls-cp-mv-rm-find-tar-dd.md) | wildcard, `ls`/`cp`/`mv`/`rm`, `find`, `tar`, `dd` |
-| [10 · Commands](03-linux/21.103.3_Linux-Commands-Used-in-This-Lesson.md) | 103.3 dosya yönetimi komutları |
-| [11 · Streams / Redirects / Jobs](03-linux/22.103.4.Streams-Redirects-Pipes-tee-xargs-Jobs-fg-bg-nohup-kill.md) | yönlendirme, pipe, `tee`/`xargs`, `fg`/`bg`/`nohup`/`kill` |
-| [11 · Commands](03-linux/22.103.4_Linux-Commands-Used-in-This-Lesson.md) | 103.4 / process yönetimi temel komutları |
-| [12 · Process Monitoring](03-linux/23.103.5.Process-Monitoring-ps-pgrep-top-free-uptime-watch-screen-tmux.md) | `ps`/`top`/`pgrep`, `free`/`uptime`/`watch`, `screen`/`tmux` |
-| [12 · Commands](03-linux/23.103.5_Linux-Commands-Used-in-This-Lesson.md) | 103.5 izleme ve multiplexer komutları |
-| [13 · Process Priorities](03-linux/24.103.6.Process-Priorities-nice-renice-niceness.md) | `nice`, `renice`, niceness, process statuses, zombie |
-| [13 · Commands](03-linux/24.103.6_Linux-Commands-Used-in-This-Lesson.md) | 103.6 öncelik komutları |
+```text
+101 Architecture  →  102 Virtualization  →  103 Commands
+```
