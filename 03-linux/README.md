@@ -45,3 +45,5 @@ LPIC-1 odaklı Linux sistem yönetimi notları.
 | — | 103.5 | [Commands Used in This Lesson](23.103.5_Linux-Commands-Used-in-This-Lesson.md) | 103.5 izleme ve multiplexer komutları |
 | 13 | 103.6 | [Process Priorities](24.103.6.Process-Priorities-nice-renice-niceness.md) | `nice`, `renice`, niceness, process statuses, zombie |
 | — | 103.6 | [Commands Used in This Lesson](24.103.6_Linux-Commands-Used-in-This-Lesson.md) | 103.6 öncelik komutları |
+| 14 | 103.8 | [Basic File Editing · Vim](25.103.8.Basic-File-Editing-Vim-Modes-Navigation-Edit-Search-Exit.md) | modlar, gezinme, düzenleme, arama, çıkış, `EDITOR`, `vimtutor` |
+| — | 103.8 | [Commands Used in This Lesson](25.103.8_Linux-Commands-Used-in-This-Lesson.md) | 103.8 Vim / VI komutları |

@@ -42,7 +42,7 @@ LPIC-1 odaklı sistem yönetimi. Ders listesi: [03-linux/README.md](03-linux/REA
 | --- | --- | :---: |
 | **101** · System Architecture | Donanım, boot süreci, runlevels / boot targets | 01–05 |
 | **102** · Installation & Virtualization | VM, hipervizör, konteyner, IaaS | 06 |
-| **103** · GNU & Unix Commands | Shell, streams, dosya yönetimi, process’ler | 07–13 |
+| **103** · GNU & Unix Commands | Shell, streams, dosya yönetimi, process’ler, Vim | 07–14 |
 
 ```text
 101 Architecture  →  102 Virtualization  →  103 Commands
