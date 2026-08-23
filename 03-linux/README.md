@@ -47,3 +47,13 @@ LPIC-1 odaklı Linux sistem yönetimi notları.
 | — | 103.6 | [Commands Used in This Lesson](24.103.6_Linux-Commands-Used-in-This-Lesson.md) | 103.6 öncelik komutları |
 | 14 | 103.8 | [Basic File Editing · Vim](25.103.8.Basic-File-Editing-Vim-Modes-Navigation-Edit-Search-Exit.md) | modlar, gezinme, düzenleme, arama, çıkış, `EDITOR`, `vimtutor` |
 | — | 103.8 | [Commands Used in This Lesson](25.103.8_Linux-Commands-Used-in-This-Lesson.md) | 103.8 Vim / VI komutları |
+
+---
+
+## 104 — Devices, Linux Filesystems, FHS
+
+| # | Kod | Ders | Özet |
+| :---: | :---: | --- | --- |
+| 15 | — | *Sonra eklenecek* | — |
+| 16 | 104.3 | [Control Mounting & Unmounting](27.104.3.Control-Mounting-Unmounting-mount-umount-UUID-fstab.md) | `mount`/`umount`, UUID, `/etc/fstab`, `blkid`/`lsblk` |
+| — | 104.3 | [Commands Used in This Lesson](27.104.3_Linux-Commands-Used-in-This-Lesson.md) | 104.3 bağlama / ayırma komutları |
