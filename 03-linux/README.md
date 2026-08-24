@@ -57,3 +57,5 @@ LPIC-1 odaklı Linux sistem yönetimi notları.
 | 15 | — | *Sonra eklenecek* | — |
 | 16 | 104.3 | [Control Mounting & Unmounting](27.104.3.Control-Mounting-Unmounting-mount-umount-UUID-fstab.md) | `mount`/`umount`, UUID, `/etc/fstab`, `blkid`/`lsblk` |
 | — | 104.3 | [Commands Used in This Lesson](27.104.3_Linux-Commands-Used-in-This-Lesson.md) | 104.3 bağlama / ayırma komutları |
+| 17 | 104.5 | [Permissions & Ownership](28.104.5.Manage-File-Permissions-Ownership-chmod-chown-SUID-SGID-Sticky-umask.md) | `chmod`/`chown`, SUID/SGID/sticky, `umask`, paylaşımlı dizin |
+| — | 104.5 | [Commands Used in This Lesson](28.104.5_Linux-Commands-Used-in-This-Lesson.md) | 104.5 izin / sahiplik komutları |
