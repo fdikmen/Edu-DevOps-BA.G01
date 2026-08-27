@@ -13,13 +13,13 @@ LPIC-1 odaklı Linux sistem yönetimi notları.
 | **101** · System Architecture | Donanım, boot, runlevels / targets | 01–05 |
 | **102** · Installation & Virtualization | VM, hipervizör, konteyner, IaaS | 06 |
 | **103** · GNU & Unix Commands | Shell, streams, dosya, process, Vim | 07–14 |
-| **104** · Devices, Filesystems, FHS | Mount, UUID, fstab, izinler | 15–17 |
+| **104** · Devices, Filesystems, FHS | Link, FHS, mount, izinler | 15–17 |
 
 ```text
 101 Architecture  →  102 Virtualization  →  103 Commands  →  104 Filesystems
 ```
 
-> Ders **15** sonra eklenecek. **103.7** bu seride yok; **104.4** (disk quotas) LPIC-1 5.0’da kaldırıldı.
+> **103.7** bu seride yok; **104.4** (disk quotas) LPIC-1 5.0’da kaldırıldı.
 
 ---
 
@@ -71,7 +71,8 @@ LPIC-1 odaklı Linux sistem yönetimi notları.
 
 | # | Kod | Ders | Özet |
 | :---: | :---: | --- | --- |
-| 15 | — | *Sonra eklenecek* | — |
+| 15 | 104.6 / 104.7 | [Hard/Soft Links & FHS](29.104.6-104.7.Hard-Soft-Links-ln-FHS-PATH-locate-updatedb.md) | `ln`, FHS, `PATH`, `which`, `locate`, `updatedb` |
+| — | 104.6 / 104.7 | [Commands Used in This Lesson](29.104.6-104.7_Linux-Commands-Used-in-This-Lesson.md) | 104.6 / 104.7 link ve dosya bulma komutları |
 | 16 | 104.3 | [Control Mounting & Unmounting](27.104.3.Control-Mounting-Unmounting-mount-umount-UUID-fstab.md) | `mount`/`umount`, UUID, `/etc/fstab`, `blkid`/`lsblk` |
 | — | 104.3 | [Commands Used in This Lesson](27.104.3_Linux-Commands-Used-in-This-Lesson.md) | 104.3 bağlama / ayırma komutları |
 | 17 | 104.5 | [Permissions & Ownership](28.104.5.Manage-File-Permissions-Ownership-chmod-chown-SUID-SGID-Sticky-umask.md) | `chmod`/`chown`, SUID/SGID/sticky, `umask`, paylaşımlı dizin |

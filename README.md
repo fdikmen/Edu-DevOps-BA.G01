@@ -43,10 +43,10 @@ LPIC-1 odaklı sistem yönetimi. Tam ders listesi: [03-linux/README.md](03-linux
 | **101** · System Architecture | Donanım, boot süreci, runlevels / boot targets | 01–05 |
 | **102** · Installation & Virtualization | VM, hipervizör, konteyner, IaaS | 06 |
 | **103** · GNU & Unix Commands | Shell, streams, dosya yönetimi, process’ler, Vim | 07–14 |
-| **104** · Devices, Filesystems, FHS | Mount / umount, UUID, fstab, izinler / sahiplik | 15–17 |
+| **104** · Devices, Filesystems, FHS | Link, FHS, mount / umount, izinler / sahiplik | 15–17 |
 
 ```text
 101 Architecture  →  102 Virtualization  →  103 Commands  →  104 Filesystems
 ```
 
-> **Not:** Ders **15** (104.x ara konu) sonra eklenecek. **103.7** ve **104.4** (quotas, LPIC-1 5.0’da yok) bu seride işlenmiyor.
+> **Not:** **103.7** ve **104.4** (quotas, LPIC-1 5.0’da yok) bu seride işlenmiyor.
