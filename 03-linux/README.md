@@ -6,6 +6,23 @@ LPIC-1 odaklı Linux sistem yönetimi notları.
 
 ---
 
+## Yol haritası
+
+| Topic | Kapsam | Dersler |
+| --- | --- | :---: |
+| **101** · System Architecture | Donanım, boot, runlevels / targets | 01–05 |
+| **102** · Installation & Virtualization | VM, hipervizör, konteyner, IaaS | 06 |
+| **103** · GNU & Unix Commands | Shell, streams, dosya, process, Vim | 07–14 |
+| **104** · Devices, Filesystems, FHS | Mount, UUID, fstab, izinler | 15–17 |
+
+```text
+101 Architecture  →  102 Virtualization  →  103 Commands  →  104 Filesystems
+```
+
+> Ders **15** sonra eklenecek. **103.7** bu seride yok; **104.4** (disk quotas) LPIC-1 5.0’da kaldırıldı.
+
+---
+
 ## 101 — System Architecture
 
 | # | Kod | Ders | Özet |
@@ -59,3 +76,7 @@ LPIC-1 odaklı Linux sistem yönetimi notları.
 | — | 104.3 | [Commands Used in This Lesson](27.104.3_Linux-Commands-Used-in-This-Lesson.md) | 104.3 bağlama / ayırma komutları |
 | 17 | 104.5 | [Permissions & Ownership](28.104.5.Manage-File-Permissions-Ownership-chmod-chown-SUID-SGID-Sticky-umask.md) | `chmod`/`chown`, SUID/SGID/sticky, `umask`, paylaşımlı dizin |
 | — | 104.5 | [Commands Used in This Lesson](28.104.5_Linux-Commands-Used-in-This-Lesson.md) | 104.5 izin / sahiplik komutları |
+
+```text
+01 Architecture  →  02 Network  →  03 Linux  →  04 DevOps
+```

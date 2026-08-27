@@ -8,12 +8,12 @@ Bilgisayar mimarisi → ağ → Linux → DevOps yolculuğu için ders notları 
 
 ## Modüller
 
-| | Modül | Klasör | Notlar |
+| | Modül | Klasör | Durum |
 | :---: | --- | --- | --- |
-| **01** | Computer Architecture | [`01-computer-architecture/`](01-computer-architecture/) | [README](01-computer-architecture/README.md) |
-| **02** | Network | [`02-network/`](02-network/) | [README](02-network/README.md) |
-| **03** | Linux | [`03-linux/`](03-linux/) | [README](03-linux/README.md) |
-| **04** | DevOps | [`04-devops/`](04-devops/) | [README](04-devops/README.md) |
+| **01** | Computer Architecture | [`01-computer-architecture/`](01-computer-architecture/) | [README](01-computer-architecture/README.md) · henüz içerik yok |
+| **02** | Network | [`02-network/`](02-network/) | [README](02-network/README.md) · 17 özet |
+| **03** | Linux | [`03-linux/`](03-linux/) | [README](03-linux/README.md) · LPIC-1 (101–104) |
+| **04** | DevOps | [`04-devops/`](04-devops/) | [README](04-devops/README.md) · henüz içerik yok |
 
 ```text
 01 Architecture  →  02 Network  →  03 Linux  →  04 DevOps
@@ -23,7 +23,7 @@ Bilgisayar mimarisi → ağ → Linux → DevOps yolculuğu için ders notları 
 
 ## Network
 
-> Tam liste: [02-network/README.md](02-network/README.md) · Kahoot: [network-kahoot-arsiv.md](02-network/network-kahoot-arsiv.md)
+Slayt özetleri ve Kahoot arşivi: [02-network/README.md](02-network/README.md) · [network-kahoot-arsiv.md](02-network/network-kahoot-arsiv.md)
 
 | | | | | |
 | --- | --- | --- | --- | --- |
@@ -36,7 +36,7 @@ Bilgisayar mimarisi → ağ → Linux → DevOps yolculuğu için ders notları 
 
 ## Linux
 
-LPIC-1 odaklı sistem yönetimi. Ders listesi: [03-linux/README.md](03-linux/README.md) · [LPIC-1 Objectives V5.0](https://wiki.lpi.org/wiki/LPIC-1_Objectives_V5.0)
+LPIC-1 odaklı sistem yönetimi. Tam ders listesi: [03-linux/README.md](03-linux/README.md) · [LPIC-1 Objectives V5.0](https://wiki.lpi.org/wiki/LPIC-1_Objectives_V5.0)
 
 | Topic | Kapsam | Dersler |
 | --- | --- | :---: |
@@ -48,3 +48,5 @@ LPIC-1 odaklı sistem yönetimi. Ders listesi: [03-linux/README.md](03-linux/REA
 ```text
 101 Architecture  →  102 Virtualization  →  103 Commands  →  104 Filesystems
 ```
+
+> **Not:** Ders **15** (104.x ara konu) sonra eklenecek. **103.7** ve **104.4** (quotas, LPIC-1 5.0’da yok) bu seride işlenmiyor.
