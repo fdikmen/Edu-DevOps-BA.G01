@@ -44,9 +44,10 @@ LPIC-1 odaklı sistem yönetimi. Tam ders listesi: [03-linux/README.md](03-linux
 | **102** · Installation & Virtualization | VM, hipervizör, konteyner, IaaS | 06 |
 | **103** · GNU & Unix Commands | Shell, streams, dosya yönetimi, process’ler, Vim | 07–14 |
 | **104** · Devices, Filesystems, FHS | Link, FHS, mount / umount, izinler / sahiplik | 15–17 |
+| **105** · Shell Environment | `export`, `source`, alias, `.bashrc`, shell türleri | 18 |
 
 ```text
-101 Architecture  →  102 Virtualization  →  103 Commands  →  104 Filesystems
+101 Architecture  →  102 Virtualization  →  103 Commands  →  104 Filesystems  →  105 Shell
 ```
 
 > **Not:** **103.7** ve **104.4** (quotas, LPIC-1 5.0’da yok) bu seride işlenmiyor.
