@@ -87,7 +87,3 @@ LPIC-1 odaklı Linux sistem yönetimi notları.
 | :---: | :---: | --- | --- |
 | 18 | 105.1 | [Customize Shell Environment](30.105.1.Customize-Shell-Environment-export-source-alias-PS1-bashrc.md) | `export`, `source`, `alias`, `PS1`, login/non-login shell, `.bashrc` |
 | — | 105.1 | [Commands Used in This Lesson](30.105.1_Linux-Commands-Used-in-This-Lesson.md) | 105.1 shell ortamı komutları |
-
-```text
-01 Architecture  →  02 Network  →  03 Linux  →  04 DevOps
-```
