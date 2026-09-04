@@ -1,6 +1,6 @@
 # 02 – Network
 
-Ağ modülü. Slayt özetleri aşağıdadır; özetler arası geçiş linkleri her dosyanın sonunda bulunur.
+Ağ modülü · **17** slayt özeti. Özetler arası geçiş linkleri her dosyanın sonunda bulunur.
 
 [← Depo README](../README.md)
 
@@ -34,6 +34,14 @@ Ders içi soru oyunları (tekrarsız link listesi): [network-kahoot-arsiv.md](ne
 | 16 | Network16 | [Network16-ozet.md](Network16-ozet.md) | Uygulama katmanı: DNS, HTTP, FTP, SSH, e-posta, VoIP |
 | 17 | Network17 | [Network17-ozet.md](Network17-ozet.md) | Test: `ipconfig`, `ping`, `netstat`, `tracert`, `nslookup` |
 
+---
+
+## Müfredattaki yeri
+
 ```text
 01 Architecture  →  02 Network  →  03 Linux  →  04 DevOps
 ```
+
+| Önceki | Bu modül | Sonraki |
+| --- | --- | --- |
+| [01 · Architecture](../01-computer-architecture/README.md) | **02 · Network** | [03 · Linux](../03-linux/README.md) |
