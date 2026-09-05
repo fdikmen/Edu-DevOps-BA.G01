@@ -16,7 +16,7 @@ Bilgisayar mimarisi → ağ → Linux → DevOps yolculuğu için ders notları 
 | :---: | --- | --- | --- |
 | 01 | Computer Architecture | [`01-computer-architecture/`](01-computer-architecture/) | [Planlandı](01-computer-architecture/README.md) |
 | 02 | Network | [`02-network/`](02-network/) | [17 slayt özeti](02-network/README.md) |
-| 03 | Linux · LPIC-1 | [`03-linux/`](03-linux/) | [18 ders · 101–105](03-linux/README.md) |
+| 03 | Linux · LPIC-1 | [`03-linux/`](03-linux/) | [19 ders · 101–105](03-linux/README.md) |
 | 04 | DevOps | [`04-devops/`](04-devops/) | [Planlandı](04-devops/README.md) |
 
 ---
@@ -46,7 +46,7 @@ Tam ders listesi: [03-linux/README.md](03-linux/README.md) · [LPIC-1 Objectives
 | **102** · Installation & Virtualization | VM, hipervizör, konteyner, IaaS | 06 |
 | **103** · GNU & Unix Commands | Shell, streams, dosya, process, Vim | 07–14 |
 | **104** · Devices, Filesystems, FHS | Link, FHS, mount, izinler | 15–17 |
-| **105** · Shell Environment & Scripting | `export`, `source`, `alias`, bashrc | 18 |
+| **105** · Shell Environment & Scripting | `export`, `source`, alias, bashrc, scripting | 18–19 |
 
 ```text
 101 Architecture  →  102 Virtualization  →  103 Commands  →  104 Filesystems  →  105 Shell
@@ -73,7 +73,7 @@ Tam ders listesi: [03-linux/README.md](03-linux/README.md) · [LPIC-1 Objectives
 Edu-DevOps-BA.G01/
 ├── 01-computer-architecture/   # planlandı
 ├── 02-network/                 # Network01–17 + kahoot
-├── 03-linux/                   # LPIC 101–105 · 18 ders + komut tabloları
+├── 03-linux/                   # LPIC 101–105 · 19 ders + komut tabloları
 └── 04-devops/                  # planlandı
 ```
 

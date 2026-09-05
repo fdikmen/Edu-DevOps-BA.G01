@@ -14,7 +14,7 @@ LPIC-1 odaklı Linux sistem yönetimi notları · **18** ders (101–105).
 | **102** · Installation & Virtualization | VM, hipervizör, konteyner, IaaS | 06 |
 | **103** · GNU & Unix Commands | Shell, streams, dosya, process, Vim | 07–14 |
 | **104** · Devices, Filesystems, FHS | Link, FHS, mount, izinler | 15–17 |
-| **105** · Shell Environment & Scripting | `export`, `source`, `alias`, bashrc | 18 |
+| **105** · Shell Environment & Scripting | `export`, `source`, `alias`, bashrc, scripting | 18–19 |
 
 ```text
 101 Architecture  →  102 Virtualization  →  103 Commands  →  104 Filesystems  →  105 Shell
@@ -87,6 +87,8 @@ LPIC-1 odaklı Linux sistem yönetimi notları · **18** ders (101–105).
 | :---: | :---: | --- | --- |
 | 18 | 105.1 | [Customize Shell Environment](30.105.1.Customize-Shell-Environment-export-source-alias-PS1-bashrc.md) | `export`, `source`, `alias`, `PS1`, login/non-login shell, `.bashrc` |
 | — | 105.1 | [Commands Used in This Lesson](30.105.1_Linux-Commands-Used-in-This-Lesson.md) | 105.1 shell ortamı komutları |
+| 19 | 105.2 | [Shell Scripting Basics](31.105.2.Shell-Scripting-Basics-shebang-parameters-command-substitution-test.md) | `;`/`&&`/`\|\|`, shebang, `$1`, `$(…)`, `test`, `exec` |
+| — | 105.2 | [Commands Used in This Lesson](31.105.2_Linux-Commands-Used-in-This-Lesson.md) | 105.2 scripting komutları |
 
 ---
 
