@@ -1,6 +1,6 @@
 # 03 – Linux
 
-LPIC-1 odaklı Linux sistem yönetimi notları · **18** ders (101–105).
+LPIC-1 odaklı Linux sistem yönetimi notları · **20** ders (101–106).
 
 [← Depo README](../README.md) · [LPIC-1 Objectives V5.0](https://wiki.lpi.org/wiki/LPIC-1_Objectives_V5.0)
 
@@ -15,9 +15,10 @@ LPIC-1 odaklı Linux sistem yönetimi notları · **18** ders (101–105).
 | **103** · GNU & Unix Commands | Shell, streams, dosya, process, Vim | 07–14 |
 | **104** · Devices, Filesystems, FHS | Link, FHS, mount, izinler | 15–17 |
 | **105** · Shell Environment & Scripting | `export`, `source`, `alias`, bashrc, scripting | 18–19 |
+| **106** · User Interfaces & Desktops | X11, DE, uzak grafik erişim, accessibility | 20 |
 
 ```text
-101 Architecture  →  102 Virtualization  →  103 Commands  →  104 Filesystems  →  105 Shell
+101 Architecture  →  102 Virtualization  →  103 Commands  →  104 Filesystems  →  105 Shell  →  106 Desktop
 ```
 
 > **Kapsam dışı:** 103.7 · 104.4 (disk quotas) — LPIC-1 5.0’da yok / bu seride işlenmiyor.
@@ -89,6 +90,15 @@ LPIC-1 odaklı Linux sistem yönetimi notları · **18** ders (101–105).
 | — | 105.1 | [Commands Used in This Lesson](30.105.1_Linux-Commands-Used-in-This-Lesson.md) | 105.1 shell ortamı komutları |
 | 19 | 105.2 | [Shell Scripting Basics](31.105.2.Shell-Scripting-Basics-shebang-parameters-command-substitution-test.md) | `;`/`&&`/`\|\|`, shebang, `if`/`test`, `read`, `for`/`while`, `mail` |
 | — | 105.2 | [Commands Used in This Lesson](31.105.2_Linux-Commands-Used-in-This-Lesson.md) | 105.2 scripting komutları |
+
+---
+
+## 106 — User Interfaces & Desktops
+
+| # | Kod | Ders | Özet |
+| :---: | :---: | --- | --- |
+| 20 | 106.1–106.3 | [X11, Desktop Environments & Accessibility](32.106.1-106.3.X11-Desktop-Environments-Remote-Access-Accessibility.md) | X11/Xorg, DE/DM, XDMCP/VNC/SPICE/RDP, accessibility |
+| — | 106 | [Commands Used in This Lesson](32.106_Linux-Commands-Used-in-This-Lesson.md) | 106 X11 / DE / erişilebilirlik kavramları |
 
 ---
 
