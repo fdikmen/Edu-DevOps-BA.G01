@@ -1,6 +1,6 @@
 # 03 – Linux
 
-LPIC-1 odaklı Linux sistem yönetimi notları · **20** ders (101–106).
+LPIC-1 odaklı Linux sistem yönetimi notları · **21** ders (101–107).
 
 [← Depo README](../README.md) · [LPIC-1 Objectives V5.0](https://wiki.lpi.org/wiki/LPIC-1_Objectives_V5.0)
 
@@ -16,9 +16,10 @@ LPIC-1 odaklı Linux sistem yönetimi notları · **20** ders (101–106).
 | **104** · Devices, Filesystems, FHS | Link, FHS, mount, izinler | 15–17 |
 | **105** · Shell Environment & Scripting | `export`, `source`, `alias`, bashrc, scripting | 18–19 |
 | **106** · User Interfaces & Desktops | X11, DE, uzak grafik erişim, accessibility | 20 |
+| **107** · Administrative Tasks | Kullanıcı/grup, cron/at/timer, localisation | 21 |
 
 ```text
-101 Architecture  →  102 Virtualization  →  103 Commands  →  104 Filesystems  →  105 Shell  →  106 Desktop
+101 → 102 → 103 → 104 → 105 Shell → 106 Desktop → 107 Admin
 ```
 
 > **Kapsam dışı:** 103.7 · 104.4 (disk quotas) — LPIC-1 5.0’da yok / bu seride işlenmiyor.
@@ -99,6 +100,15 @@ LPIC-1 odaklı Linux sistem yönetimi notları · **20** ders (101–106).
 | :---: | :---: | --- | --- |
 | 20 | 106.1–106.3 | [X11, Desktop Environments & Accessibility](32.106.1-106.3.X11-Desktop-Environments-Remote-Access-Accessibility.md) | X11/Xorg, DE/DM, XDMCP/VNC/SPICE/RDP, accessibility |
 | — | 106 | [Commands Used in This Lesson](32.106_Linux-Commands-Used-in-This-Lesson.md) | 106 X11 / DE / erişilebilirlik kavramları |
+
+---
+
+## 107 — Administrative Tasks
+
+| # | Kod | Ders | Özet |
+| :---: | :---: | --- | --- |
+| 21 | 107.1–107.3 | [Users, Scheduling & Localisation](33.107.1-107.3.Administrative-Tasks-Users-Groups-Cron-Localisation.md) | `useradd`/`passwd`/`shadow`, cron/at/timer, `date`/`locale`/`iconv` |
+| — | 107 | [Commands Used in This Lesson](33.107_Linux-Commands-Used-in-This-Lesson.md) | 107 kullanıcı, zamanlama, yerelleştirme komutları |
 
 ---
 
