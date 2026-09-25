@@ -1,6 +1,6 @@
 # 03 – Linux
 
-LPIC-1 odaklı Linux sistem yönetimi notları · **21** ders (101–107).
+LPIC-1 odaklı Linux sistem yönetimi notları · **22** ders (101–108.1).
 
 [← Depo README](../README.md) · [LPIC-1 Objectives V5.0](https://wiki.lpi.org/wiki/LPIC-1_Objectives_V5.0)
 
@@ -17,9 +17,10 @@ LPIC-1 odaklı Linux sistem yönetimi notları · **21** ders (101–107).
 | **105** · Shell Environment & Scripting | `export`, `source`, `alias`, bashrc, scripting | 18–19 |
 | **106** · User Interfaces & Desktops | X11, DE, uzak grafik erişim, accessibility | 20 |
 | **107** · Administrative Tasks | Kullanıcı/grup, cron/at/timer, localisation | 21 |
+| **108** · Essential System Services | Sistem saati, NTP, chrony | 22 |
 
 ```text
-101 → 102 → 103 → 104 → 105 Shell → 106 Desktop → 107 Admin
+101 → 102 → 103 → 104 → 105 Shell → 106 Desktop → 107 Admin → 108.1 Time
 ```
 
 > **Kapsam dışı:** 103.7 · 104.4 (disk quotas) — LPIC-1 5.0’da yok / bu seride işlenmiyor.
@@ -109,6 +110,17 @@ LPIC-1 odaklı Linux sistem yönetimi notları · **21** ders (101–107).
 | :---: | :---: | --- | --- |
 | 21 | 107.1–107.3 | [Users, Scheduling & Localisation](33.107.1-107.3.Administrative-Tasks-Users-Groups-Cron-Localisation.md) | `useradd`/`passwd`/`shadow`, cron/at/timer, `date`/`locale`/`iconv` |
 | — | 107 | [Commands Used in This Lesson](33.107_Linux-Commands-Used-in-This-Lesson.md) | 107 kullanıcı, zamanlama, yerelleştirme komutları |
+
+---
+
+## 108 — Essential System Services
+
+| # | Kod | Ders | Özet |
+| :---: | :---: | --- | --- |
+| 22 | 108.1 | [Maintaining System Time](34.108.1.Maintaining-System-Time.md) | RTC / UTC, `hwclock`, dilim dosyaları, NTP, `ntpd`, chrony |
+| — | 108.1 | [Commands Used in This Lesson](34.108.1_Linux-Commands-Used-in-This-Lesson.md) | 108.1 saat ve senkronizasyon komutları |
+
+> **Henüz yok:** 108.2 system logging · 108.3 MTA · 108.4 printing.
 
 ---
 
