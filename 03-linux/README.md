@@ -1,6 +1,6 @@
 # 03 – Linux
 
-LPIC-1 odaklı Linux sistem yönetimi notları · **23** ders (101–108.2).
+LPIC-1 odaklı Linux sistem yönetimi notları · **24** ders (101–108.3).
 
 [← Depo README](../README.md) · [LPIC-1 Objectives V5.0](https://wiki.lpi.org/wiki/LPIC-1_Objectives_V5.0)
 
@@ -17,10 +17,10 @@ LPIC-1 odaklı Linux sistem yönetimi notları · **23** ders (101–108.2).
 | **105** · Shell Environment & Scripting | `export`, `source`, `alias`, bashrc, scripting | 18–19 |
 | **106** · User Interfaces & Desktops | X11, DE, uzak grafik erişim, accessibility | 20 |
 | **107** · Administrative Tasks | Kullanıcı/grup, cron/at/timer, localisation | 21 |
-| **108** · Essential System Services | Sistem saati, NTP, chrony, system logging | 22–23 |
+| **108** · Essential System Services | Sistem saati, NTP, chrony, logging, MTA | 22–24 |
 
 ```text
-101 → 102 → 103 → 104 → 105 Shell → 106 Desktop → 107 Admin → 108.1 Time → 108.2 Logging
+101 → 102 → 103 → 104 → 105 Shell → 106 Desktop → 107 Admin → 108.1 Time → 108.2 Logging → 108.3 MTA
 ```
 
 > **Kapsam dışı:** 103.7 · 104.4 (disk quotas) — LPIC-1 5.0’da yok / bu seride işlenmiyor.
@@ -121,8 +121,10 @@ LPIC-1 odaklı Linux sistem yönetimi notları · **23** ders (101–108.2).
 | — | 108.1 | [Commands Used in This Lesson](34.108.1_Linux-Commands-Used-in-This-Lesson.md) | 108.1 saat ve senkronizasyon komutları |
 | 23 | 108.2 | [System Logging](35.108.2.System-Logging.md) | rsyslog, facility/priority, logrotate, journald, `journalctl` |
 | — | 108.2 | [Commands Used in This Lesson](35.108.2_Linux-Commands-Used-in-This-Lesson.md) | 108.2 log, döndürme ve journal komutları |
+| 24 | 108.3 | [MTA Temelleri](36.108.3.MTA-Temelleri.md) | MTA/MUA, SMTP 25/587, alias, kuyruk, SPF/DKIM/DMARC |
+| — | 108.3 | [Commands Used in This Lesson](36.108.3_Linux-Commands-Used-in-This-Lesson.md) | 108.3 posta denemesi, alias ve kuyruk komutları |
 
-> **Henüz yok:** 108.3 MTA · 108.4 printing.
+> **Henüz yok:** 108.4 printing.
 
 ---
 
