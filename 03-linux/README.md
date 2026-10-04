@@ -1,6 +1,6 @@
 # 03 – Linux
 
-LPIC-1 odaklı Linux sistem yönetimi notları · **24** ders (101–108.3).
+LPIC-1 odaklı Linux sistem yönetimi notları · **25** ders (101–108.4).
 
 [← Depo README](../README.md) · [LPIC-1 Objectives V5.0](https://wiki.lpi.org/wiki/LPIC-1_Objectives_V5.0)
 
@@ -17,10 +17,10 @@ LPIC-1 odaklı Linux sistem yönetimi notları · **24** ders (101–108.3).
 | **105** · Shell Environment & Scripting | `export`, `source`, `alias`, bashrc, scripting | 18–19 |
 | **106** · User Interfaces & Desktops | X11, DE, uzak grafik erişim, accessibility | 20 |
 | **107** · Administrative Tasks | Kullanıcı/grup, cron/at/timer, localisation | 21 |
-| **108** · Essential System Services | Sistem saati, NTP, chrony, logging, MTA | 22–24 |
+| **108** · Essential System Services | Sistem saati, NTP, chrony, logging, MTA, CUPS | 22–25 |
 
 ```text
-101 → 102 → 103 → 104 → 105 Shell → 106 Desktop → 107 Admin → 108.1 Time → 108.2 Logging → 108.3 MTA
+101 → 102 → 103 → 104 → 105 Shell → 106 Desktop → 107 Admin → 108.1 Time → 108.2 Logging → 108.3 MTA → 108.4 CUPS
 ```
 
 > **Kapsam dışı:** 103.7 · 104.4 (disk quotas) — LPIC-1 5.0’da yok / bu seride işlenmiyor.
@@ -123,8 +123,8 @@ LPIC-1 odaklı Linux sistem yönetimi notları · **24** ders (101–108.3).
 | — | 108.2 | [Commands Used in This Lesson](35.108.2_Linux-Commands-Used-in-This-Lesson.md) | 108.2 log, döndürme ve journal komutları |
 | 24 | 108.3 | [MTA Temelleri](36.108.3.MTA-Temelleri.md) | MTA/MUA, SMTP 25/587, alias, kuyruk, SPF/DKIM/DMARC |
 | — | 108.3 | [Commands Used in This Lesson](36.108.3_Linux-Commands-Used-in-This-Lesson.md) | 108.3 posta denemesi, alias ve kuyruk komutları |
-
-> **Henüz yok:** 108.4 printing.
+| 25 | 108.4 | [CUPS ve yazıcı yönetimi](37.108.4.CUPS-Yazici-Yonetimi.md) | CUPS, port 631, lpadmin, legacy lpr/lpq, accept/enable |
+| — | 108.4 | [Commands Used in This Lesson](37.108.4_Linux-Commands-Used-in-This-Lesson.md) | 108.4 yazıcı, kuyruk ve legacy komutları |
 
 ---
 
