@@ -1,6 +1,6 @@
 # 03 – Linux
 
-LPIC-1 odaklı Linux sistem yönetimi notları · **25** ders (101–108.4).
+LPIC-1 odaklı Linux sistem yönetimi notları · **26** ders (101–109.1).
 
 [← Depo README](../README.md) · [LPIC-1 Objectives V5.0](https://wiki.lpi.org/wiki/LPIC-1_Objectives_V5.0)
 
@@ -18,9 +18,10 @@ LPIC-1 odaklı Linux sistem yönetimi notları · **25** ders (101–108.4).
 | **106** · User Interfaces & Desktops | X11, DE, uzak grafik erişim, accessibility | 20 |
 | **107** · Administrative Tasks | Kullanıcı/grup, cron/at/timer, localisation | 21 |
 | **108** · Essential System Services | Sistem saati, NTP, chrony, logging, MTA, CUPS | 22–25 |
+| **109** · Networking Fundamentals | IPv4/IPv6, netmask, CIDR, TCP/UDP/ICMP, portlar | 26 |
 
 ```text
-101 → 102 → 103 → 104 → 105 Shell → 106 Desktop → 107 Admin → 108.1 Time → 108.2 Logging → 108.3 MTA → 108.4 CUPS
+101 → 102 → 103 → 104 → 105 Shell → 106 Desktop → 107 Admin → 108.1 Time → 108.2 Logging → 108.3 MTA → 108.4 CUPS → 109.1 Internet Protocols
 ```
 
 > **Kapsam dışı:** 103.7 · 104.4 (disk quotas) — LPIC-1 5.0’da yok / bu seride işlenmiyor.
@@ -125,6 +126,15 @@ LPIC-1 odaklı Linux sistem yönetimi notları · **25** ders (101–108.4).
 | — | 108.3 | [Commands Used in This Lesson](36.108.3_Linux-Commands-Used-in-This-Lesson.md) | 108.3 posta denemesi, alias ve kuyruk komutları |
 | 25 | 108.4 | [CUPS ve yazıcı yönetimi](37.108.4.CUPS-Yazici-Yonetimi.md) | CUPS, port 631, lpadmin, legacy lpr/lpq, accept/enable |
 | — | 108.4 | [Commands Used in This Lesson](37.108.4_Linux-Commands-Used-in-This-Lesson.md) | 108.4 yazıcı, kuyruk ve legacy komutları |
+
+---
+
+## 109 — Networking Fundamentals
+
+| # | Kod | Ders | Özet |
+| :---: | :---: | --- | --- |
+| 26 | 109.1 | [Internet Protocols](38.109.1.Internet-Protocols-IPv4-IPv6-Netmask-CIDR-TCP-UDP-ICMP.md) | IPv4/IPv6, private/public, netmask, CIDR, TCP/UDP/ICMP, portlar |
+| — | 109.1 | [Commands Used in This Lesson](38.109.1_Linux-Commands-Used-in-This-Lesson.md) | `ping`, `/etc/services`, `tcpdump` |
 
 ---
 
