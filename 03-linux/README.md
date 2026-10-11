@@ -1,6 +1,6 @@
 # 03 – Linux
 
-LPIC-1 odaklı Linux sistem yönetimi notları · **26** ders (101–109.1).
+LPIC-1 odaklı Linux sistem yönetimi notları · **27** ders (101–109.2).
 
 [← Depo README](../README.md) · [LPIC-1 Objectives V5.0](https://wiki.lpi.org/wiki/LPIC-1_Objectives_V5.0)
 
@@ -18,10 +18,10 @@ LPIC-1 odaklı Linux sistem yönetimi notları · **26** ders (101–109.1).
 | **106** · User Interfaces & Desktops | X11, DE, uzak grafik erişim, accessibility | 20 |
 | **107** · Administrative Tasks | Kullanıcı/grup, cron/at/timer, localisation | 21 |
 | **108** · Essential System Services | Sistem saati, NTP, chrony, logging, MTA, CUPS | 22–25 |
-| **109** · Networking Fundamentals | IPv4/IPv6, netmask, CIDR, TCP/UDP/ICMP, portlar | 26 |
+| **109** · Networking Fundamentals | IPv4/IPv6, kalıcı host yapılandırması, NetworkManager | 26–27 |
 
 ```text
-101 → 102 → 103 → 104 → 105 Shell → 106 Desktop → 107 Admin → 108.1 Time → 108.2 Logging → 108.3 MTA → 108.4 CUPS → 109.1 Internet Protocols
+101 → 102 → 103 → 104 → 105 Shell → 106 Desktop → 107 Admin → 108.1 Time → 108.2 Logging → 108.3 MTA → 108.4 CUPS → 109.1 Internet Protocols → 109.2 Persistent Network Configuration
 ```
 
 > **Kapsam dışı:** 103.7 · 104.4 (disk quotas) — LPIC-1 5.0’da yok / bu seride işlenmiyor.
@@ -135,6 +135,8 @@ LPIC-1 odaklı Linux sistem yönetimi notları · **26** ders (101–109.1).
 | :---: | :---: | --- | --- |
 | 26 | 109.1 | [Internet Protocols](38.109.1.Internet-Protocols-IPv4-IPv6-Netmask-CIDR-TCP-UDP-ICMP.md) | IPv4/IPv6, private/public, netmask, CIDR, TCP/UDP/ICMP, portlar |
 | — | 109.1 | [Commands Used in This Lesson](38.109.1_Linux-Commands-Used-in-This-Lesson.md) | `ping`, `/etc/services`, `tcpdump` |
+| 27 | 109.2 | [Persistent Network Configuration](39.109.2.Persistent-Network-Configuration.md) | `ip`, `nmcli`, kalıcı profil, hostname, resolver |
+| — | 109.2 | [Commands Used in This Lesson](39.109.2_Linux-Commands-Used-in-This-Lesson.md) | `ip`, `nmcli`, `hostnamectl`, `ifup` / `ifdown` |
 
 ---
 
