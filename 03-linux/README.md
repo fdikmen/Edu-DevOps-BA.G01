@@ -1,6 +1,6 @@
 # 03 – Linux
 
-LPIC-1 odaklı Linux sistem yönetimi notları · **27** ders (101–109.2).
+LPIC-1 odaklı Linux sistem yönetimi notları · **28** ders (101–109.3).
 
 [← Depo README](../README.md) · [LPIC-1 Objectives V5.0](https://wiki.lpi.org/wiki/LPIC-1_Objectives_V5.0)
 
@@ -18,10 +18,10 @@ LPIC-1 odaklı Linux sistem yönetimi notları · **27** ders (101–109.2).
 | **106** · User Interfaces & Desktops | X11, DE, uzak grafik erişim, accessibility | 20 |
 | **107** · Administrative Tasks | Kullanıcı/grup, cron/at/timer, localisation | 21 |
 | **108** · Essential System Services | Sistem saati, NTP, chrony, logging, MTA, CUPS | 22–25 |
-| **109** · Networking Fundamentals | IPv4/IPv6, kalıcı host yapılandırması, NetworkManager | 26–27 |
+| **109** · Networking Fundamentals | IPv4/IPv6, kalıcı host yapılandırması, temel sorun giderme | 26–28 |
 
 ```text
-101 → 102 → 103 → 104 → 105 Shell → 106 Desktop → 107 Admin → 108.1 Time → 108.2 Logging → 108.3 MTA → 108.4 CUPS → 109.1 Internet Protocols → 109.2 Persistent Network Configuration
+101 → 102 → 103 → 104 → 105 Shell → 106 Desktop → 107 Admin → 108.1 Time → 108.2 Logging → 108.3 MTA → 108.4 CUPS → 109.1 Internet Protocols → 109.2 Persistent Network Configuration → 109.3 Basic Network Troubleshooting
 ```
 
 > **Kapsam dışı:** 103.7 · 104.4 (disk quotas) — LPIC-1 5.0’da yok / bu seride işlenmiyor.
@@ -137,6 +137,8 @@ LPIC-1 odaklı Linux sistem yönetimi notları · **27** ders (101–109.2).
 | — | 109.1 | [Commands Used in This Lesson](38.109.1_Linux-Commands-Used-in-This-Lesson.md) | `ping`, `/etc/services`, `tcpdump` |
 | 27 | 109.2 | [Persistent Network Configuration](39.109.2.Persistent-Network-Configuration.md) | `ip`, `nmcli`, kalıcı profil, hostname, resolver |
 | — | 109.2 | [Commands Used in This Lesson](39.109.2_Linux-Commands-Used-in-This-Lesson.md) | `ip`, `nmcli`, `hostnamectl`, `ifup` / `ifdown` |
+| 28 | 109.3 | [Temel ağ sorun giderme](40.109.3.Temel-Ag-Sorun-Giderme.md) | Beş adım, `ping`, rota, `traceroute`, `ss`, `nc` |
+| — | 109.3 | [Commands Used in This Lesson](40.109.3_Linux-Commands-Used-in-This-Lesson.md) | `ping`, `ip route`, `ss -tulpn`, `traceroute`, `nc` |
 
 ---
 
