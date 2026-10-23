@@ -1,6 +1,6 @@
 # 03 – Linux
 
-LPIC-1 odaklı Linux sistem yönetimi notları · **28** ders (101–109.3).
+LPIC-1 odaklı Linux sistem yönetimi notları · **29** ders (101–109.4).
 
 [← Depo README](../README.md) · [LPIC-1 Objectives V5.0](https://wiki.lpi.org/wiki/LPIC-1_Objectives_V5.0)
 
@@ -18,10 +18,10 @@ LPIC-1 odaklı Linux sistem yönetimi notları · **28** ders (101–109.3).
 | **106** · User Interfaces & Desktops | X11, DE, uzak grafik erişim, accessibility | 20 |
 | **107** · Administrative Tasks | Kullanıcı/grup, cron/at/timer, localisation | 21 |
 | **108** · Essential System Services | Sistem saati, NTP, chrony, logging, MTA, CUPS | 22–25 |
-| **109** · Networking Fundamentals | IPv4/IPv6, kalıcı host yapılandırması, temel sorun giderme | 26–28 |
+| **109** · Networking Fundamentals | IPv4/IPv6, kalıcı host, sorun giderme, istemci DNS | 26–29 |
 
 ```text
-101 → 102 → 103 → 104 → 105 Shell → 106 Desktop → 107 Admin → 108.1 Time → 108.2 Logging → 108.3 MTA → 108.4 CUPS → 109.1 Internet Protocols → 109.2 Persistent Network Configuration → 109.3 Basic Network Troubleshooting
+101 → 102 → 103 → 104 → 105 Shell → 106 Desktop → 107 Admin → 108.1 Time → 108.2 Logging → 108.3 MTA → 108.4 CUPS → 109.1 Internet Protocols → 109.2 Persistent Network Configuration → 109.3 Basic Network Troubleshooting → 109.4 Client-Side DNS
 ```
 
 > **Kapsam dışı:** 103.7 · 104.4 (disk quotas) — LPIC-1 5.0’da yok / bu seride işlenmiyor.
@@ -139,6 +139,8 @@ LPIC-1 odaklı Linux sistem yönetimi notları · **28** ders (101–109.3).
 | — | 109.2 | [Commands Used in This Lesson](39.109.2_Linux-Commands-Used-in-This-Lesson.md) | `ip`, `nmcli`, `hostnamectl`, `ifup` / `ifdown` |
 | 28 | 109.3 | [Temel ağ sorun giderme](40.109.3.Temel-Ag-Sorun-Giderme.md) | Beş adım, `ping`, rota, `traceroute`, `ss`, `nc` |
 | — | 109.3 | [Commands Used in This Lesson](40.109.3_Linux-Commands-Used-in-This-Lesson.md) | `ping`, `ip route`, `ss -tulpn`, `traceroute`, `nc` |
+| 29 | 109.4 | [Client-Side DNS Configuration](41.109.4.Client-Side-DNS-Configuration.md) | `host`, `dig`, `resolv.conf`, `/etc/hosts`, `nsswitch`, `getent` |
+| — | 109.4 | [Commands Used in This Lesson](41.109.4_Linux-Commands-Used-in-This-Lesson.md) | `host`, `dig`, `getent`, resolver dosyaları |
 
 ---
 
