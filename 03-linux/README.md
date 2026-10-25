@@ -1,6 +1,6 @@
 # 03 – Linux
 
-LPIC-1 odaklı Linux sistem yönetimi notları · **29** ders (101–109.4).
+LPIC-1 odaklı Linux sistem yönetimi notları · **31** ders (101–110.2).
 
 [← Depo README](../README.md) · [LPIC-1 Objectives V5.0](https://wiki.lpi.org/wiki/LPIC-1_Objectives_V5.0)
 
@@ -19,9 +19,10 @@ LPIC-1 odaklı Linux sistem yönetimi notları · **29** ders (101–109.4).
 | **107** · Administrative Tasks | Kullanıcı/grup, cron/at/timer, localisation | 21 |
 | **108** · Essential System Services | Sistem saati, NTP, chrony, logging, MTA, CUPS | 22–25 |
 | **109** · Networking Fundamentals | IPv4/IPv6, kalıcı host, sorun giderme, istemci DNS | 26–29 |
+| **110** · Security | Ayrıcalık, parola, SUID, host kilidi, wrapper, servis | 30–31 |
 
 ```text
-101 → 102 → 103 → 104 → 105 Shell → 106 Desktop → 107 Admin → 108.1 Time → 108.2 Logging → 108.3 MTA → 108.4 CUPS → 109.1 Internet Protocols → 109.2 Persistent Network Configuration → 109.3 Basic Network Troubleshooting → 109.4 Client-Side DNS
+101 → 102 → 103 → 104 → 105 Shell → 106 Desktop → 107 Admin → 108.1 Time → 108.2 Logging → 108.3 MTA → 108.4 CUPS → 109.1 Internet Protocols → 109.2 Persistent Network Configuration → 109.3 Basic Network Troubleshooting → 109.4 Client-Side DNS → 110.1 Security Administration → 110.2 Host Security
 ```
 
 > **Kapsam dışı:** 103.7 · 104.4 (disk quotas) — LPIC-1 5.0’da yok / bu seride işlenmiyor.
@@ -141,6 +142,17 @@ LPIC-1 odaklı Linux sistem yönetimi notları · **29** ders (101–109.4).
 | — | 109.3 | [Commands Used in This Lesson](40.109.3_Linux-Commands-Used-in-This-Lesson.md) | `ping`, `ip route`, `ss -tulpn`, `traceroute`, `nc` |
 | 29 | 109.4 | [Client-Side DNS Configuration](41.109.4.Client-Side-DNS-Configuration.md) | `host`, `dig`, `resolv.conf`, `/etc/hosts`, `nsswitch`, `getent` |
 | — | 109.4 | [Commands Used in This Lesson](41.109.4_Linux-Commands-Used-in-This-Lesson.md) | `host`, `dig`, `getent`, resolver dosyaları |
+
+---
+
+## 110 — Security
+
+| # | Kod | Ders | Özet |
+| :---: | :---: | --- | --- |
+| 30 | 110.1 | [Perform Security Administration Tasks](42.110.1.Perform-Security-Administration-Tasks.md) | `su`/`sudo`, `who`/`last`, `passwd`/`chage`, SUID, `ulimit`, `nmap` |
+| — | 110.1 | [Commands Used in This Lesson](42.110.1_Linux-Commands-Used-in-This-Lesson.md) | `sudo`, `visudo`, `chage`, `find -perm`, `ss`, `nmap` |
+| 31 | 110.2 | [Setup Host Security](43.110.2.Setup-Host-Security.md) | shadow, `nologin`, TCP wrapper, `xinetd`, socket unit, kullanılmayan servis |
+| — | 110.2 | [Commands Used in This Lesson](43.110.2_Linux-Commands-Used-in-This-Lesson.md) | `passwd -l`, `hosts.allow`, `systemctl disable --now` |
 
 ---
 

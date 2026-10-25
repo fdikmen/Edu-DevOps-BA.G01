@@ -16,7 +16,7 @@ Bilgisayar mimarisi → ağ → Linux → DevOps yolculuğu için ders notları 
 | :---: | --- | --- | --- |
 | 01 | Computer Architecture | [`01-computer-architecture/`](01-computer-architecture/) | [Planlandı](01-computer-architecture/README.md) |
 | 02 | Network | [`02-network/`](02-network/) | [17 slayt özeti](02-network/README.md) |
-| 03 | Linux · LPIC-1 | [`03-linux/`](03-linux/) | [29 ders · 101–109.4](03-linux/README.md) |
+| 03 | Linux · LPIC-1 | [`03-linux/`](03-linux/) | [31 ders · 101–110.2](03-linux/README.md) |
 | 04 | DevOps | [`04-devops/`](04-devops/) | [Planlandı](04-devops/README.md) |
 
 ---
@@ -51,9 +51,10 @@ Tam ders listesi: [03-linux/README.md](03-linux/README.md) · [LPIC-1 Objectives
 | **107** · Administrative Tasks | Kullanıcı/grup, cron/at/timer, localisation | 21 |
 | **108** · Essential System Services | Sistem saati, NTP, chrony, logging, MTA, CUPS | 22–25 |
 | **109** · Networking Fundamentals | IPv4/IPv6, kalıcı host, sorun giderme, istemci DNS | 26–29 |
+| **110** · Security | Ayrıcalık, parola, SUID, host kilidi, wrapper, servis | 30–31 |
 
 ```text
-101 → 102 → 103 → 104 → 105 Shell → 106 Desktop → 107 Admin → 108.1 Time → 108.2 Logging → 108.3 MTA → 108.4 CUPS → 109.1 Internet Protocols → 109.2 Persistent Network Configuration → 109.3 Basic Network Troubleshooting → 109.4 Client-Side DNS
+101 → 102 → 103 → 104 → 105 Shell → 106 Desktop → 107 Admin → 108.1 Time → 108.2 Logging → 108.3 MTA → 108.4 CUPS → 109.1 Internet Protocols → 109.2 Persistent Network Configuration → 109.3 Basic Network Troubleshooting → 109.4 Client-Side DNS → 110.1 Security Administration → 110.2 Host Security
 ```
 
 > **Kapsam dışı:** 103.7 · 104.4 (disk quotas) — LPIC-1 5.0’da yok / bu seride işlenmiyor.
@@ -77,7 +78,7 @@ Tam ders listesi: [03-linux/README.md](03-linux/README.md) · [LPIC-1 Objectives
 Edu-DevOps-BA.G01/
 ├── 01-computer-architecture/   # planlandı
 ├── 02-network/                 # Network01–17 + kahoot
-├── 03-linux/                   # LPIC 101–109.4 · 29 ders + komut tabloları
+├── 03-linux/                   # LPIC 101–110.2 · 31 ders + komut tabloları
 └── 04-devops/                  # planlandı
 ```
 
