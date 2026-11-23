@@ -164,4 +164,4 @@ LPIC-1 odaklı Linux sistem yönetimi notları · **31** ders (101–110.2).
 
 | Önceki | Bu modül | Sonraki |
 | --- | --- | --- |
-| [02 · Network](../02-network/README.md) | **03 · Linux** | [04 · DevOps](../04-devops/README.md) |
+| [02 · Network](../02-network/README.md) | **03 · Linux** | [04 · DevOps · 01 Foundations](../04-devops/01.DevOps-Foundations-From-Software-Development-to-Continuous-Delivery.md) |

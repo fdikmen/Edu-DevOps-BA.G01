@@ -17,7 +17,7 @@ Bilgisayar mimarisi → ağ → Linux → DevOps yolculuğu için ders notları 
 | 01 | Computer Architecture | [`01-computer-architecture/`](01-computer-architecture/) | [Planlandı](01-computer-architecture/README.md) |
 | 02 | Network | [`02-network/`](02-network/) | [17 slayt özeti](02-network/README.md) |
 | 03 | Linux · LPIC-1 | [`03-linux/`](03-linux/) | [31 ders · 101–110.2](03-linux/README.md) |
-| 04 | DevOps | [`04-devops/`](04-devops/) | [Planlandı](04-devops/README.md) |
+| 04 | DevOps | [`04-devops/`](04-devops/) | [1 ders](04-devops/README.md) |
 
 ---
 
@@ -61,14 +61,25 @@ Tam ders listesi: [03-linux/README.md](03-linux/README.md) · [LPIC-1 Objectives
 
 ---
 
-## 01 – Architecture · 04 – DevOps
+## 04 – DevOps
+
+Tam liste: [04-devops/README.md](04-devops/README.md)
+
+İlk ders, geliştirme hızı ile operasyonel kararlılığı birleştirir: dört temel, SDLC, Waterfall ve Agile, Dev–Ops kopukluğu, sürekli entegrasyon ve sürekli teslimat.
+
+| | |
+| --- | --- |
+| [01 · Yazılım geliştirmeden sürekli teslimata](04-devops/01.DevOps-Foundations-From-Software-Development-to-Continuous-Delivery.md) | [Sunum](Sunumlar/DevOps-Foundations-From-Software-Development-to-Continuous-Delivery.pptx) |
+
+---
+
+## 01 – Architecture
 
 İçerik henüz yok; dizin ve README hazır.
 
 | Modül | README |
 | --- | --- |
 | Computer Architecture | [01-computer-architecture/README.md](01-computer-architecture/README.md) |
-| DevOps | [04-devops/README.md](04-devops/README.md) |
 
 ---
 
@@ -79,7 +90,8 @@ Edu-DevOps-BA.G01/
 ├── 01-computer-architecture/   # planlandı
 ├── 02-network/                 # Network01–17 + kahoot
 ├── 03-linux/                   # LPIC 101–110.2 · 31 ders + komut tabloları
-└── 04-devops/                  # planlandı
+├── 04-devops/                  # 01 · Foundations
+└── Sunumlar/                   # ders sunumları
 ```
 
 ---
